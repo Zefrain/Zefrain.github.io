@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #343130;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -19,12 +19,77 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #2980b9;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-navbar-background-color:  #343130;
+  --ifm-background-color: #343130 !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.docs-wrapper .footer{
+  display: none;
+}
+.blog-wrapper .footer{
+  display: none;
+}
+.pagination-nav__link{
+  padding: 0;
+  border: none;
+}
+.pagination-nav__label{
+  font-size: 0.85rem;
+}
+.footer{
+  background-color: #343130;
+}
+[data-theme='dark'] .footer{
+  background-color: #4d4a49;
+}
+.button.button--secondary{
+  color: white;
+}
+[data-theme='dark'] .hero{
+  color: white;
+} 
+
+[data-theme='dark'] .buttonsFirst_src-pages-index-module{
+background-color: white;
+color: #2980b9;
+}
+[data-theme='dark'] .buttonsFirst_src-pages-index-module:hover{
+background-color: #e3e3e3;
+}
+[data-theme='light'] aside{
+  background-color: #343130;
+  color: white;
+  --ifm-menu-color-active: white;
+  --ifm-menu-color:white;
+}
+[data-theme='light'].blog-wrapper aside{
+  background-color: #e3e3e3;
+  color: black;
+}
+[data-theme='dark'].blog-wrapper aside{
+  background-color: #4d4a49;
+}
+[data-theme='light'] .navbar{
+  background-color:#2980b9 ;
+  color: white;
+}
+[data-theme='light'] .navbar__link{
+  color: white;
+}
+[data-theme='light'] .navbar__title{
+  color: white;
+}
+.menu__list-item-collapsible--active{
+  background-color: #4d4a49;
+}
+[data-theme='light'] .menu__caret:before{
+  filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
 }

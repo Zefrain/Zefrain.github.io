@@ -10,7 +10,7 @@ const config = {
   organizationName: 'Whiothes',
   trailingSlash: false,
   title: "Whiothes's Blog",
-  tagline: "Test Update",
+  tagline: "Test Update V2.0",
   url: 'https://github.com/Whiothes/Blog',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -33,17 +33,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -56,11 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Homepage',
         items: [
           {
             type: 'doc',
@@ -70,7 +58,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Whiothes',
             label: 'GitHub',
             position: 'right',
           },

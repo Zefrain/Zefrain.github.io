@@ -8,7 +8,7 @@ export default {
   "organizationName": "Whiothes",
   "trailingSlash": false,
   "title": "Whiothes's Blog",
-  "tagline": "Test Update",
+  "tagline": "Test Update V2.0",
   "url": "https://github.com/Whiothes/Blog",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -27,12 +27,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/michelle/Documents/GitHub/blog/Whiothe/my-website/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/michelle/Documents/GitHub/blog/Whiothe/my-website/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/Users/michelle/Documents/GitHub/blog/Whiothe/my-website/src/css/custom.css"
@@ -42,11 +40,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
-      "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
-      },
+      "title": "Homepage",
       "items": [
         {
           "type": "doc",
@@ -60,7 +54,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/Whiothes",
           "label": "GitHub",
           "position": "right"
         }

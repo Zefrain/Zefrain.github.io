@@ -3,7 +3,7 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
@@ -20,4 +20,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px;
+}
+
+.buttonsFirst{
+  background-color: #2980b9;
+  border: none;
+  display: block;
+}
+.buttonsSecond{
+  color: white;
+  display: block;
+}
+
+.buttonsFirst:hover{
+  background-color: white;
+}
+.buttonsSecond:hover{
+  color: white;
 }
