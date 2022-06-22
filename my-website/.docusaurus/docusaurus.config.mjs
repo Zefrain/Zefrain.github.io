@@ -8,7 +8,7 @@ export default {
   "organizationName": "Whiothes",
   "trailingSlash": false,
   "title": "Whiothes's Blog",
-  "tagline": "leave space 1",
+  "tagline": "Test Update",
   "url": "https://github.com/Whiothes/Blog",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
