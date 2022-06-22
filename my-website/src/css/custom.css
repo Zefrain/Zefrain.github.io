@@ -74,6 +74,16 @@ background-color: #e3e3e3;
   background-color: #e3e3e3;
   color: black;
 }
+[data-theme='light'] .navbar-sidebar{
+  background-color: #343130;
+  color: white;
+}
+[data-theme='light'] .navbar-sidebar__item a{
+  color: white;
+}
+[data-theme='light'] .menu__link--active{
+  background-color: #4d4a49;
+}
 [data-theme='dark'].blog-wrapper aside{
   background-color: #4d4a49;
 }
