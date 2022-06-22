@@ -55,14 +55,10 @@
 }
 [data-theme='dark'] .hero{
   color: white;
+  background-color: #4d4a49;
 } 
-
-[data-theme='dark'] .buttonsFirst_src-pages-index-module{
-background-color: white;
-color: #2980b9;
-}
 [data-theme='dark'] .buttonsFirst_src-pages-index-module:hover{
-background-color: #e3e3e3;
+background-color: #343130;
 }
 [data-theme='light'] aside{
   background-color: #343130;
