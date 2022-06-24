@@ -27,13 +27,13 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/michelle/Documents/GitHub/blog/Whiothe/my-website/sidebars.js"
+          "sidebarPath": "/Users/zhoush/Public/github/Whiothes.github.io/my-website/sidebars.js"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/michelle/Documents/GitHub/blog/Whiothe/my-website/src/css/custom.css"
+          "customCss": "/Users/zhoush/Public/github/Whiothes.github.io/my-website/src/css/custom.css"
         }
       }
     ]
