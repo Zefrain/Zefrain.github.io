@@ -8,16 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "NOTEs",
           "docs": [
             {
-              "id": "APUE/APUE",
-              "path": "/docs/APUE/",
+              "id": "Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview",
+              "path": "/docs/Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations",
+              "path": "/docs/Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "NOTEs",
+              "path": "/docs/NOTEs",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -61,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/advanced-programming-in-the-unix-environment",
+              "path": "/docs/category/advanced-programming-in-the-unix-environment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---basics",
               "path": "/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
@@ -75,8 +85,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/NOTEs",
+                "label": "NOTEs"
               }
             }
           }

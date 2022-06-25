@@ -10,13 +10,17 @@
   "draft": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2. UNIX Standardization and Implementation",
+    "permalink": "/docs/Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations"
+  },
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "Books",
+    "permalink": "/docs/"
   }
 }

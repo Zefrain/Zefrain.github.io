@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'c72'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '76f'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '3f5'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '527'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'e90'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '530'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '6be'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', '2e7'),
     exact: true
@@ -119,11 +84,23 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'adb'),
+    component: ComponentCreator('/docs', '600'),
     routes: [
       {
-        path: '/docs/APUE',
-        component: ComponentCreator('/docs/APUE', '334'),
+        path: '/docs/Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview',
+        component: ComponentCreator('/docs/Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview', '8e6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations',
+        component: ComponentCreator('/docs/Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations', '0c0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/advanced-programming-in-the-unix-environment',
+        component: ComponentCreator('/docs/category/advanced-programming-in-the-unix-environment', '575'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -140,8 +117,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/docs/NOTEs',
+        component: ComponentCreator('/docs/NOTEs', '708'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

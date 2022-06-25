@@ -10,9 +10,30 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
+        "label": "NOTEs",
+        "href": "/docs/NOTEs",
+        "docId": "NOTEs"
+      },
+      {
+        "type": "category",
+        "label": "Advanced Programming in the Unix Environment",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Chapter 1. UNIX System Overview",
+            "href": "/docs/Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview",
+            "docId": "Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2. UNIX Standardization and Implementation",
+            "href": "/docs/Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations",
+            "docId": "Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations"
+          }
+        ],
+        "href": "/docs/category/advanced-programming-in-the-unix-environment"
       },
       {
         "type": "category",
@@ -79,26 +100,26 @@
           }
         ],
         "href": "/docs/category/tutorial---extras"
-      },
-      {
-        "type": "link",
-        "label": "Advanced Programming in the Unix Environment [76%]",
-        "href": "/docs/APUE/",
-        "docId": "APUE/APUE"
       }
     ]
   },
   "docs": {
-    "APUE/APUE": {
-      "id": "APUE/APUE",
-      "title": "Advanced Programming in the Unix Environment [76%]",
-      "description": "Chapter 1. UNIX System Overview [12/12]",
+    "Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview": {
+      "id": "Advanced Programming in the Unix Environment/Chapter 1. UNIX System Overview",
+      "title": "Chapter 1. UNIX System Overview",
+      "description": "1.1 Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "intro": {
-      "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+    "Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations": {
+      "id": "Advanced Programming in the Unix Environment/Chapter 2. UNIX Standardization and Implementations",
+      "title": "Chapter 2. UNIX Standardization and Implementation",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "NOTEs": {
+      "id": "NOTEs",
+      "title": "NOTEs",
+      "description": "- Advanced Programming in the UNIX Environment",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

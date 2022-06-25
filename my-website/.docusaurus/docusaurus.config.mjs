@@ -44,9 +44,9 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "NOTEs",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Notes"
         },
         {
           "to": "/blog",
@@ -84,14 +84,6 @@ export default {
             {
               "label": "Stack Overflow",
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
             }
           ]
         },
