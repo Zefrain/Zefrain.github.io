@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Profile',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      1. 7+ years of software development experience <br />
+      2. Self-motivated <br />
+      3. Network Programmer <br />
+      4. kernel style, emacser, vimer <br />
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Background',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Thanks',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Thanks to my friend MichelleGuan for helping me build thie website 
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
 function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center padding-horiz--md">
+      <div className="text--center padding-horiz--md" style={{textAlign: 'left'}}>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
