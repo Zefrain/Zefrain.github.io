@@ -7,26 +7,29 @@ const FeatureList = [
     title: 'Profile',
     description: (
       <>
-      1. 7+ years of software development experience <br />
-      2. Self-motivated <br />
-      3. Network Programmer <br />
-      4. kernel style, emacser, vimer <br />
+      1. 7+ years of software development experience <br/>
+      2. Self-motivated learner <br/>
+      3. Network Programmer <br/>
+      4. kernel style, emacser, vimer <br/>
       </>
     ),
   },
   {
-    title: 'Background',
+    title: 'Characteristic',
     description: (
       <>
-      
+        1. willing to learn new skills <br/>
+        2. have a can-do altitude on all technical chanllenges. <br/>
+        3. excel in cooperating with business and other team members <br/>
       </>
     ),
   },
   {
-    title: 'Thanks',
+    title: 'Acknowledgments',
     description: (
       <>
-        Thanks to my friend MichelleGuan for helping me build thie website 
+        Thanks to my friend MichelleGuan for helping me build this website. <br/>
+        Thanks to Facebook for this wonderful frame.
       </>
     ),
   },
