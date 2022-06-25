@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className={`button button--secondary button--lg ${styles.buttonsFirst}`}
-            to="/docs/intro">
+            to="/docs/NOTEs">
             Go to my knowledge confluence
           </Link>
         </div>
