@@ -39,7 +39,27 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '2e7'),
+    component: ComponentCreator('/blog', 'a3e'),
+    exact: true
+  },
+  {
+    path: '/blog/2022/06/05/memory-leak',
+    component: ComponentCreator('/blog/2022/06/05/memory-leak', '7d2'),
+    exact: true
+  },
+  {
+    path: '/blog/2022/06/25/backtrace',
+    component: ComponentCreator('/blog/2022/06/25/backtrace', '196'),
+    exact: true
+  },
+  {
+    path: '/blog/2022/06/25/markdown',
+    component: ComponentCreator('/blog/2022/06/25/markdown', 'ba2'),
+    exact: true
+  },
+  {
+    path: '/blog/2022/06/25/vim',
+    component: ComponentCreator('/blog/2022/06/25/vim', 'd09'),
     exact: true
   },
   {
@@ -48,23 +68,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', 'ffd'),
-    exact: true
-  },
-  {
     path: '/blog/gdb print full value',
     component: ComponentCreator('/blog/gdb print full value', '4b0'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'c71'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '671'),
     exact: true
   },
   {
@@ -73,13 +78,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'fc1'),
+    path: '/blog/tags/backtrace',
+    component: ComponentCreator('/blog/tags/backtrace', 'f77'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '287'),
+    path: '/blog/tags/gcc',
+    component: ComponentCreator('/blog/tags/gcc', '9f7'),
     exact: true
   },
   {
@@ -88,18 +93,33 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '009'),
+    path: '/blog/tags/link',
+    component: ComponentCreator('/blog/tags/link', '8a6'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '52d'),
+    path: '/blog/tags/markdown',
+    component: ComponentCreator('/blog/tags/markdown', 'a13'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'bd8'),
+    path: '/blog/tags/memory',
+    component: ComponentCreator('/blog/tags/memory', '507'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/regex',
+    component: ComponentCreator('/blog/tags/regex', '268'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/space',
+    component: ComponentCreator('/blog/tags/space', '338'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/vim',
+    component: ComponentCreator('/blog/tags/vim', 'aa6'),
     exact: true
   },
   {

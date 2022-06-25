@@ -1,12 +1,48 @@
 {
   "blogPosts": [
     {
+      "id": "/2022/06/25/backtrace",
+      "metadata": {
+        "permalink": "/blog/2022/06/25/backtrace",
+        "source": "@site/blog/2022-06-25-backtrace.md",
+        "title": "backtrace symbols",
+        "description": "- How to make backtrace()/backtrace_symbols() print the function names?",
+        "date": "2022-06-25T00:00:00.000Z",
+        "formattedDate": "June 25, 2022",
+        "tags": [
+          {
+            "label": "backtrace",
+            "permalink": "/blog/tags/backtrace"
+          },
+          {
+            "label": "gcc",
+            "permalink": "/blog/tags/gcc"
+          }
+        ],
+        "readingTime": 0.065,
+        "truncated": false,
+        "authors": [],
+        "frontMatter": {
+          "title": "backtrace symbols",
+          "tags": [
+            "backtrace",
+            "gcc"
+          ]
+        },
+        "nextItem": {
+          "title": "gdb print full value",
+          "permalink": "/blog/gdb print full value"
+        }
+      },
+      "content": "- [How to make backtrace()/backtrace_symbols() print the function names?](https://stackoverflow.com/questions/6934659/how-to-make-backtrace-backtrace-symbols-print-the-function-names)\n\n```bash\ngcc -rdynamic\n```"
+    },
+    {
       "id": "gdb print full value",
       "metadata": {
         "permalink": "/blog/gdb print full value",
         "source": "@site/blog/2022-06-25-gdb-print-full-value.md",
         "title": "gdb print full value",
-        "description": "gdb print full value",
+        "description": "- gdb print full value",
         "date": "2022-06-25T00:00:00.000Z",
         "formattedDate": "June 25, 2022",
         "tags": [
@@ -25,65 +61,49 @@
             "gdb"
           ]
         },
+        "prevItem": {
+          "title": "backtrace symbols",
+          "permalink": "/blog/2022/06/25/backtrace"
+        },
         "nextItem": {
-          "title": "Welcome",
-          "permalink": "/blog/welcome"
+          "title": "space in markdown link",
+          "permalink": "/blog/2022/06/25/markdown"
         }
       },
-      "content": "### gdb print full value\n```bash   \nset print elements 0\n```"
+      "content": "- gdb print full value\n```bash   \nset print elements 0\n```"
     },
     {
-      "id": "welcome",
+      "id": "/2022/06/25/markdown",
       "metadata": {
-        "permalink": "/blog/welcome",
-        "source": "@site/blog/2021-08-26-welcome/index.md",
-        "title": "Welcome",
-        "description": "Docusaurus blogging features are powered by the blog plugin.",
-        "date": "2021-08-26T00:00:00.000Z",
-        "formattedDate": "August 26, 2021",
+        "permalink": "/blog/2022/06/25/markdown",
+        "source": "@site/blog/2022-06-25-markdown.md",
+        "title": "space in markdown link",
+        "description": "- How do I add a hyperlink with spaces in it using markdown?",
+        "date": "2022-06-25T00:00:00.000Z",
+        "formattedDate": "June 25, 2022",
         "tags": [
           {
-            "label": "facebook",
-            "permalink": "/blog/tags/facebook"
+            "label": "markdown",
+            "permalink": "/blog/tags/markdown"
           },
           {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
+            "label": "link",
+            "permalink": "/blog/tags/link"
           },
           {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
+            "label": "space",
+            "permalink": "/blog/tags/space"
           }
         ],
-        "readingTime": 0.405,
+        "readingTime": 0.08,
         "truncated": false,
-        "authors": [
-          {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
-          },
-          {
-            "name": "Yangshun Tay",
-            "title": "Front End Engineer @ Facebook",
-            "url": "https://github.com/yangshun",
-            "imageURL": "https://github.com/yangshun.png",
-            "key": "yangshun"
-          }
-        ],
+        "authors": [],
         "frontMatter": {
-          "slug": "welcome",
-          "title": "Welcome",
-          "authors": [
-            "slorber",
-            "yangshun"
-          ],
+          "title": "space in markdown link",
           "tags": [
-            "facebook",
-            "hello",
-            "docusaurus"
+            "markdown",
+            "link",
+            "space"
           ]
         },
         "prevItem": {
@@ -91,160 +111,82 @@
           "permalink": "/blog/gdb print full value"
         },
         "nextItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
+          "title": "vim negative look ahead",
+          "permalink": "/blog/2022/06/25/vim"
         }
       },
-      "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+      "content": "- [How do I add a hyperlink with spaces in it using markdown?](https://superuser.com/questions/1170654/how-do-i-add-a-hyperlink-with-spaces-in-it-using-markdown) \n\n   ```\n   <url>\n   ```"
     },
     {
-      "id": "mdx-blog-post",
+      "id": "/2022/06/25/vim",
       "metadata": {
-        "permalink": "/blog/mdx-blog-post",
-        "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-        "title": "MDX Blog Post",
-        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-        "date": "2021-08-01T00:00:00.000Z",
-        "formattedDate": "August 1, 2021",
+        "permalink": "/blog/2022/06/25/vim",
+        "source": "@site/blog/2022-06-25-vim.md",
+        "title": "vim negative look ahead",
+        "description": "- Is there a way to do negative lookahead in vim regex?",
+        "date": "2022-06-25T00:00:00.000Z",
+        "formattedDate": "June 25, 2022",
         "tags": [
           {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.175,
-        "truncated": false,
-        "authors": [
+            "label": "vim",
+            "permalink": "/blog/tags/vim"
+          },
           {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
+            "label": "regex",
+            "permalink": "/blog/tags/regex"
           }
         ],
+        "readingTime": 0.085,
+        "truncated": false,
+        "authors": [],
         "frontMatter": {
-          "slug": "mdx-blog-post",
-          "title": "MDX Blog Post",
-          "authors": [
-            "slorber"
-          ],
+          "title": "vim negative look ahead",
           "tags": [
-            "docusaurus"
+            "vim",
+            "regex"
           ]
         },
         "prevItem": {
-          "title": "Welcome",
-          "permalink": "/blog/welcome"
+          "title": "space in markdown link",
+          "permalink": "/blog/2022/06/25/markdown"
         },
         "nextItem": {
-          "title": "Long Blog Post",
-          "permalink": "/blog/long-blog-post"
+          "title": "memory leak",
+          "permalink": "/blog/2022/06/05/memory-leak"
         }
       },
-      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+      "content": "- [Is there a way to do negative lookahead in vim regex?](https://stackoverflow.com/questions/21148467/is-there-a-way-to-do-negative-lookahead-in-vim-regex)\n```bash\n# abc(?!.*xyz)\n/abc\\(.*xyz\\)\\@!\n```"
     },
     {
-      "id": "long-blog-post",
+      "id": "/2022/06/05/memory-leak",
       "metadata": {
-        "permalink": "/blog/long-blog-post",
-        "source": "@site/blog/2019-05-29-long-blog-post.md",
-        "title": "Long Blog Post",
-        "description": "This is the summary of a very long blog post,",
-        "date": "2019-05-29T00:00:00.000Z",
-        "formattedDate": "May 29, 2019",
+        "permalink": "/blog/2022/06/05/memory-leak",
+        "source": "@site/blog/2022-06-05-memory-leak.md",
+        "title": "memory leak",
+        "description": "- find memory leak of a running process",
+        "date": "2022-06-05T00:00:00.000Z",
+        "formattedDate": "June 5, 2022",
         "tags": [
           {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
+            "label": "memory",
+            "permalink": "/blog/tags/memory"
           }
         ],
-        "readingTime": 2.05,
-        "truncated": true,
-        "authors": [
-          {
-            "name": "Endilie Yacop Sucipto",
-            "title": "Maintainer of Docusaurus",
-            "url": "https://github.com/endiliey",
-            "imageURL": "https://github.com/endiliey.png",
-            "key": "endi"
-          }
-        ],
-        "frontMatter": {
-          "slug": "long-blog-post",
-          "title": "Long Blog Post",
-          "authors": "endi",
-          "tags": [
-            "hello",
-            "docusaurus"
-          ]
-        },
-        "prevItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
-        },
-        "nextItem": {
-          "title": "First Blog Post",
-          "permalink": "/blog/first-blog-post"
-        }
-      },
-      "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-    },
-    {
-      "id": "first-blog-post",
-      "metadata": {
-        "permalink": "/blog/first-blog-post",
-        "source": "@site/blog/2019-05-28-first-blog-post.md",
-        "title": "First Blog Post",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-        "date": "2019-05-28T00:00:00.000Z",
-        "formattedDate": "May 28, 2019",
-        "tags": [
-          {
-            "label": "hola",
-            "permalink": "/blog/tags/hola"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.12,
+        "readingTime": 0.06,
         "truncated": false,
-        "authors": [
-          {
-            "name": "Gao Wei",
-            "title": "Docusaurus Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          }
-        ],
+        "authors": [],
         "frontMatter": {
-          "slug": "first-blog-post",
-          "title": "First Blog Post",
-          "authors": {
-            "name": "Gao Wei",
-            "title": "Docusaurus Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          },
+          "title": "memory leak",
           "tags": [
-            "hola",
-            "docusaurus"
+            "memory"
           ]
         },
         "prevItem": {
-          "title": "Long Blog Post",
-          "permalink": "/blog/long-blog-post"
+          "title": "vim negative look ahead",
+          "permalink": "/blog/2022/06/25/vim"
         }
       },
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+      "content": "- [find memory leak of a running process](https://unix.stackexchange.com/questions/36450/how-can-i-find-a-memory-leak-of-a-running-process)\n\n```sh\ncat /proc/$pid/smaps\n```"
     }
   ]
 }
