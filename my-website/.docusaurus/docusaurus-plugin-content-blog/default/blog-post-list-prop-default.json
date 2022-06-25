@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "gdb print full value",
+      "permalink": "/blog/gdb print full value"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome"
     },

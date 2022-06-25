@@ -50,6 +50,10 @@
       "docusaurus"
     ]
   },
+  "prevItem": {
+    "title": "gdb print full value",
+    "permalink": "/blog/gdb print full value"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"

@@ -1,6 +1,38 @@
 {
   "blogPosts": [
     {
+      "id": "gdb print full value",
+      "metadata": {
+        "permalink": "/blog/gdb print full value",
+        "source": "@site/blog/2022-06-25-gdb-print-full-value.md",
+        "title": "gdb print full value",
+        "description": "gdb print full value",
+        "date": "2022-06-25T00:00:00.000Z",
+        "formattedDate": "June 25, 2022",
+        "tags": [
+          {
+            "label": "gdb",
+            "permalink": "/blog/tags/gdb"
+          }
+        ],
+        "readingTime": 0.055,
+        "truncated": false,
+        "authors": [],
+        "frontMatter": {
+          "slug": "gdb print full value",
+          "title": "gdb print full value",
+          "tags": [
+            "gdb"
+          ]
+        },
+        "nextItem": {
+          "title": "Welcome",
+          "permalink": "/blog/welcome"
+        }
+      },
+      "content": "### gdb print full value\n```bash   \nset print elements 0\n```"
+    },
+    {
       "id": "welcome",
       "metadata": {
         "permalink": "/blog/welcome",
@@ -53,6 +85,10 @@
             "hello",
             "docusaurus"
           ]
+        },
+        "prevItem": {
+          "title": "gdb print full value",
+          "permalink": "/blog/gdb print full value"
         },
         "nextItem": {
           "title": "MDX Blog Post",

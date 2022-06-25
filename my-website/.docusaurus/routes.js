@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '1e2'),
+    component: ComponentCreator('/blog', '2e7'),
     exact: true
   },
   {
@@ -50,6 +50,11 @@ export default [
   {
     path: '/blog/first-blog-post',
     component: ComponentCreator('/blog/first-blog-post', 'ffd'),
+    exact: true
+  },
+  {
+    path: '/blog/gdb print full value',
+    component: ComponentCreator('/blog/gdb print full value', '4b0'),
     exact: true
   },
   {
@@ -78,6 +83,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/gdb',
+    component: ComponentCreator('/blog/tags/gdb', 'a6a'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hello',
     component: ComponentCreator('/blog/tags/hello', '009'),
     exact: true
@@ -98,14 +108,25 @@ export default [
     exact: true
   },
   {
+    path: '/CV_EN',
+    component: ComponentCreator('/CV_EN', '008'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'c39'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '936'),
+    component: ComponentCreator('/docs', 'adb'),
     routes: [
+      {
+        path: '/docs/APUE',
+        component: ComponentCreator('/docs/APUE', '334'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/category/tutorial---basics',
         component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),

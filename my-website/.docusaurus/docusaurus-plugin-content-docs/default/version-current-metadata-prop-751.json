@@ -79,10 +79,22 @@
           }
         ],
         "href": "/docs/category/tutorial---extras"
+      },
+      {
+        "type": "link",
+        "label": "Advanced Programming in the Unix Environment [76%]",
+        "href": "/docs/APUE/",
+        "docId": "APUE/APUE"
       }
     ]
   },
   "docs": {
+    "APUE/APUE": {
+      "id": "APUE/APUE",
+      "title": "Advanced Programming in the Unix Environment [76%]",
+      "description": "Chapter 1. UNIX System Overview [12/12]",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",

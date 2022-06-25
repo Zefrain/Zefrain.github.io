@@ -54,6 +54,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "/CV_CN",
+          "label": "Resume",
+          "position": "left"
+        },
+        {
           "href": "https://github.com/Whiothes",
           "label": "GitHub",
           "position": "right"
