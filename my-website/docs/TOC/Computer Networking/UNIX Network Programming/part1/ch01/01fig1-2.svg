@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="484 240 457 374" width="457" height="374">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 05:56:22 +0000</metadata>
+  <g id="Canvas_2" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>Canvas 2</title>
+    <g id="Canvas_2_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="806" y="351.25" width="129.5" height="88.5" fill="white"/>
+        <rect x="806" y="351.25" width="129.5" height="88.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(811 386.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="36.646" y="15">Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="485" y="241" width="86.5" height="62" fill="white"/>
+        <rect x="485" y="241" width="86.5" height="62" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(490 262.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.986" y="15">Client 1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="485" y="364.5" width="86.5" height="62" fill="white"/>
+        <rect x="485" y="364.5" width="86.5" height="62" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(490 386.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.986" y="15">Client 2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="485" y="487.5" width="86.5" height="62" fill="white"/>
+        <rect x="485" y="487.5" width="86.5" height="62" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(490 509.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.986" y="15">Client 3</tspan>
+        </text>
+      </g>
+      <g id="Line_6">
+        <line x1="580.81305" y1="290.9534" x2="796.68695" y2="368.79405" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_7">
+        <line x1="581.4" y1="395.5" x2="796.1" y2="395.5" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="580.8174" y1="499.6218" x2="796.6826" y2="422.0994" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_9">
+        <text transform="translate(504.104 590)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Figure 1.2. Server handling multiple clients at the same time.</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

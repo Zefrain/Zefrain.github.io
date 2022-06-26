@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-191 660 854 468" width="854" height="468">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 8 8" markerWidth="8" markerHeight="8" color="#666a6b">
+      <g>
+        <path d="M 5.76 0 L 0 -2.16 L 0 2.16 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Avenir" font-size="13" panose-1="2 11 5 3 2 2 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Avenir-Roman"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 07:02:30 +0000</metadata>
+  <g id="I_O" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>I/O</title>
+    <g id="I_O_block">
+      <title>block</title>
+      <g id="Line_336">
+        <title>Synchronous</title>
+        <line x1="79.69792" y1="732.5" x2="329.8779" y2="732.5" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_335">
+        <text transform="translate(179.80192 709.6771)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="6394885e-19" y="13">System call</tspan>
+        </text>
+      </g>
+      <g id="Graphic_334">
+        <text transform="translate(385.7919 723.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".17599857" y="15">No data ready</tspan>
+        </text>
+      </g>
+      <g id="Graphic_333">
+        <text transform="translate(546.2739 838.578)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Wait for data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_332">
+        <text transform="translate(395.4479 914.0469)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Data ready </tspan>
+        </text>
+      </g>
+      <g id="Graphic_331">
+        <text transform="translate(546.2739 974.2629)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy data from</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">Kernel to user</tspan>
+        </text>
+      </g>
+      <g id="Line_330">
+        <title>Synchronous</title>
+        <line x1="344.6979" y1="1026.8229" x2="94.51792" y2="1026.8229" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_329">
+        <text transform="translate(179.67842 1004)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="1.807" y="13">Return OK </tspan>
+        </text>
+      </g>
+      <g id="Graphic_328">
+        <text transform="translate(-14.238084 1018.0989)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.344" y="15">Process </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">datagram</tspan>
+        </text>
+      </g>
+      <g id="Graphic_327">
+        <text transform="translate(380.7759 1018.0989)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.0400012" y="15">Copy complete</tspan>
+        </text>
+      </g>
+      <g id="Graphic_326">
+        <text transform="translate(-185.744 845.604)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Process blocks in </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.744" y="33.448">Call to recvfrom</tspan>
+        </text>
+      </g>
+      <g id="Graphic_325">
+        <text transform="translate(101.12592 1106)" fill="black">
+          <tspan font-family="Helvetica" font-size="14" font-weight="400" fill="black" x="0" y="14">Figure 6.1. Blocking I/O model</tspan>
+        </text>
+      </g>
+      <g id="Line_322">
+        <path d="M -26.402082 732.5 L -26.402082 732.5 C -31.372645 732.5 -35.40208 736.5294 -35.40208 741.5 L -35.40208 863.5491 C -35.40208 867.7433 -36.720684 871.8314 -39.171395 875.2352 L -39.90208 876.25 C -42.589973 879.9832 -42.589973 885.0168 -39.90208 888.75 L -39.171395 889.7648 C -36.720684 893.1686 -35.40208 897.2567 -35.40208 901.4509 L -35.40208 1023.5 C -35.40208 1028.4706 -31.372645 1032.5 -26.402082 1032.5 L -26.402082 1032.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_321">
+        <text transform="translate(-20.158082 665)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="42632564e-21" y="15">Application</tspan>
+        </text>
+      </g>
+      <g id="Line_320">
+        <path d="M 523.2739 730.5 L 523.2739 730.5 C 528.2445 730.5 532.2739 734.5294 532.2739 739.5 L 532.2739 816.0339 C 532.2739 819.9439 533.90486 823.6768 536.7739 826.3333 L 536.7739 826.3333 C 539.0751 828.4641 539.2133 832.0568 537.08256 834.358 C 536.9837 834.4648 536.8807 834.5678 536.7739 834.6667 L 536.7739 834.6667 C 533.90486 837.3232 532.2739 841.0561 532.2739 844.9661 L 532.2739 921.5 C 532.2739 926.4706 528.2445 930.5 523.2739 930.5 L 523.2739 930.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_319">
+        <path d="M 523.2739 942.7109 L 523.2739 942.7109 C 528.2445 942.7109 532.2739 946.7403 532.2739 951.7109 L 532.2739 983.5853 C 532.2739 986.609 534.0301 989.3572 536.7739 990.6275 L 536.7739 990.6275 C 537.9245 991.1602 538.4254 992.5248 537.89275 993.6754 C 537.66416 994.1691 537.26766 994.5656 536.7739 994.7942 L 536.7739 994.7942 C 534.0301 996.0645 532.2739 998.8128 532.2739 1001.8364 L 532.2739 1033.7109 C 532.2739 1038.6814 528.2445 1042.7109 523.2739 1042.7109 L 523.2739 1042.7109" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_318">
+        <text transform="translate(413.5359 665)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Kernel</tspan>
+        </text>
+      </g>
+      <g id="Graphic_317">
+        <text transform="translate(380.9279 942.4949)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy datagram</tspan>
+        </text>
+      </g>
+      <g id="Graphic_316">
+        <text transform="translate(-15.374082 723.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.138" y="15">Recvfrom</tspan>
+        </text>
+      </g>
+      <g id="Line_303">
+        <line x1="436.4959" y1="965.9429" x2="436.4959" y2="1003.1989" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_337">
+        <line x1="436.4959" y1="747.224" x2="436.4959" y2="899.1469" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

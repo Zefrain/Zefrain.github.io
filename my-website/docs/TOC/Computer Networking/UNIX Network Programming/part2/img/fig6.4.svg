@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-364 592 893 468" width="893" height="468">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 8 8" markerWidth="8" markerHeight="8" color="#666a6b">
+      <g>
+        <path d="M 5.76 0 L 0 -2.16 L 0 2.16 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Avenir" font-size="13" panose-1="2 11 5 3 2 2 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Avenir-Roman"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 07:09:25 +0000</metadata>
+  <g id="I_O" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>I/O</title>
+    <g id="I_O_sigio">
+      <title>sigio</title>
+      <g id="Line_358">
+        <title>Synchronous</title>
+        <line x1="-54.55808" y1="664.5" x2="195.62192" y2="664.5" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_357">
+        <text transform="translate(17.602418 641.6771)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="2842171e-20" y="13">Sigaction system call</tspan>
+        </text>
+      </g>
+      <g id="Graphic_355">
+        <text transform="translate(412.0179 770.578)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Wait for data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_354">
+        <text transform="translate(261.19192 846.0469)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Data ready </tspan>
+        </text>
+      </g>
+      <g id="Graphic_353">
+        <text transform="translate(412.0179 906.2629)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy data from</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">Kernel to user</tspan>
+        </text>
+      </g>
+      <g id="Line_352">
+        <title>Synchronous</title>
+        <line x1="210.44192" y1="958.8229" x2="-39.73808" y2="958.8229" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_351">
+        <text transform="translate(45.42242 936)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="1.807" y="13">Return OK </tspan>
+        </text>
+      </g>
+      <g id="Graphic_350">
+        <text transform="translate(-166.91104 950.0989)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.344" y="15">Process </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">datagram</tspan>
+        </text>
+      </g>
+      <g id="Graphic_349">
+        <text transform="translate(246.51992 950.0989)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.0400012" y="15">Copy complete</tspan>
+        </text>
+      </g>
+      <g id="Graphic_348">
+        <text transform="translate(-314.5 725.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="7.416" y="15">Process</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8526513e-20" y="33.448">Continues</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".896" y="51.895996">Executing</tspan>
+        </text>
+      </g>
+      <g id="Graphic_347">
+        <text transform="translate(-33.130082 1038)" fill="black">
+          <tspan font-family="Helvetica" font-size="14" font-weight="400" fill="black" x="0" y="14">Figure 6.4. Signal-Driven I/O model</tspan>
+        </text>
+      </g>
+      <g id="Graphic_345">
+        <text transform="translate(-172.83104 597)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="42632564e-21" y="15">Application</tspan>
+        </text>
+      </g>
+      <g id="Line_344">
+        <path d="M 389.0179 662.5 L 389.0179 662.5 C 393.9885 662.5 398.0179 666.5294 398.0179 671.5 L 398.0179 748.0339 C 398.0179 751.9439 399.64886 755.6768 402.5179 758.3333 L 402.5179 758.3333 C 404.8191 760.4641 404.9573 764.0568 402.82656 766.358 C 402.72767 766.4648 402.6247 766.5678 402.5179 766.6667 L 402.5179 766.6667 C 399.64886 769.3232 398.0179 773.0561 398.0179 776.9661 L 398.0179 853.5 C 398.0179 858.4706 393.9885 862.5 389.0179 862.5 L 389.0179 862.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_343">
+        <path d="M 389.0179 874.7109 L 389.0179 874.7109 C 393.9885 874.7109 398.0179 878.7403 398.0179 883.7109 L 398.0179 915.5853 C 398.0179 918.6089 399.7741 921.3572 402.5179 922.6275 L 402.5179 922.6275 C 403.6685 923.1602 404.16943 924.5248 403.63675 925.6754 C 403.40816 926.1691 403.01166 926.5656 402.5179 926.7942 L 402.5179 926.7942 C 399.7741 928.0645 398.0179 930.8128 398.0179 933.8364 L 398.0179 965.7109 C 398.0179 970.6814 393.9885 974.7109 389.0179 974.7109 L 389.0179 974.7109" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_342">
+        <text transform="translate(279.27992 597)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Kernel</tspan>
+        </text>
+      </g>
+      <g id="Graphic_341">
+        <text transform="translate(246.67192 874.4949)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy datagram</tspan>
+        </text>
+      </g>
+      <g id="Graphic_340">
+        <text transform="translate(-192.49408 646.6771)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="3.6630406" y="15">Establish SIGIO</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.847041" y="33.448">Signal handler</tspan>
+        </text>
+      </g>
+      <g id="Line_339">
+        <line x1="302.2399" y1="897.9429" x2="302.2399" y2="935.1989" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_360">
+        <title>Synchronous</title>
+        <line x1="210.44192" y1="693" x2="-39.73808" y2="693" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_359">
+        <text transform="translate(49.98192 670.1771)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="8.570499" y="13">Return</tspan>
+        </text>
+      </g>
+      <g id="Line_362">
+        <title>Synchronous</title>
+        <line x1="210.44192" y1="854.7709" x2="-39.73808" y2="854.7709" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_361">
+        <text transform="translate(27.309918 831.948)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="10.761" y="13">Deliver SIGIO</tspan>
+        </text>
+      </g>
+      <g id="Line_364">
+        <title>Synchronous</title>
+        <line x1="-54.55808" y1="883.2189" x2="195.62192" y2="883.2189" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_363">
+        <text transform="translate(45.54592 860.396)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="6394885e-19" y="13">System call</tspan>
+        </text>
+      </g>
+      <g id="Line_366">
+        <path d="M -197.49408 663.5 L -197.49408 663.5 C -202.46464 663.5 -206.49408 667.5294 -206.49408 672.5 L -206.49408 749.0339 C -206.49408 752.9439 -208.12503 756.6768 -210.99408 759.3333 L -210.99408 759.3333 C -213.29527 761.4641 -213.43345 765.0568 -211.30272 767.358 C -211.20384 767.4648 -211.10088 767.5678 -210.99408 767.6667 L -210.99408 767.6667 C -208.12503 770.3232 -206.49408 774.0561 -206.49408 777.9661 L -206.49408 854.5 C -206.49408 859.4706 -202.46464 863.5 -197.49408 863.5 L -197.49408 863.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_365">
+        <path d="M -197.49408 875.7109 L -197.49408 875.7109 C -202.46464 875.7109 -206.49408 879.7403 -206.49408 884.7109 L -206.49408 916.5853 C -206.49408 919.6089 -208.25026 922.3572 -210.99408 923.6275 L -210.99408 923.6275 C -212.14468 924.1602 -212.6456 925.5248 -212.1129 926.6754 C -211.88433 927.1691 -211.48782 927.5656 -210.99408 927.7942 L -210.99408 927.7942 C -208.25026 929.0645 -206.49408 931.8128 -206.49408 934.8364 L -206.49408 966.7109 C -206.49408 971.6814 -202.46464 975.7109 -197.49408 975.7109 L -197.49408 975.7109" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_367">
+        <text transform="translate(-183.64704 839.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="7602807e-19" y="15">Signal handler</tspan>
+        </text>
+      </g>
+      <g id="Graphic_368">
+        <text transform="translate(-167.05504 874.4949)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="19895197e-20" y="15">Recvfrom</tspan>
+        </text>
+      </g>
+      <g id="Graphic_369">
+        <text transform="translate(-358.312 893.656)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Process block while</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="12.28" y="33.448">Data copied into </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.112" y="51.895996">Application buffer</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

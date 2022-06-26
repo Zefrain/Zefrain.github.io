@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-51 492 858 468" width="858" height="468">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 8 8" markerWidth="8" markerHeight="8" color="#666a6b">
+      <g>
+        <path d="M 5.76 0 L 0 -2.16 L 0 2.16 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Avenir" font-size="13" panose-1="2 11 5 3 2 2 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Avenir-Roman"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 07:01:16 +0000</metadata>
+  <g id="I_O" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>I/O</title>
+    <g id="I_O_nonblock">
+      <title>nonblock</title>
+      <g id="Line_288">
+        <title>Synchronous</title>
+        <line x1="223.572" y1="564.5" x2="473.752" y2="564.5" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_287">
+        <text transform="translate(323.676 541.67714)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="6394885e-19" y="13">System call</tspan>
+        </text>
+      </g>
+      <g id="Graphic_285">
+        <text transform="translate(529.666 555.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".17599857" y="15">No data ready</tspan>
+        </text>
+      </g>
+      <g id="Graphic_284">
+        <text transform="translate(690.148 670.578)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Wait for data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_283">
+        <text transform="translate(539.322 746.0469)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Data ready </tspan>
+        </text>
+      </g>
+      <g id="Graphic_282">
+        <text transform="translate(690.148 806.2629)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy data from</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">Kernel to user</tspan>
+        </text>
+      </g>
+      <g id="Line_281">
+        <title>Synchronous</title>
+        <line x1="488.572" y1="858.8229" x2="238.392" y2="858.8229" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_280">
+        <text transform="translate(323.5525 836)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="1.807" y="13">Return OK </tspan>
+        </text>
+      </g>
+      <g id="Graphic_279">
+        <text transform="translate(129.636 850.0989)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.344" y="15">Process </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="33.448">datagram</tspan>
+        </text>
+      </g>
+      <g id="Graphic_278">
+        <text transform="translate(524.65 850.0989)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.0400012" y="15">Copy complete</tspan>
+        </text>
+      </g>
+      <g id="Graphic_277">
+        <text transform="translate(-45.12592 677.604)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="36948222e-20" y="15">Process repeatedly</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="17.336" y="33.448">Calls recvfrom</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.624" y="51.895996">Waiting for an OK</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="19.712" y="70.34399">return(polling)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_276">
+        <text transform="translate(245 938)" fill="black">
+          <tspan font-family="Helvetica" font-size="14" font-weight="400" fill="black" x="0" y="14">Figure 6.2. Nonblocking I/O model</tspan>
+        </text>
+      </g>
+      <g id="Line_275">
+        <title>Synchronous</title>
+        <line x1="488.572" y1="595.5" x2="238.392" y2="595.5" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_274">
+        <text transform="translate(306.4575 572.67714)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="0" y="13">EWOULDBLOCK</tspan>
+        </text>
+      </g>
+      <g id="Line_270">
+        <path d="M 117.472 564.5 L 117.472 564.5 C 112.50144 564.5 108.472 568.52944 108.472 573.5 L 108.472 695.5491 C 108.472 699.7433 107.1534 703.8314 104.70269 707.23516 L 103.972 708.25 C 101.28411 711.9832 101.28411 717.0168 103.972 720.75 L 104.70269 721.7648 C 107.1534 725.1686 108.472 729.2567 108.472 733.4509 L 108.472 855.5 C 108.472 860.4706 112.50144 864.5 117.472 864.5 L 117.472 864.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_268">
+        <text transform="translate(123.716 497)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="42632564e-21" y="15">Application</tspan>
+        </text>
+      </g>
+      <g id="Line_267">
+        <path d="M 667.148 562.5 L 667.148 562.5 C 672.1186 562.5 676.148 566.52944 676.148 571.5 L 676.148 648.0339 C 676.148 651.94394 677.77895 655.6768 680.648 658.3333 L 680.648 658.3333 C 682.9492 660.4641 683.0874 664.0568 680.95664 666.358 C 680.85775 666.4648 680.7548 666.5678 680.648 666.6667 L 680.648 666.6667 C 677.77895 669.3232 676.148 673.05606 676.148 676.9661 L 676.148 753.5 C 676.148 758.4706 672.1186 762.5 667.148 762.5 L 667.148 762.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_266">
+        <path d="M 667.148 774.7109 L 667.148 774.7109 C 672.1186 774.7109 676.148 778.7403 676.148 783.7109 L 676.148 815.5853 C 676.148 818.6089 677.9042 821.3572 680.648 822.6275 L 680.648 822.6275 C 681.7986 823.1602 682.2995 824.5248 681.7668 825.6754 C 681.53825 826.1691 681.1417 826.5656 680.648 826.7942 L 680.648 826.7942 C 677.9042 828.0645 676.148 830.8128 676.148 833.8364 L 676.148 865.7109 C 676.148 870.6814 672.1186 874.7109 667.148 874.7109 L 667.148 874.7109" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_265">
+        <text transform="translate(557.41 497)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Kernel</tspan>
+        </text>
+      </g>
+      <g id="Graphic_263">
+        <text transform="translate(524.802 774.4949)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy datagram</tspan>
+        </text>
+      </g>
+      <g id="Graphic_289">
+        <text transform="translate(128.5 555.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.138" y="15">Recvfrom</tspan>
+        </text>
+      </g>
+      <g id="Line_295">
+        <title>Synchronous</title>
+        <line x1="224.572" y1="631.379" x2="474.752" y2="631.379" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_294">
+        <text transform="translate(324.676 608.5561)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="6394885e-19" y="13">System call</tspan>
+        </text>
+      </g>
+      <g id="Graphic_293">
+        <text transform="translate(530.666 622.655)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".17599857" y="15">No data ready</tspan>
+        </text>
+      </g>
+      <g id="Line_292">
+        <title>Synchronous</title>
+        <line x1="489.572" y1="662.379" x2="239.392" y2="662.379" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_291">
+        <text transform="translate(307.4575 639.5561)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="0" y="13">EWOULDBLOCK</tspan>
+        </text>
+      </g>
+      <g id="Graphic_290">
+        <text transform="translate(129.5 622.655)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.138" y="15">Recvfrom</tspan>
+        </text>
+      </g>
+      <g id="Line_301">
+        <title>Synchronous</title>
+        <line x1="225.572" y1="697.379" x2="475.752" y2="697.379" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_300">
+        <text transform="translate(325.676 674.5561)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="6394885e-19" y="13">System call</tspan>
+        </text>
+      </g>
+      <g id="Graphic_299">
+        <text transform="translate(531.666 688.655)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".17599857" y="15">No data ready</tspan>
+        </text>
+      </g>
+      <g id="Line_298">
+        <title>Synchronous</title>
+        <line x1="490.572" y1="728.379" x2="240.392" y2="728.379" marker-end="url(#FilledArrow_Marker)" stroke="#666a6b" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="2"/>
+      </g>
+      <g id="Graphic_297">
+        <text transform="translate(308.4575 705.5561)" fill="#515556">
+          <tspan font-family="Avenir" font-size="13" font-weight="400" fill="#515556" x="0" y="13">EWOULDBLOCK</tspan>
+        </text>
+      </g>
+      <g id="Graphic_296">
+        <text transform="translate(130.5 688.655)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.138" y="15">Recvfrom</tspan>
+        </text>
+      </g>
+      <g id="Line_302">
+        <line x1="580.37" y1="797.9429" x2="580.37" y2="835.1989" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

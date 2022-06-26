@@ -1,0 +1,33 @@
+# Chapter 1 Introduction #
+
+## 1.2 Design and Implementation ##
+
+### 1.2.1 Layering ###
+
+![](ch01/01fig1-2.png) 
+
+
+## 1.3 The Architecture and Protocols of the TCP/IP Suite ##
+
+### 1.3.1 The ARPANET Reference Model ###
+
+![](ch01/01fig1-5.png)
+
+### 1.3.2 Multiplexing, Demultiplexing, and Encapsulation in TCP/IP ###
+
+![](ch01/01fig1-6.png)
+
+### 1.3.3 Port Numbers ###
+
+    Standard port numbers are assigned by the Internet Assigned Numbers Authority (IANA).
+    
+    - well-known port numbers (0-1023),
+    - the registerd port numbers (1024-49151),
+    - dynamic/private port numbers (49152-65535). // rpc
+    
+    
+### 1.3.4 Names, Addresses, and the DNS ###
+
+| Name      | Addresses                     | DNS (Domain Name Server)            |
+|-----------|-------------------------------|-------------------------------------|
+| baidu.com | 220.181.38.148,220.181.38.251 | servers who parse name to addresses |
