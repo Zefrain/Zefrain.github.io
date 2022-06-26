@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="125 478 877 468" width="877" height="468">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="125 478 1147 468" width="1147" height="468">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 8 8" markerWidth="8" markerHeight="8" color="#666a6b">
       <g>
@@ -22,8 +22,23 @@
         <font-face-name name="Helvetica"/>
       </font-face-src>
     </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#666">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="10" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#a5a5a5">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
   </defs>
-  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 06:56:58 +0000</metadata>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 09:44:42 +0000</metadata>
   <g id="I_O" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
     <title>I/O</title>
     <g id="I_O_select">
@@ -153,6 +168,51 @@
         <text transform="translate(719.802 760.4949)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Copy datagram</tspan>
         </text>
+      </g>
+      <g id="Group_435">
+        <g id="Graphic_428">
+          <rect x="1150.358" y="629.45314" width="121.136" height="22.724" fill="white"/>
+          <rect x="1150.358" y="629.45314" width="121.136" height="22.724" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_429">
+          <rect x="1150.358" y="652.1771" width="121.136" height="22.724" fill="white"/>
+          <rect x="1150.358" y="652.1771" width="121.136" height="22.724" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_430">
+          <rect x="1150.358" y="674.1771" width="121.136" height="22.724" fill="white"/>
+          <rect x="1150.358" y="674.1771" width="121.136" height="22.724" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_431">
+          <rect x="1150.358" y="696.1771" width="121.136" height="22.724" fill="white"/>
+          <rect x="1150.358" y="696.1771" width="121.136" height="22.724" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_432">
+          <rect x="1150.358" y="718.1771" width="121.136" height="22.724" fill="white"/>
+          <rect x="1150.358" y="718.1771" width="121.136" height="22.724" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_433">
+          <text transform="translate(1193.858 592.45314)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Fd list</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_436">
+        <line x1="981.412" y1="665.393" x2="1140.4583" y2="664.1083" marker-end="url(#FilledArrow_Marker_2)" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_437">
+        <path d="M 996.0887 651.05 L 1091.4296 650.2799 L 1091.6593 678.727 L 996.3184 679.4971 Z" fill="white"/>
+        <text transform="translate(1001.1289 656.0095) rotate(-.4627938)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="47606363e-20" y="15">Polling from</tspan>
+        </text>
+      </g>
+      <g id="Graphic_438">
+        <text transform="translate(1024.5 544.216)" fill="#a5a5a5">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#a5a5a5" x="5" y="10">Extended by myself</tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="#a5a5a5" x="0" y="22.28">(Not included in book)</tspan>
+        </text>
+      </g>
+      <g id="Line_439">
+        <line x1="1127.67" y1="573.7161" x2="1179.4246" y2="590.1943" marker-end="url(#FilledArrow_Marker_3)" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
     </g>
   </g>
