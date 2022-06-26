@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="293 283 510 419" width="510" height="419">
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bdff"/>
+      <stop offset="1" stop-color="#5070ff"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(355.75 283.5) rotate(90) scale(123.5)"/>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(740.75 283.5) rotate(90) scale(123.5)"/>
+    <linearGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(548.25 517) rotate(90) scale(123.5)"/>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-06-26 16:49:25 +0000</metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="293" y="283" width="510" height="419"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <circle cx="355.75" cy="345.25" r="61.7500986704421" fill="url(#Obj_Gradient)"/>
+        <circle cx="355.75" cy="345.25" r="61.7500986704421" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(311.35 336.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="7.6720015" y="15">RUNNING</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <circle cx="740.75" cy="345.25" r="61.7500986704421" fill="url(#Obj_Gradient_2)"/>
+        <circle cx="740.75" cy="345.25" r="61.7500986704421" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(696.35 336.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="21.584002" y="15">Ready</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <circle cx="548.25" cy="578.75" r="61.7500986704421" fill="url(#Obj_Gradient_3)"/>
+        <circle cx="548.25" cy="578.75" r="61.7500986704421" stroke="#3b7cd0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(503.85 569.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="15.064002" y="15">Blocked</tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="428" y1="338" x2="659.1651" y2="338" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="662.5" y1="360.5" x2="437.9" y2="360.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="395.03265" y1="392.89935" x2="502.66983" y2="523.46185" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_10">
+        <line x1="587.53265" y1="531.10065" x2="695.1698" y2="400.53815" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_11">
+        <text transform="translate(491.5 314.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5684342e-19" y="15">Descheduled</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <text transform="translate(500.244 365.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Scheduled</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(353 458)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="7531753e-19" y="15">I/O: Initiate</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(651.5 462)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">I/O: Done</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <text transform="translate(440.5 677)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="55422333e-20" y="16">Figure 4.2: </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" y="16">Process Transitions</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
