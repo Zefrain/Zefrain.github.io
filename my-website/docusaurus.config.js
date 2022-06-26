@@ -10,7 +10,6 @@ const config = {
   organizationName: 'Whiothes',
   trailingSlash: false,
   title: "Whiothes's Blog",
-  tagline: "Test Update V2.0",
   url: 'https://github.com/Whiothes/Blog',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -50,12 +49,13 @@ const config = {
       navbar: {
         title: 'Homepage',
         items: [
-          {
-            type: 'doc',
-            docId: 'TOC/TOC',
-            position: 'left',
-            label: 'Notes',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'TOC/TOC',
+          //   position: 'left',
+          //   label: 'Notes',
+          // },
+          {to: '/docs/category/TOC', label: 'NOTEs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/CV_CN', label: 'Resume', position: 'left'},
           {
@@ -72,8 +72,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/TOC',
+                label: 'NOTEs',
+                to: '/docs/category/TOC',
               },
             ],
           },
