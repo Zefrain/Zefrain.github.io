@@ -1,12 +1,10 @@
-# The Linux Programming Interface
-
-## Chapter 63: Alternative I/O Models
+# Chapter 63: Alternative I/O Models
 
 * I/O multiplexing (`select()` / `poll()`)
 * signal-driven I/O
 * the Linux-specific _epoll_ API
 
-### 63.1 Overview
+## 63.1 Overview
 
 * I/O multiplexing allows a process to simultaneously monitor multiple file descriptors to find out whether I/O is possible on any of them. (`select`/`poll`)
 * Signal-driven is a technique whereby a process requests that the kernel send it a signal when input is available or data can be written on a specified file descriptor.
@@ -26,7 +24,7 @@
     * disadvantage: Linux-specific API  (OSX: kqueue)
   * signal-driven I/O
 
-#### 63.1.1 Level-Triggered and Edge-Triggered Notifications
+### 63.1.1 Level-Triggered and Edge-Triggered Notifications
 
 * Level-triggered notification: A file descriptor is considered to be ready if it is possible to perform an I/O system call without blocking.
 * Edge-triggered notification: Notification is provided if there is I/O activity (e.g. new input) on a file descriptor since it was last monitored .
@@ -48,27 +46,27 @@ Use of level-triggered and edge-triggered notification models
 * could lead to spurious data loss or blockages
 * will block I/O system call when no more I/O if it's a loop to perform as much I/O as possible on the fd and marked as blocking
 
-#### 63.1.2 Employing Nonblocking I/O with Alternative I/O models
+### 63.1.2 Employing Nonblocking I/O with Alternative I/O models
 
 * nonblocking I/O is usually employed in conjunction with I/O models that provide edge- triggered notification of I/O events
 * while multiple process (or threads) are performing I/O on the same open fd, a fd's readiness may change between the time the fd was notified as being ready and the time of the subsequent I/O call.
 * large block data writing may nevertheless block even after a level-triggered APIs such as `select()` or `poll()` informs ready for writing.
 * level-triggered APIs can return spurious readiness notifications -- falsely inform ready. could be caused by a kernel bug or be expected behavior in an uncommon scenario.
 
-### 63.2 I/O Multiplexing
+## 63.2 I/O Multiplexing
 
-#### 63.2.4 comparison of `select()` and `poll()`
+### 63.2.4 comparison of `select()` and `poll()`
 
 * _fd_set_ for `select` has a limit on the range of file descriptors, by default, it is 1024.
 * we must reinitialize fd_set arguments while using `select()` because they are value-result.
 * the _timeout_ precision is different between `select()` and `poll()`
 * if one of the file descriptors being monitored was closed, `poll()` informs exactly which one, but `select()` not.
 
-##### Portability
+#### Portability
 
 `select` was more widely available than `poll`
 
-##### Performance
+#### Performance
 
 The performance is similar is either is true:
 * file descriptors to be monitored is small.
@@ -77,13 +75,13 @@ The performance is similar is either is true:
 
 `poll` can perform better than `select` if the set of file descriptors to be monitored is sparse
 
-#### 63.2.5 Problems with `select()` and `poll()`
+### 63.2.5 Problems with `select()` and `poll()`
 
 * On each call of them, the kernel must check all of the specified file descriptors to see if they are ready.
 * In each call of them, the program must pass a data structure to the kernel describing all the file descriptors to be monitored, and then the kernel returns a modified version.
 * After the call of them, the program must inspect every element of the retured data structure to see which file descriptors are ready.
 
-### 63.3 Signal-Driven I/O
+## 63.3 Signal-Driven I/O
 
 steps:
 1. Establish a handler for the signal delivered by the signal-driven I/O mechanism. By default, SIGIO.
@@ -102,13 +100,13 @@ fcntl(fd, F_SETFL, flags | O_ASYNC | O_NONBLOCK);
 
 
 * Example program
-#+include: "Chapter63/demo_sigio.c" src c
++include: "Chapter63/demo_sigio.c" src c
 
-#### 63.3.1 When Is "I/O Possible" Signaled?
+### 63.3.1 When Is "I/O Possible" Signaled?
 
-##### Terminals and pseudoterminals
+#### Terminals and pseudoterminals
 
-### 63.4 The _epoll_ API
+## 63.4 The _epoll_ API
 
 primary advantages:
 * much better than `select` and `poll` when monitoring large numbers of file descriptors
@@ -131,10 +129,10 @@ The _epoll_ API consists of three system calls.
 * The `epoll_ctl()` system call manipulates the interest list associated with an _epoll_ instance.
 * The `epoll_wait()` system call returns items from the ready list associated with an _epoll_ instance.
 
-#### 63.4.1 Creating an _epoll_ instance: `epoll_create()`
+### 63.4.1 Creating an _epoll_ instance: `epoll_create()`
 
 ```c
-#include <sys/epoll.h>
+include <sys/epoll.h>
 
 /**
  * @brief      create a new epoll instance
@@ -146,10 +144,10 @@ The _epoll_ API consists of three system calls.
 int epoll_create(int size);
 ```
 
-#### 63.4.2 Modifying the _epoll_ Interest List: `epoll_ctrl()`
+### 63.4.2 Modifying the _epoll_ Interest List: `epoll_ctrl()`
 
 ```c
-#include <sys/epoll.h>
+include <sys/epoll.h>
 
 /**
  * @brief      modifies the interest list of the _epoll_ instance
@@ -165,7 +163,7 @@ int epoll_create(int size);
 int epoll_ctl(int epfd, int op, int fd, struct epoll_event *ev);
 ```
 
-#+caption: Using `epoll_create()` and `epoll_ctl()`
++caption: Using `epoll_create()` and `epoll_ctl()`
 ```c
 int epfd;
 struct epoll_event ev;
@@ -183,10 +181,10 @@ if (epoll_ctl(epfd, EPOLL_CTL_ADD, fd, ev) `` -1) {
 ```
 
 
-#### 63.4.3 Waiting for Events: `epoll_wait()`
+### 63.4.3 Waiting for Events: `epoll_wait()`
 
 ```c
-#include <sys/epoll.h>
+include <sys/epoll.h>
 
 /**
   * @brief      returns info about ready file descriptors
@@ -202,5 +200,5 @@ int epoll_wait(int epfd, struct epoll_event *evlist, int maxevents, int timeout)
 For specify to be notified only once about a particular file descriptor. Reenable by using the `epoll_ctl()` `EPOLL_CTL_MOD` operation.
 
 * Example program
-#+caption: Listing 63-5: Using the epoll API
-#+include: "Chapter63/epoll_input.c" src c
++caption: Listing 63-5: Using the epoll API
++include: "Chapter63/epoll_input.c" src c
