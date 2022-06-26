@@ -14,20 +14,19 @@
 
 
 * *Which technique ?*
-* select and poll :
-* advantage: *portability*
-* disadvantage: don't scale well when monitoring large numbers of file descriptors.
-* epoll:
-* primary advantage: allows an application to efficiently monitor large numbers of file descriptors.
-* advantages over signal-driven I/O:
-* avoid complexities of dealing with signals
-* can specify the kind of monitoring that we want to perform (r/w)
-* can select either level-triggered or edge-triggered notification
-* disadvantage: Linux-specific API  (OSX: kqueue)
-* signal-driven I/O
+  * select and poll :
+    * advantage: *portability*
+    * disadvantage: don't scale well when monitoring large numbers of file descriptors.
+  * epoll:
+    * primary advantage: allows an application to efficiently monitor large numbers of file descriptors.
+    * advantages over signal-driven I/O:
+      * avoid complexities of dealing with signals
+      * can specify the kind of monitoring that we want to perform (r/w)
+      * can select either level-triggered or edge-triggered notification
+    * disadvantage: Linux-specific API  (OSX: kqueue)
+  * signal-driven I/O
 
 #### 63.1.1 Level-Triggered and Edge-Triggered Notifications
-
 
 * Level-triggered notification: A file descriptor is considered to be ready if it is possible to perform an I/O system call without blocking.
 * Edge-triggered notification: Notification is provided if there is I/O activity (e.g. new input) on a file descriptor since it was last monitored .
