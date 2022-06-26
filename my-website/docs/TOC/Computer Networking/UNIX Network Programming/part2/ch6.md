@@ -56,29 +56,29 @@ The performance of _epoll_ and signal-driven I/O is similar. but:
 for more detail, see __Linux Programming Interface__
 
 
-    #### Aside ####
-    [The advantages and disadvantages of select, poll, epoll and comparison](https://blog.actorsfit.com/a?ID=00450-c9565a1c-22e8-49ad-87b8-ee42f071694c)
+#### Aside ####
+[The advantages and disadvantages of select, poll, epoll and comparison](https://blog.actorsfit.com/a?ID=00450-c9565a1c-22e8-49ad-87b8-ee42f071694c)
 
-    ##### select advantages #####
+##### select advantages #####
 
-    1. portable
-    2. provides better time precision for timeout values: microseconds, while poll is milliseconds.
+1. portable
+2. provides better time precision for timeout values: microseconds, while poll is milliseconds.
 
-    ##### select disadvantages #####
+##### select disadvantages #####
 
-    1. fd number can be monitored is limited by a single process 
-    2. maintain a data structure to store a large number of fd, copy between userspace and kernel space
-    3. linear scanning in fd list
-    4. timeout is not returned. needs to be reset before entering the next select
+1. fd number can be monitored is limited by a single process 
+2. maintain a data structure to store a large number of fd, copy between userspace and kernel space
+3. linear scanning in fd list
+4. timeout is not returned. needs to be reset before entering the next select
 
-    ##### poll advantages #####
+##### poll advantages #####
 
-    1. fd number is no limit (pass events to kernel through pollfd)
-    2. faster than select when dealing with a large number of fd
-    3. has no limit on the maximum number of connections
+1. fd number is no limit (pass events to kernel through pollfd)
+2. faster than select when dealing with a large number of fd
+3. has no limit on the maximum number of connections
 
-    ##### poll disadvantages #####
+##### poll disadvantages #####
 
-    1. large number of fd arrays copied between user mode and kernel address space
-    2. *like select*, after poll returns, poll fd needs to be obtain the ready descriptor
+1. large number of fd arrays copied between user mode and kernel address space
+2. *like select*, after poll returns, poll fd needs to be obtain the ready descriptor
 

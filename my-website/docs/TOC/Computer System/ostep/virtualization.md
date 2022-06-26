@@ -4,7 +4,12 @@
 
 ### 4.1 The Abstraction: The Process ###
     
-a running program
+__abstraction__: a running program.
+
+
+special registers:
+- __program counter (PC)/instruction pointer (IP)__: tells us which instruction of the program will execute next;
+- __stack pointer(SP)__: associated __frame pointer__ are used to manage the stack for function parameters, local variables, and return address.
 
 ### 4.2 Process API ###
 
