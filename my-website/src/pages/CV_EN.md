@@ -8,17 +8,22 @@
 | wechat   | 18511283747                 |
 | HomePage | https://whiothes.github.io/ |
 
+
 ## Profile
 
 - 7+ years of software development in the Linux environment
+
 - be proficient in dealing with application protocols 
+
 - self-motivated learning altitude 
 
 
 ## Skills
 
 - Proficient: C and tool chains such as gcc, gdb, objdump, tcpdump, git, docker etc.
+
 - Competent: asm, Python, shell, lua, lisp, MySQL
+
 - Developing Proficiency: Python and SQL database.
 
 ## Work Experience
@@ -68,7 +73,6 @@
       - 使用select 模型, 约定Json格式打包数据, 提供TCP服务
 
 #### 数据库接口
-
   - Brief: 数据库通用接口封装
   - Platform: linux
   - 功能实现: 基于数据库 stmt- 的API封装通用接口, 以应对 MySQL/SQLite/Oscar数据库切换的需求
@@ -87,7 +91,7 @@
   - 角色: 负责收银机的开发工作
   - 功能实现: 使用C语言调用驱动层API, 实现传统POS功能: 显示, 认证, 交易等
 
-### 唐库7.0 && 太平洋咖啡
+#### 唐库7.0 && 太平洋咖啡
 
 - Brief: 收银机系统的SAAS服务 
 - Platform: Linux 
@@ -108,9 +112,8 @@
   - Platform: Linux C
   - Aim: 数据解析, gsoap 项Aim维护等
 
-## 毕业院校
 
-| 学校                 | 学历         | 起始    | 截⽌    |
-|----------------------|--------------|---------|---------|
+## Graduated
+
 | 安徽新华学院         | ⼤专         | 2010.09 | 2014.06 |
 | 安徽省六安市⾦寨⼀中 | ⾼中（理科） | 2007.09 | 2010.06 |
