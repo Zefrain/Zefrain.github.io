@@ -57,7 +57,7 @@ const config = {
           // },
           {to: '/docs/category/TOC', label: 'NOTEs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/CV_CN', label: 'Resume', position: 'left'},
+          {to: '/CV_EN', label: 'Resume', position: 'left'},
           {
             href: 'https://github.com/Whiothes',
             label: 'GitHub',
