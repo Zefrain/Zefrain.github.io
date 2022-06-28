@@ -1,5 +1,4 @@
-# Zhoushang (DOING)
-- [Chinese Version](/CV_CN)
+# Zhoushang (DOING)/[周尚](/CV_CN)
 
 | cn       | Zhoushang                   |
 |----------|-----------------------------|

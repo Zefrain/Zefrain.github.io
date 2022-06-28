@@ -1,5 +1,4 @@
-# 周尚 
-- [English Version (TODO)](/CV_EN)
+# 周尚/[Zhoushang(DOING)](/CV_EN)
 
 | 姓名   | 周尚                        |
 |:-------|:----------------------------|
