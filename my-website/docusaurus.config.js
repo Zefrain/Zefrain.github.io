@@ -111,8 +111,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'More',
+                href: 'https://github.com/Whiothes/notes',
               },
             ],
           },
