@@ -13,7 +13,7 @@ const config = {
   organizationName: 'Whiothes',
   trailingSlash: false,
   title: "Whiothes's Blog",
-  url: 'https://github.com/Whiothes/Blog',
+  url: 'https://github.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
