@@ -11,8 +11,9 @@
 ## Profile
 
 - 7+ years of software development in the Linux environment
-- be proficient in dealing with application protocols 
-- self-motivated learning altitude 
+- be proficient in dealing with application protocols
+- want to gain a deeper understanding of linux kernel and network architecture
+- self-driven learning altitude 
 
 
 ## Skills

@@ -8,9 +8,9 @@ const FeatureList = [
     description: (
       <>
       1. 7+ years of software development experience <br/>
-      2. self-motivated learner <br/>
+      2. self-driven learner <br/>
       3. network programmer <br/>
-      4. kernel style, emacser, vimer <br/>
+      5. kernel style, emacser, vimer <br/>
       </>
     ),
   },
