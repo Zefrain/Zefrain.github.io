@@ -11,18 +11,14 @@
 ## Profile
 
 - 7+ years of software development in the Linux environment
-
 - be proficient in dealing with application protocols 
-
 - self-motivated learning altitude 
 
 
 ## Skills
 
 - Proficient: C and tool chains such as gcc, gdb, objdump, tcpdump, git, docker etc.
-
 - Competent: asm, Python, shell 
-
 - Developing Proficiency: lua, lisp, SQL Database.
 
 ## Work Experience
@@ -32,14 +28,44 @@
 #### BambooCloud Directory
 
 - Brief: like AD but cross-platform
-
 - Platform: Linux/Windows
 
-- 功能实现: 基于于 ldap 协议的开发工作, 包括
-  - binary 语义支持
-    - GmSSL 支持等功能定制
-    - Schema 从OUD的迁移
-    - 密码钩子(加密), 以支持与AD等其它Platform的数据同步
+The major work is based on ldap protocol, the followings are the mainly work I have done.
+- gramma support for ';binary'. 
+
+As in rfc 2252 defined the Binary Attribute,
+
+        All servers MUST implement this form for both generating attribute
+      values in search responses, and parsing attribute values in add,
+      compare and modify requests, if the attribute type is recognized and
+      the attribute syntax name is that of Binary.  Clients which request
+      that all attributes be returned from entries MUST be prepared to
+      receive values in binary (e.g. userCertificate;binary), and SHOULD
+      NOT simply display binary or unrecognized values to users.
+
+and in rfc4517, it has been removed,
+
+      13. All discussion of transfer options, including the ";binary"
+          option, has been removed.  All imperatives regarding binary
+          transfer of values have been removed.
+
+
+the problem is our project is based on the lastest rfc, so we do not have a support 
+for ";binary", but our client needs this for data compatibility, so I have to support it again.
+
+- encrypt methods implemented by GmSSL.
+
+For domestical securitary reasons, we need different encryption methods from the internaltional suits.
+
+- custom settings 
+
+Additional custom features
+
+- password hook
+
+For compatibility, Record the encrypted password into a file, so that we can redo it on another DC platform such as AD.
+
+- data migration from OUD
 
 
 ### 北京安为科技有限公司 (2020.09 - 2021.07)
