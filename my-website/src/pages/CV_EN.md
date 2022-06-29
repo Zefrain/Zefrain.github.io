@@ -21,17 +21,17 @@
 
 - Proficient: C and tool chains such as gcc, gdb, objdump, tcpdump, git, docker etc.
 
-- Competent: asm, Python, shell, lua, lisp, MySQL
+- Competent: asm, Python, shell 
 
-- Developing Proficiency: Python and SQL database.
+- Developing Proficiency: lua, lisp, SQL Database.
 
 ## Work Experience
 
-### 深圳竹云科技有限公司 (2021.08 - NOW)
+### [BambooCloud.com](https://BambooCloud.com)(2021.08 - NOW)
 
-#### BambooCloud Directory (Active Directory)
+#### BambooCloud Directory
 
-- Brief: like AD but platform cross
+- Brief: like AD but cross-platform
 
 - Platform: Linux/Windows
 
@@ -113,6 +113,6 @@
 
 
 ## Graduated
-
-| 安徽新华学院         | ⼤专         | 2010.09 | 2014.06 |
-| 安徽省六安市⾦寨⼀中 | ⾼中（理科） | 2007.09 | 2010.06 |
+| School                  | Degree       | Begin   | End     |
+|-------------------------|--------------|---------|---------|
+| ANHUI XINHUA UNIVERSITY | college      | 2010.09 | 2014.06 |
