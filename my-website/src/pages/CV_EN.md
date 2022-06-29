@@ -30,10 +30,14 @@
 - Brief: like AD but cross-platform
 - Platform: Linux/Windows
 
-The major work is based on ldap protocol, the followings are the mainly work I have done.
+My major work is based on ldap protocol, the followings are the mainly work I have done.
 - gramma support for ';binary'. 
 
-As in rfc 2252 defined the Binary Attribute,
+Out project is based on the lastest rfc so that we do not have a support for ";binary", 
+which defined in rfc 2252, but our client needs it for data compatibility, 
+I have to support it again.
+
+the Binary Attribute defined in rfc 2252,
 
         All servers MUST implement this form for both generating attribute
       values in search responses, and parsing attribute values in add,
@@ -43,15 +47,16 @@ As in rfc 2252 defined the Binary Attribute,
       receive values in binary (e.g. userCertificate;binary), and SHOULD
       NOT simply display binary or unrecognized values to users.
 
-and in rfc4517, it has been removed,
+but in rfc4517, it has been removed,
+
+      12. The Binary syntax has been removed because it was not adequately
+          specified, implementations with different incompatible
+          interpretations exist, and it was confused with the ;binary
+          transfer encoding.
 
       13. All discussion of transfer options, including the ";binary"
           option, has been removed.  All imperatives regarding binary
           transfer of values have been removed.
-
-
-the problem is our project is based on the lastest rfc, so we do not have a support 
-for ";binary", but our client needs this for data compatibility, so I have to support it again.
 
 - encrypt methods implemented by GmSSL.
 
@@ -59,11 +64,11 @@ For domestical securitary reasons, we need different encryption methods from the
 
 - custom settings 
 
-Additional custom features
+additional preferences with Additional custom features
 
 - password hook
 
-For compatibility, Record the encrypted password into a file, so that we can redo it on another DC platform such as AD.
+For compatibility , I record the encrypted password into a file when it is changed, so that we can use a tool to read and change again on another DC platform such as AD.
 
 - data migration from OUD
 
