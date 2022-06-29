@@ -32,7 +32,6 @@ special registers:
 
 ![](img/fig4.2.svg) 
 
-_Figure 4.2 Process Transitions_
 </div>
 
 ### 4.5 Data Structures ###
