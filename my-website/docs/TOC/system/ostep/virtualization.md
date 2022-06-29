@@ -28,7 +28,12 @@ special registers:
 - __Ready__: a process is ready to run but for some reason the OS has chosen not to run it as a given moment
 - __Blocked__: a process has performed some kind of operation that makes it not ready to run until some other event take place. (e.g., keybord input)
 
-![](img/fig4.2.svg)
+<div style={{textAlign:'center'}}>
+
+![](img/fig4.2.svg) 
+
+_Figure 4.2 Process Transitions_
+</div>
 
 ### 4.5 Data Structures ###
 
