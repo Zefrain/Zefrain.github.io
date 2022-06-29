@@ -23,7 +23,7 @@
 
 ## Work Experience
 
-### [BambooCloud.com](https://BambooCloud.com)(2021.08 - NOW)
+### [BambooCloud.com](https://www.bamboocloud.com/)(2021.08 - NOW)
 
 #### BambooCloud Directory
 
@@ -58,13 +58,13 @@ but in rfc4517, it has been removed,
           option, has been removed.  All imperatives regarding binary
           transfer of values have been removed.
 
-- encrypt methods implemented by GmSSL.
+- GmSSL suport.
 
-For domestical securitary reasons, we need different encryption methods from the internaltional suits.
+Because of domestic securitary policy, we need encryption algorithms that are different from the internaltional suits(OpenSSL, GnuTLS). So we choose GmSSL project maintained by Zhi Guan.
 
 - custom settings 
 
-additional preferences with Additional custom features
+Additional preferences with additional custom features
 
 - password hook
 
@@ -73,17 +73,18 @@ For compatibility , I record the encrypted password into a file when it is chang
 - data migration from OUD
 
 
-### 北京安为科技有限公司 (2020.09 - 2021.07)
+### [www.anweitech.com](http://www.anweitech.com) (2020.09 - 2021.07)
 
-#### IP/Mac 白名单
-  - Brief: MAC/IP validation, based on Netfilter
-  - Platform：arm-linux-4.9
-  - 功能实现: 基于 Netfilter 框架对 INPUT 链进行关键字拦截
-    1. 读取白名单文件
-    2. 劫持LOCAL_IN数据包, 获取接入设备MAC和IP, 本机端口号
-       1. 本机端口号不在列表则放行
-       2. MAC和IP地址全部匹配则放行
-       3. 否则DROP
+#### White list for specified IP,MAC,Port
+
+- Brief: MAC/IP validation, based on Netfilter
+- Platform：arm-linux-4.9
+- 功能实现: 基于 Netfilter 框架对 INPUT 链进行关键字拦截
+  1. 读取白名单文件
+  2. 劫持LOCAL_IN数据包, 获取接入设备MAC和IP, 本机端口号
+      1. 本机端口号不在列表则放行
+      2. MAC和IP地址全部匹配则放行
+      3. 否则DROP
 
 #### 28181/35114 转换器
   - Brief：GB28181 协议
