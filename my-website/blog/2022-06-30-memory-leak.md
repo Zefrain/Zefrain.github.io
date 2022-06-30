@@ -32,5 +32,10 @@ dump memory ./dump_outfile.dump range_lower range_upper
 ```sh
 strings dump_outfile.dump
 ```
+10. other than step 9., we can combine `pstack` and `watch` command to get the right stack
+```sh
+watch -n 1 'pstack $PID | tee -a $PID.stack'
+```
+`C-c` when we caputred right stack
 
     
