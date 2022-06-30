@@ -1,0 +1,35 @@
+# Chains $f(g(x))$ and the Chain Rule #
+
+## $f(g(x))$ ##
+
+$$
+y = g(x), z = f(x) \\
+\\
+\begin{aligned}
+\frac{dz}{dx} &= \frac{dz}{dy} \frac{dy}{dx} \\
+\end{aligned}
+$$
+
+## $sin(3x)$ ##
+
+$$
+y = 3x, z = sin(y) \\
+
+\begin{aligned}
+\frac{dz}{dx} &= cos(y)(3) \\
+              &=3cos(3x)
+\end{aligned}
+    
+$$
+
+
+- $z = \frac{1}{\sqrt{1-x^2}}$
+
+ans: $y = 1-x^2, z = y^{-\frac{1}{2}}$
+$$
+\begin{align*}
+\frac{dz}{dx} &= \frac{dz}{dy}\frac{dy}{dx} &\\
+              &= (y^{-\frac{3}{2}})(-2x) & \\
+              &= (1-x^2)^{-\frac{3}{2}} \dot x &
+\end{align*}
+$$
