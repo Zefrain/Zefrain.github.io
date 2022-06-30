@@ -38,5 +38,5 @@ strings dump_outfile.dump
 watch -n 1 'pstack $PID | tee -a $PID.stack'
 ```
 `C-c` when we caputred right stack
-
     
+11. check our stack file, find the functions between address range which we got from step 5.
