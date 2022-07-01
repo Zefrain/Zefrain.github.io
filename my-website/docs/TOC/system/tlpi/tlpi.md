@@ -34,9 +34,9 @@ Use of level-triggered and edge-triggered notification models
 
 | I/O model            | Level-triggered ? | Edge-triggered |
 |:--------------------:|:-----------------:|:--------------:|
-| `select()`, `poll()` | *                 |                |
-| Signal-driven I/O    |                   | *              |
-| epoll                | *                 | *              |
+| `select()`, `poll()` | $\bullet$         |                |
+| Signal-driven I/O    |                   | $\bullet$      |
+| epoll                | $\bullet$         | $\bullet$      |
 
 
 * level-triggered: check readiness of a file descriptor at any time. not necessary to perform as much I/O as possible. (e.g., read as many bytes as possible).
