@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="143 130 576 337" width="576" height="337">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="155 130 564 337" width="564" height="337">
   <defs>
     <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
       <font-face-src>
@@ -39,10 +39,10 @@
       </font-face-src>
     </font-face>
   </defs>
-  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-02 11:31:43 +0000</metadata>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-02 15:24:59 +0000</metadata>
   <g id="fig9_9" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
     <title>fig9.9</title>
-    <rect fill="white" x="143" y="130" width="576" height="337"/>
+    <rect fill="white" x="155" y="130" width="564" height="337"/>
     <g id="fig9_9_Layer_1">
       <title>Layer 1</title>
       <g id="Graphic_2">
@@ -169,13 +169,15 @@
         </text>
       </g>
       <g id="Graphic_55">
-        <text transform="translate(150.77768 223.43703)" fill="black">
-          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">Process i</tspan>
+        <text transform="translate(160.5 209.67076)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="11">Process </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-style="italic" font-weight="400" fill="black" y="11">i</tspan>
         </text>
       </g>
       <g id="Graphic_56">
-        <text transform="translate(148 401.88187)" fill="black">
-          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="1.6669922" y="11">Process j </tspan>
+        <text transform="translate(160.5 388.1156)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="1.6669922" y="11">Process </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-style="italic" font-weight="400" fill="black" y="11">j </tspan>
         </text>
       </g>
       <g id="Graphic_57">

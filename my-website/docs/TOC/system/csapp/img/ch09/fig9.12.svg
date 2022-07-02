@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="469 389 633 433" width="633" height="433">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bdff"/>
+      <stop offset="1" stop-color="#5070ff"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(888 604.5) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(763 604.5) rotate(90) scale(22.5)"/>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="8" panose-1="2 0 5 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="-1500" x-height="517" cap-height="714" ascent="957.0007" descent="-212.99744" font-style="italic" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Italic"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="8" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-02 15:24:59 +0000</metadata>
+  <g id="Canvas_11" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
+    <title>fig9.12</title>
+    <rect fill="white" x="469" y="389" width="633" height="433"/>
+    <g id="Canvas_11_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_4">
+        <g id="Graphic_6">
+          <rect x="884" y="437.5" width="217" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(889 441.582)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="38.142" y="11">Virtual page offset (VPO)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_3">
+          <rect x="667" y="437.5" width="217" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(672 441.582)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="32.82" y="11">Virtual page number (VPN)</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_12">
+        <g id="Graphic_21">
+          <rect x="738" y="649.5" width="50" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_20">
+          <rect x="788" y="649.5" width="200" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_19">
+          <rect x="788" y="627" width="200" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_18">
+          <rect x="738" y="627" width="50" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_17">
+          <rect x="788" y="604.5" width="200" height="22.5" fill="url(#Obj_Gradient)"/>
+          <rect x="788" y="604.5" width="200" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_16">
+          <rect x="738" y="604.5" width="50" height="22.5" fill="url(#Obj_Gradient_2)"/>
+          <rect x="738" y="604.5" width="50" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_15">
+          <rect x="788" y="582" width="200" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_14">
+          <rect x="738" y="582" width="50" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_13">
+          <text transform="translate(793 563.582)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="18.434" y="11">Physical page number (PPN)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_11">
+          <text transform="translate(743 563.582)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7.22" y="11">Valid</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_23">
+        <rect x="470" y="417" width="101" height="57" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(475 423.996)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="16.832" y="11">Page table </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="10.28" y="25.336">Base register</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="26.84" y="39.671997">(PTBR)</tspan>
+        </text>
+      </g>
+      <g id="Group_26">
+        <g id="Graphic_28">
+          <rect x="884" y="769" width="217" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(889 773.082)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="32.478" y="11">Physical page offset (VPO)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_27">
+          <rect x="667" y="769" width="217" height="22.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(672 773.082)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="27.156" y="11">Physical page number (VPN)</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_29">
+        <text transform="translate(589 620)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">The VPN acts</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="25.336">As an index into</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="39.671997">The page table</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <text transform="translate(537 705)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">If valid = 0,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="25.336">Then page</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="39.671997">Not in memory</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="54.007996">(Page fault)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <text transform="translate(993 608)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Page</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".552" y="25.336">table</tspan>
+        </text>
+      </g>
+      <g id="Line_32">
+        <path d="M 520.5 474 L 520.12634 593.2957 L 730.45 593.2516" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Line_33">
+        <path d="M 763 627 L 763 733 L 628.68995 733.4841" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Line_34">
+        <path d="M 667 448.9339 L 628 449 L 628 616 L 730.45 615.76716" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_35">
+        <text transform="translate(810 394)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="5684342e-20" y="11">Virtual address</tspan>
+        </text>
+      </g>
+      <g id="Graphic_36">
+        <text transform="translate(841 802)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7247536e-19" y="11">Physical address</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <text transform="translate(672 753.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="2184919e-19" y="8">M-1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_38">
+        <text transform="translate(875 753.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="55289107e-20" y="8">P</tspan>
+        </text>
+      </g>
+      <g id="Graphic_39">
+        <text transform="translate(892 753.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="0" y="8">P-1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_40">
+        <text transform="translate(1091.552 753.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-weight="400" fill="black" x="15987212e-20" y="8">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_44">
+        <text transform="translate(672 422)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="2184919e-19" y="8">M-1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_43">
+        <text transform="translate(868 422)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="55289107e-20" y="8">P</tspan>
+        </text>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(889 422)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="0" y="8">P-1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_41">
+        <text transform="translate(1091.552 422)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="8" font-weight="400" fill="black" x="15987212e-20" y="8">0</tspan>
+        </text>
+      </g>
+      <g id="Line_48">
+        <line x1="1075" y1="460" x2="1075" y2="761.45" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+    </g>
+  </g>
+</svg>
