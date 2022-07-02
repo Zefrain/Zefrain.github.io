@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 1 576 425" width="576" height="425">
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#feffff"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(136.98536 78.95993) rotate(90) scale(22.498582)"/>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <linearGradient x1="0" x2="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bdff"/>
+      <stop offset="1" stop-color="#5070ff"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient_2" gradientTransform="translate(136.98536 102.08022) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_3" xl:href="#Gradient_2" gradientTransform="translate(136.98536 124.5788) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_4" xl:href="#Gradient" gradientTransform="translate(136.98568 147.07738) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_5" xl:href="#Gradient_2" gradientTransform="translate(136.98536 170.03978) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_6" xl:href="#Gradient" gradientTransform="translate(136.986 191.62207) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_7" xl:href="#Gradient" gradientTransform="translate(136.98505 214.11536) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_8" xl:href="#Gradient_2" gradientTransform="translate(476.43953 45.66931) rotate(90) scale(22.498582)"/>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <linearGradient id="Obj_Gradient_9" xl:href="#Gradient_2" gradientTransform="translate(476.43953 68.16789) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_10" xl:href="#Gradient_2" gradientTransform="translate(476.43953 88.16789) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_11" xl:href="#Gradient_2" gradientTransform="translate(476.43953 110.66648) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_12" xl:href="#Gradient" gradientTransform="translate(473.55765 206.46338) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_13" xl:href="#Gradient" gradientTransform="translate(473.55765 239.18523) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_14" xl:href="#Gradient" gradientTransform="translate(473.55765 271.90708) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_15" xl:href="#Gradient" gradientTransform="translate(473.55765 304.62892) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_16" xl:href="#Gradient" gradientTransform="translate(75.73607 79.11408) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_17" xl:href="#Gradient" gradientTransform="translate(75.73607 101.61214) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_18" xl:href="#Gradient" gradientTransform="translate(75.73607 124.11356) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_19" xl:href="#Gradient" gradientTransform="translate(75.73607 169.11446) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_20" xl:href="#Gradient" gradientTransform="translate(75.73607 146.6164) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_21" xl:href="#Gradient" gradientTransform="translate(75.73607 191.62065) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_22" xl:href="#Gradient" gradientTransform="translate(75.73607 214.11536) rotate(90) scale(22.5)"/>
+    <linearGradient id="Obj_Gradient_23" xl:href="#Gradient_2" gradientTransform="translate(136.986 236.61394) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_24" xl:href="#Gradient" gradientTransform="translate(75.73607 236.61536) rotate(90) scale(22.5)"/>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -5 11 10" markerWidth="11" markerHeight="10" color="black">
+      <g>
+        <path d="M 8.666489 0 L 0 -3.2499332 L 0 3.2499332 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <linearGradient id="Obj_Gradient_25" xl:href="#Gradient" gradientTransform="translate(473.55765 337.35077) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_26" xl:href="#Gradient" gradientTransform="translate(473.55765 370.0726) rotate(90) scale(22.498582)"/>
+    <linearGradient id="Obj_Gradient_27" xl:href="#Gradient" gradientTransform="translate(473.55765 402.79446) rotate(90) scale(22.498582)"/>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-02 11:31:43 +0000</metadata>
+  <g id="fig9_4" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
+    <title>fig9.4</title>
+    <rect fill="white" x="0" y="1" width="576" height="425"/>
+    <g id="fig9_4_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="86.98536" y="78.95993" width="100" height="22.498582" fill="url(#Obj_Gradient)"/>
+        <rect x="86.98536" y="78.95993" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(90.98536 83.20922)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="30.660156" y="11">NULL</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="86.98536" y="102.08022" width="100" height="22.498582" fill="url(#Obj_Gradient_2)"/>
+        <rect x="86.98536" y="102.08022" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_4">
+        <rect x="86.98536" y="124.5788" width="100" height="22.498582" fill="url(#Obj_Gradient_3)"/>
+        <rect x="86.98536" y="124.5788" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_5">
+        <rect x="86.98536" y="147.07738" width="100.00063" height="22.498582" fill="url(#Obj_Gradient_4)"/>
+        <rect x="86.98536" y="147.07738" width="100.00063" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_6">
+        <rect x="86.98536" y="170.03978" width="100" height="22.498582" fill="url(#Obj_Gradient_5)"/>
+        <rect x="86.98536" y="170.03978" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_7">
+        <rect x="86.986" y="191.62207" width="100" height="22.498582" fill="url(#Obj_Gradient_6)"/>
+        <rect x="86.986" y="191.62207" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(90.986 195.87136)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="30.660156" y="11">NULL</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <rect x="86.98473" y="214.11536" width="100.00063" height="22.498582" fill="url(#Obj_Gradient_7)"/>
+        <rect x="86.98473" y="214.11536" width="100.00063" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_9">
+        <rect x="426.43953" y="45.66931" width="100" height="22.498582" fill="url(#Obj_Gradient_8)"/>
+        <rect x="426.43953" y="45.66931" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+        <text transform="translate(431.43953 49.750603)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="32.442" y="11">VP 1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="426.43953" y="68.16789" width="100" height="22.498582" fill="url(#Obj_Gradient_9)"/>
+        <rect x="426.43953" y="68.16789" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+        <text transform="translate(431.43953 72.249185)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="32.442" y="11">VP 2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="426.43953" y="88.16789" width="100" height="22.498582" fill="url(#Obj_Gradient_10)"/>
+        <rect x="426.43953" y="88.16789" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+        <text transform="translate(431.43953 92.24919)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="32.442" y="11">VP 7</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="426.43953" y="110.66648" width="100" height="22.498582" fill="url(#Obj_Gradient_11)"/>
+        <rect x="426.43953" y="110.66648" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+        <text transform="translate(431.43953 114.74777)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="32.442" y="11">VP 4</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <rect x="423.55765" y="206.46338" width="100" height="22.498582" fill="url(#Obj_Gradient_12)"/>
+        <rect x="423.55765" y="206.46338" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 210.71267)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <rect x="423.55765" y="239.18523" width="100" height="22.498582" fill="url(#Obj_Gradient_13)"/>
+        <rect x="423.55765" y="239.18523" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 243.43452)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <rect x="423.55765" y="271.90708" width="100" height="22.498582" fill="url(#Obj_Gradient_14)"/>
+        <rect x="423.55765" y="271.90708" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 276.15637)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <rect x="423.55765" y="304.62892" width="100" height="22.498582" fill="url(#Obj_Gradient_15)"/>
+        <rect x="423.55765" y="304.62892" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 308.8782)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 4</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <text transform="translate(530.4395 50.721355)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.1842632" y="11">PP 0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <text transform="translate(530.4395 113.92635)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="7.545752" y="11">PP 3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <text transform="translate(401.55765 172.11018)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="31.763664" y="11">Virtual memory</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="57.33398" y="25">(disk)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <text transform="translate(411.13243 1.6693014)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="26.323235" y="11">Physical memory</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="50.33788" y="25">(DRAM)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <text transform="translate(70.97496 34.95991)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="12.632805" y="11">Physical page number</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="29.985344" y="25">Or disk address</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <rect x="64.48678" y="79.11408" width="22.498582" height="22.5" fill="url(#Obj_Gradient_16)"/>
+        <rect x="64.48678" y="79.11408" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 83.36408)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <rect x="64.48678" y="101.61214" width="22.498582" height="22.5" fill="url(#Obj_Gradient_17)"/>
+        <rect x="64.48678" y="101.61214" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 105.86214)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <rect x="64.48678" y="124.11356" width="22.498582" height="22.5" fill="url(#Obj_Gradient_18)"/>
+        <rect x="64.48678" y="124.11356" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 128.36356)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <rect x="64.48678" y="169.11446" width="22.498582" height="22.5" fill="url(#Obj_Gradient_19)"/>
+        <rect x="64.48678" y="169.11446" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 173.36446)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <rect x="64.48678" y="146.6164" width="22.498582" height="22.5" fill="url(#Obj_Gradient_20)"/>
+        <rect x="64.48678" y="146.6164" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 150.8664)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <rect x="64.48678" y="191.62065" width="22.498582" height="22.5" fill="url(#Obj_Gradient_21)"/>
+        <rect x="64.48678" y="191.62065" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 195.87065)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <rect x="64.48678" y="214.11536" width="22.498582" height="22.5" fill="url(#Obj_Gradient_22)"/>
+        <rect x="64.48678" y="214.11536" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 218.36536)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <rect x="86.986" y="236.61394" width="100" height="22.498582" fill="url(#Obj_Gradient_23)"/>
+        <rect x="86.986" y="236.61394" width="100" height="22.498582" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_30">
+        <rect x="64.48678" y="236.61536" width="22.498582" height="22.5" fill="url(#Obj_Gradient_24)"/>
+        <rect x="64.48678" y="236.61536" width="22.498582" height="22.5" stroke="#305497" stroke-opacity=".95" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(68.48678 240.86536)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.912377" y="11">1</tspan>
+        </text>
+      </g>
+      <g id="Line_31">
+        <line x1="136.98536" y1="113.3295" x2="418.5383" y2="58.45845" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Line_32">
+        <line x1="136.98536" y1="135.82809" x2="418.5383" y2="80.95703" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Line_33">
+        <line x1="136.98599" y1="247.86323" x2="419.2767" y2="103.09064" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Line_34">
+        <line x1="136.98536" y1="181.28907" x2="418.55385" y2="123.53329" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_35">
+        <text transform="translate(4 61.95992)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="59.66015" y="11">valid</tspan>
+        </text>
+      </g>
+      <g id="Graphic_36">
+        <text transform="translate(19.590591 81.95994)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="3.7752438" y="11">PTE 0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <text transform="translate(17.334321 242.1125)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="6.031513" y="11">PTE 7</tspan>
+        </text>
+      </g>
+      <g id="Line_38">
+        <line x1="136.98567" y1="158.32667" x2="416.17755" y2="279.94162" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.0,3.75" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_39">
+        <rect x="423.55765" y="337.35077" width="100" height="22.498582" fill="url(#Obj_Gradient_25)"/>
+        <rect x="423.55765" y="337.35077" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 341.60006)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_40">
+        <rect x="423.55765" y="370.0726" width="100" height="22.498582" fill="url(#Obj_Gradient_26)"/>
+        <rect x="423.55765" y="370.0726" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 374.3219)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 6</tspan>
+        </text>
+      </g>
+      <g id="Graphic_41">
+        <rect x="423.55765" y="402.79446" width="100" height="22.498582" fill="url(#Obj_Gradient_27)"/>
+        <rect x="423.55765" y="402.79446" width="100" height="22.498582" stroke="#305497" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(427.55765 407.04375)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="33.097656" y="11">VP 7</tspan>
+        </text>
+      </g>
+      <g id="Line_42">
+        <line x1="136.98504" y1="225.36465" x2="416.8342" y2="409.61704" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.0,3.75" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_43">
+        <text transform="translate(54.31355 265.78267)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="26.988274" y="11">Memory-resident</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="43.309563" y="25">Page table</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="50.33788" y="39">(DRAM)</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
