@@ -47,7 +47,8 @@ $$
 $$
 
 
-  - 2nd derivative
+- 2nd derivative
+
   $f = -x;\,\, g = \frac{x^2}{2}$
 
   $$
