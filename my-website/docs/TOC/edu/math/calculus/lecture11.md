@@ -26,10 +26,7 @@ $$
 <div style={{display: 'flex', justifyContent: 'left'}}>
 
 $$
-\ln (y^2) = x + x = 2 \ln y \newline
-\newline
-\newline
-\newline
+\ln (y^2) = x + x = 2 \ln y \\
 \frac{d(lny)}{dy} = \frac{1}{y} 
 $$
 
@@ -44,7 +41,7 @@ $$
 $$
 \begin{aligned}
 A &= \pi r^2 = f(r) \\
-r &= \sqrt{\frac{A}{\pi}} = f^{-1}(A) \\
+r &= \sqrt{\frac{A}{\pi}} = f^{-1}(A) 
 \end{aligned}
 $$
 
