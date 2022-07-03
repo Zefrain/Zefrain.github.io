@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="857 1037 256 92" width="256" height="92">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="10" panose-1="2 0 5 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="-1200" x-height="517" cap-height="714" ascent="957.0007" descent="-212.99744" font-style="italic" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Italic"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="10" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-03 13:21:42 +0000</metadata>
+  <g id="fig9_15" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
+    <title>fig9.15</title>
+    <rect fill="white" x="857" y="1037" width="256" height="92"/>
+    <g id="fig9_15_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_4">
+        <g id="Graphic_7">
+          <rect x="1059" y="1055" width="50" height="25" fill="white"/>
+          <rect x="1059" y="1055" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(1064 1060.332)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7.886" y="11">VPO</tspan>
+          </text>
+        </g>
+        <g id="Graphic_6">
+          <rect x="959" y="1055" width="100" height="25" fill="white"/>
+          <rect x="959" y="1055" width="100" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(964 1060.332)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".666" y="11">TLB index (TLBI)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_3">
+          <rect x="859" y="1055" width="100" height="25" fill="white"/>
+          <rect x="859" y="1055" width="100" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(864 1060.332)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="4.776" y="11">TLB tag (TLBT)</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_8">
+        <path d="M 1059 1084 L 1059 1084 C 1059 1088.9706 1054.9706 1093 1050 1093 L 973.4661 1093 C 969.556 1093 965.8232 1094.631 963.1667 1097.5 L 963.1667 1097.5 C 961.0359 1099.8012 957.4432 1099.9394 955.142 1097.8086 C 955.0352 1097.7098 954.9322 1097.6068 954.8333 1097.5 L 954.8333 1097.5 C 952.1768 1094.631 948.444 1093 944.5339 1093 L 868 1093 C 863.0294 1093 859 1088.9706 859 1084 L 859 1084" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+      </g>
+      <g id="Graphic_9">
+        <text transform="translate(946 1109)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="42277293e-20" y="11">VPN</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <text transform="translate(862 1042)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-style="italic" font-weight="400" fill="black" x="0" y="10">n</tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" y="10"> - 1                     </tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-style="italic" font-weight="400" fill="black" y="10">p+t p</tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" y="10">+</tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-style="italic" font-weight="400" fill="black" y="10">t</tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" y="10">-1                       </tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-style="italic" font-weight="400" fill="black" y="10">p  p-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" y="10">1          0</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

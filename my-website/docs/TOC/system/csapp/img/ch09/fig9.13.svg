@@ -18,12 +18,15 @@
       </g>
     </marker>
   </defs>
-  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-02 15:24:59 +0000</metadata>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-03 13:21:42 +0000</metadata>
   <g id="fig9_13" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
     <title>fig9.13</title>
     <rect fill="white" x="572" y="313" width="631" height="636"/>
     <g id="fig9_13_Layer_1">
       <title>Layer 1</title>
+      <g id="Graphic_54">
+        <path d="M 575 720.336 L 836 720.336 L 836 871.336 L 575 871.336 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.0,3.0" stroke-width=".75"/>
+      </g>
       <g id="Graphic_2">
         <rect x="585" y="410" width="84" height="20" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
         <text transform="translate(590 412.832)" fill="black">
@@ -144,6 +147,7 @@
         <text transform="translate(687 781.336)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".834" y="11">(1)</tspan>
           <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="2469136e-19" y="39.336">VA</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".834" y="53.672">(7)</tspan>
         </text>
       </g>
       <g id="Graphic_35">
@@ -207,9 +211,6 @@
       </g>
       <g id="Line_53">
         <path d="M 776.4005 750.336 L 777 674 L 890.45 674" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
-      </g>
-      <g id="Graphic_54">
-        <path d="M 575 720.336 L 836 720.336 L 836 871.336 L 575 871.336 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.0,3.0" stroke-width=".75"/>
       </g>
       <g id="Line_56">
         <line x1="1065" y1="682" x2="1065" y2="744.75" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
