@@ -13,7 +13,7 @@ y = e^x \\
 Y = e^X 
 \end{cases} \\
 
-\begin{aligned} \\
+\begin{aligned} 
 yY &= e^{x + X} \\
 \ln (yY) &= x + X = \ln y + \ln Y
 \end{aligned}

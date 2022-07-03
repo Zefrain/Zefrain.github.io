@@ -4,7 +4,6 @@
 
 $$
 y = g(x), z = f(x) \\
-\\
 \begin{aligned}
 \frac{dz}{dx} &= \frac{dz}{dy} \frac{dy}{dx} \\
 \end{aligned}
@@ -28,9 +27,9 @@ $$
 $$
 \begin{align*}
 &y = 1-x^2, z = y^{-\frac{1}{2}} \\
-\frac{dz}{dx} &= \frac{dz}{dy}\frac{dy}{dx} &\\
-              &= (y^{-\frac{3}{2}})(-2x) & \\
-              &= (1-x^2)^{-\frac{3}{2}} \dot x &
+\frac{dz}{dx} &= \frac{dz}{dy}\frac{dy}{dx} \\ 
+              &= (y^{-\frac{3}{2}})(-2x) \\
+              &= (1-x^2)^{-\frac{3}{2}} \dot x 
 \end{align*}
 $$
 
@@ -49,12 +48,12 @@ $$
 
 - 2nd derivative
 
-  $f = -x;\,\, g = \frac{x^2}{2}$
+$f = -x;\,\, g = \frac{x^2}{2}$
 
-  $$
-  \begin{aligned}
-  &f\frac{dg}{dx}+g\frac{df}{dx} \\
-  =&(-x)(-xe^{\frac{-x^2}{2}}) + (e^{\frac{x^2}{2}})(-1) \\
-  =&(x^2-1)(e^{\frac{-x^2}{2}})
-  \end{aligned}
-  $$
+$$
+\begin{aligned}
+&f\frac{dg}{dx}+g\frac{df}{dx} \\
+=&(-x)(-xe^{\frac{-x^2}{2}}) + (e^{\frac{x^2}{2}})(-1) \\
+=&(x^2-1)(e^{\frac{-x^2}{2}})
+\end{aligned}
+$$

@@ -45,7 +45,7 @@ q(x) &= \frac{1}{x^N} \\
 
 \frac{dq}{dx} &= \frac{0 - N \times x^{N-1}}{x^{2N}} \\
 
-\frac{dq}{dx} &= -N \times x^{-1-N} \\
+\frac{dq}{dx} &= -N \times x^{-1-N} 
 
 \end{aligned}
 $$
