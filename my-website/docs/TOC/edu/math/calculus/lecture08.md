@@ -9,7 +9,7 @@ $$
 
 \frac{d{p}}{d{x}} &= f(x)\frac{dg}{dx} + g(x)\frac{df}{dx} \\
 
-\Longrightarrow \frac{d}{dx}x^{n} &= nx^{n-1} \\
+\Longrightarrow \frac{d}{dx}x^{n} &= nx^{n-1} 
 
 \end{aligned}
 $$
@@ -29,7 +29,8 @@ g\frac{df}{dx} &= g^{2}\frac{dq}{dx} + f\frac{dg}{dx} \\
 
 g\frac{df}{dx} - f\frac{dg}{dx} &= g^{2}\frac{dq}{dx} \\
 
-\frac{dq}{dx} &=\frac{g\frac{df}{dx}-f\frac{dg}{dx}}{g^{2}} \\
+\frac{dq}{dx} &=\frac{g\frac{df}{dx}-f\frac{dg}{dx}}{g^{2}} 
+
 \end{aligned}
 $$
 
