@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="155 130 564 337" width="564" height="337">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="155 130 564 337" width="564" height="337">
   <defs>
     <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
       <font-face-src>
@@ -28,19 +28,14 @@
         <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
       </g>
     </marker>
-    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
-      <g>
-        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
-      </g>
-    </marker>
     <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="-1e3" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-style="italic" font-weight="400">
       <font-face-src>
         <font-face-name name="Helvetica-Oblique"/>
       </font-face-src>
     </font-face>
   </defs>
-  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-05 12:34:20 +0000</metadata>
-  <g id="fig9_9" fill-opacity="1" stroke-dasharray="none" stroke-opacity="1" stroke="none" fill="none">
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-12 14:19:00 +0000</metadata>
+  <g id="fig9_9" stroke-opacity="1" stroke-dasharray="none" fill="none" stroke="none" fill-opacity="1">
     <title>fig9.9</title>
     <g id="fig9_9_Layer_1">
       <title>Layer 1</title>
@@ -153,13 +148,13 @@
         <line x1="338.05975" y1="215.92076" x2="581.8833" y2="228.62487" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
       </g>
       <g id="Line_50">
-        <line x1="338.05975" y1="386.11073" x2="581.9892" y2="342.83653" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <line x1="338.05975" y1="386.11073" x2="581.9892" y2="342.83653" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
       </g>
       <g id="Line_52">
-        <line x1="338.05975" y1="238.42076" x2="582.4378" y2="338.6527" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <line x1="338.05975" y1="238.42076" x2="582.4378" y2="338.6527" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
       </g>
       <g id="Line_53">
-        <line x1="338.05975" y1="408.13187" x2="581.87314" y2="408.9911" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <line x1="338.05975" y1="408.13187" x2="581.87314" y2="408.9911" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
       </g>
       <g id="Graphic_54">
         <rect x="390.85825" y="209.46252" width="113.572" height="24.335999" fill="white"/>

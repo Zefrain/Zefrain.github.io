@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="1700 1537 698 261" width="698" height="261">
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76bdff"/>
+      <stop offset="1" stop-color="#5070ff"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(1832 1710) rotate(90) scale(30)"/>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="10" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(2220 1710) rotate(90) scale(30)"/>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.5\n2022-07-12 14:19:00 +0000</metadata>
+  <g id="fig9_48" stroke-opacity="1" stroke-dasharray="none" fill="none" stroke="none" fill-opacity="1">
+    <title>fig9.48</title>
+    <g id="fig9_48_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_4">
+        <g id="Graphic_6">
+          <rect x="1704" y="1710" width="256" height="30" fill="url(#Obj_Gradient)"/>
+          <rect x="1704" y="1710" width="256" height="30" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(1709 1717.832)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="74.328" y="11">Padding (optional)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_5">
+          <rect x="1704" y="1583" width="256" height="127" fill="white"/>
+          <rect x="1704" y="1583" width="256" height="127" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(1709 1639.332)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="101.334" y="11">Payload</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_8">
+        <g id="Graphic_7">
+          <rect x="1936" y="1558" width="24" height="25" fill="white"/>
+          <rect x="1936" y="1558" width="24" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(1941 1564.36)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="1.17" y="10">a/f</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_11">
+        <rect x="1704" y="1558" width="232" height="25" fill="white"/>
+        <rect x="1704" y="1558" width="232" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(1709 1563.332)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="83.676" y="11">Block size</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <text transform="translate(1705 1542)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="0" y="10">31                                                                             3 2 1 0</tspan>
+        </text>
+      </g>
+      <g id="Group_22">
+        <g id="Graphic_23">
+          <rect x="1936" y="1740" width="24" height="25" fill="white"/>
+          <rect x="1936" y="1740" width="24" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(1941 1746.36)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="1.17" y="10">a/f</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_21">
+        <rect x="1704" y="1740" width="232" height="25" fill="white"/>
+        <rect x="1704" y="1740" width="232" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(1709 1745.332)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="83.676" y="11">Block size</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <text transform="translate(1965 1563)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="8526513e-20" y="11">Header</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <text transform="translate(1965 1745)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Footer</tspan>
+        </text>
+      </g>
+      <g id="Group_35">
+        <g id="Graphic_41">
+          <rect x="2092" y="1613" width="256" height="30" fill="white"/>
+          <rect x="2092" y="1613" width="256" height="30" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(2097 1620.832)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="77.112" y="11">Succ (successor)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_40">
+          <rect x="2092" y="1643" width="256" height="67" fill="white"/>
+          <rect x="2092" y="1643" width="256" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        </g>
+        <g id="Graphic_38">
+          <rect x="2092" y="1710" width="256" height="30" fill="url(#Obj_Gradient_2)"/>
+          <rect x="2092" y="1710" width="256" height="30" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(2097 1717.832)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="74.328" y="11">Padding (optional)</tspan>
+          </text>
+        </g>
+        <g id="Graphic_36">
+          <rect x="2092" y="1583" width="256" height="30" fill="white"/>
+          <rect x="2092" y="1583" width="256" height="30" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(2097 1590.832)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="72.33" y="11">Pred (predecessor)</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_33">
+        <g id="Graphic_34">
+          <rect x="2324" y="1558" width="24" height="25" fill="white"/>
+          <rect x="2324" y="1558" width="24" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(2329 1564.36)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="1.17" y="10">a/f</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_32">
+        <rect x="2092" y="1558" width="232" height="25" fill="white"/>
+        <rect x="2092" y="1558" width="232" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(2097 1563.332)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="83.676" y="11">Block size</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <text transform="translate(2093 1542)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="0" y="10">31                                                                             3 2 1 0</tspan>
+        </text>
+      </g>
+      <g id="Group_29">
+        <g id="Graphic_30">
+          <rect x="2324" y="1740" width="24" height="25" fill="white"/>
+          <rect x="2324" y="1740" width="24" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+          <text transform="translate(2329 1746.36)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="10" font-weight="400" fill="black" x="1.17" y="10">a/f</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_28">
+        <rect x="2092" y="1740" width="232" height="25" fill="white"/>
+        <rect x="2092" y="1740" width="232" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+        <text transform="translate(2097 1745.332)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="83.676" y="11">Block size</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <text transform="translate(2353 1563)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="8526513e-20" y="11">Header</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(2353 1745)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Footer</tspan>
+        </text>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(1782.554 1778)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">(a) Allocated block</tspan>
+        </text>
+      </g>
+      <g id="Graphic_43">
+        <text transform="translate(2183.55 1778)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="7247536e-19" y="11">(b) Free block</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
