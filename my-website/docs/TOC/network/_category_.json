@@ -1,6 +1,7 @@
 {
   "label": "Computer Networking",
   "position": 1,
+  "collapsed": false,
   "link": {
     "type": "generated-index"
   }

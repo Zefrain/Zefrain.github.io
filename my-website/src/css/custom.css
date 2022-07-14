@@ -122,3 +122,12 @@ a[href='/CV_EN']{
 a[href='/CV_CN']{
     color: #0172a9;
 }
+.cardContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module *:last-child{
+    display: none;
+}
+.menu__list-item-collapsible a[href='/docs/category/toc'] + button{
+  display: none;
+}
+.menu__list-item-collapsible a[href='/docs/category/toc']{
+   display: none;
+}
