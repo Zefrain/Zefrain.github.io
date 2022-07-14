@@ -3,7 +3,7 @@
 
 $$
 \begin{align}
-&y = e^x \,\, \text{and}\,\, x = \ln(y)A \\
+&y = e^x \,\, \text{and}\,\, x = \ln(y) \\
 &y = \sin(x) \,\, \text{and}\,\, x = sin^{-1}(y)  \\
 &f^{-1}(f(x)) = x  \\
 &f(f^{-1}(y)) = y 
