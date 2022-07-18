@@ -23,4 +23,5 @@ sync; echo 2 > /proc/sys/vm/drop_caches
 sync; echo 3 > /proc/sys/vm/drop_caches 
 ```
 
-
+- references:
+  - [Documentation for /proc/sys/vm/drop_caches](https://www.kernel.org/doc/html/latest/admin-guide/sysctl/vm.html#drop-caches) 
