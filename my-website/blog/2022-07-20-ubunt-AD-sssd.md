@@ -8,7 +8,7 @@ tags: [sssd,AD,domain,ubuntu,kylin]
 1. install packages:
 ```sh
 
-sudo apt install sssd-ad sssd-tools realmd adcli
+sudo apt install sssd-ad sssd-tools realmd adcli sssd-tools sssd libnss-sss libpam-sss adcli packagekit
 ```
 
 2. join domain
