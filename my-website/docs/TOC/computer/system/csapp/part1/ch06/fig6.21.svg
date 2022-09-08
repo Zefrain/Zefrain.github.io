@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="205 309 957 495" width="957" height="495">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="fig_6_21" stroke="none" stroke-opacity="1" fill="none" fill-opacity="1" stroke-dasharray="none">
+    <title>fig6.21</title>
+    <rect fill="white" x="205" y="309" width="957" height="495"/>
+    <g id="fig_6_21_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_3">
+        <path d="M 376.5 800 L 658 310 L 939.5 800 Z" fill="white"/>
+        <path d="M 376.5 800 L 658 310 L 939.5 800 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_4">
+        <line x1="617.7857" y1="380" x2="698.2143" y2="380" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_5">
+        <line x1="577.5714" y1="450" x2="738.4286" y2="450" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_6">
+        <line x1="537.35714" y1="520" x2="778.6429" y2="520" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_7">
+        <line x1="497.14286" y1="590" x2="818.8571" y2="590" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="456.92857" y1="660" x2="859.0714" y2="660" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="416.7143" y1="730" x2="899.2857" y2="730" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_10">
+        <text transform="translate(521.848 352)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="117.78399" y="15">Regs</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="103.39999" y="69.448">L1 cache</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="109.19199" y="87.896">(SRAM)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="103.39999" y="142.344">L2 cache</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="109.19199" y="160.792">(SRAM)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="103.39999" y="215.24">L3 cache</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="109.19199" y="233.688">(SRAM)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="87.23999" y="288.136">Main memory</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="108.74399" y="306.584">(DRAM)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="47.99999" y="343.032">Local secondary storage</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="91.70399" y="361.48">(Local disks)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="39.399993" y="415.928">Remote secondary storage</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="434.376">(Distributed file systems, Web servers)</tspan>
+        </text>
+      </g>
+      <g id="Line_11">
+        <path d="M 734 338 L 734 338 C 738.9706 338 743 342.02944 743 347 L 743 365.35293 C 743 368.17316 744.8171 370.6722 747.5 371.54167 L 747.5 371.54167 C 748.3054 371.8027 748.7467 372.6672 748.4857 373.4726 C 748.3342 373.9402 747.9676 374.3068 747.5 374.45833 L 747.5 374.45833 C 744.8171 375.3278 743 377.82684 743 380.64707 L 743 399 C 743 403.97056 738.9706 408 734 408 L 734 408" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_15">
+        <path d="M 772.1878 408 L 772.1878 408 C 777.1584 408 781.1878 412.02944 781.1878 417 L 781.1878 435.35293 C 781.1878 438.17316 783.005 440.6722 785.6878 441.54167 L 785.6878 441.54167 C 786.4933 441.8027 786.9346 442.6672 786.6736 443.4726 C 786.522 443.9402 786.1554 444.3068 785.6878 444.45833 L 785.6878 444.45833 C 783.005 445.3278 781.1878 447.82684 781.1878 450.64707 L 781.1878 469 C 781.1878 473.97056 777.1584 478 772.1878 478 L 772.1878 478" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_16">
+        <path d="M 810.3757 477.1818 L 810.3757 477.1818 C 815.3462 477.1818 819.3757 481.21126 819.3757 486.1818 L 819.3757 504.53475 C 819.3757 507.355 821.1928 509.85404 823.8757 510.7235 L 823.8757 510.7235 C 824.6811 510.9845 825.1224 511.849 824.8614 512.6544 C 824.7099 513.12203 824.3433 513.4886 823.8757 513.64015 L 823.8757 513.64015 C 821.1928 514.5096 819.3757 517.00865 819.3757 519.8289 L 819.3757 538.1818 C 819.3757 543.1524 815.3462 547.1818 810.3757 547.1818 L 810.3757 547.1818" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_17">
+        <path d="M 848.5635 545.8992 L 848.5635 545.8992 C 853.5341 545.8992 857.5635 549.9286 857.5635 554.8992 L 857.5635 573.2521 C 857.5635 576.07234 859.3806 578.5714 862.0635 579.44084 L 862.0635 579.44084 C 862.8689 579.70185 863.3103 580.5664 863.0492 581.3718 C 862.8977 581.8394 862.5311 582.206 862.0635 582.3575 L 862.0635 582.3575 C 859.3806 583.22696 857.5635 585.726 857.5635 588.54625 L 857.5635 606.8992 C 857.5635 611.8697 853.5341 615.8992 848.5635 615.8992 L 848.5635 615.8992" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_18">
+        <path d="M 886.7514 614 L 886.7514 614 C 891.7219 614 895.7514 618.02944 895.7514 623 L 895.7514 641.3529 C 895.7514 644.1732 897.5685 646.6722 900.2514 647.5417 L 900.2514 647.5417 C 901.0568 647.8027 901.4981 648.6672 901.2371 649.4726 C 901.0855 649.9402 900.719 650.3068 900.2514 650.4583 L 900.2514 650.4583 C 897.5685 651.3278 895.7514 653.8268 895.7514 656.6471 L 895.7514 675 C 895.7514 679.9706 891.7219 684 886.7514 684 L 886.7514 684" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_19">
+        <path d="M 924.9392 681 L 924.9392 681 C 929.9098 681 933.9392 685.0294 933.9392 690 L 933.9392 708.3529 C 933.9392 711.1732 935.7563 713.6722 938.4392 714.5417 L 938.4392 714.5417 C 939.2446 714.8027 939.6859 715.6672 939.4249 716.4726 C 939.2734 716.9402 938.9068 717.3068 938.4392 717.4583 L 938.4392 717.4583 C 935.7563 718.3278 933.9392 720.8268 933.9392 723.6471 L 933.9392 742 C 933.9392 746.9706 929.9098 751 924.9392 751 L 924.9392 751" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_20">
+        <text transform="translate(782.5 357)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">CPU registers hold words</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">Retrieved from cache memory</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <text transform="translate(823.5872 425.1104)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">L1 cache holds cache lines</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">Retrieved from L2 cache</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <text transform="translate(842.7384 493.2208)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">L2 cache holds cache lines </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">Retrieved from L3 cache</tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <text transform="translate(883.8256 561.3312)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">L3 cache holds cache lines </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">Retrieved from local disks</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <text transform="translate(924.9128 629.4416)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Main memory holds disk blocks </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">Retrieved from local disks</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <text transform="translate(966 688.328)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Local disks hold files</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">Retrieved from disks on </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="51.895996">Remote network servers</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(590 339)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L0:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <text transform="translate(552.16667 407.66667)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L1:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(514.33333 476.33333)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L2:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <text transform="translate(476.5 545)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L3:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <text transform="translate(438.66667 613.6667)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L4:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <text transform="translate(400.83333 682.3333)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L5:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_32">
+        <text transform="translate(363 751)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7993606e-19" y="15">L6:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_33">
+        <text transform="translate(239 330.9249)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.216" y="15">Smaller,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="18.664" y="33.448">Faster,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="43343107e-20" y="51.895996">And costlier</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="8.448" y="70.34399">(Per byte)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="14.376" y="88.79199">Storage </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="18.224" y="107.23999">Device</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <text transform="translate(239 614.536)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.848" y="15">Larger,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="8.008" y="33.448">Slower,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="19.696" y="51.895996">And </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="3.552" y="70.34399">Cheaper</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="11368684e-20" y="88.79199">(Per byte)</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="5.928" y="107.23999">Storage</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.776" y="125.68799">Device</tspan>
+        </text>
+      </g>
+      <g id="Line_36">
+        <line x1="212" y1="458.53776" x2="212" y2="329.9" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_39">
+        <line x1="212" y1="590.53776" x2="212" y2="719.1755" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
