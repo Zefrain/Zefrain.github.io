@@ -20,7 +20,6 @@ const FeatureList = [
       <>
         1. willing to learn new skills <br/>
         2. have a can-do altitude on all technical chanllenges. <br/>
-        3. excel in cooperating with business and other team members <br/>
       </>
     ),
   },
