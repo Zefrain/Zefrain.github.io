@@ -12,7 +12,7 @@ const config = {
   projectName: 'Zefrain.github.io',
   organizationName: 'Zefrain',
   trailingSlash: false,
-  title: "Whiothes's Blog",
+  title: "Zefrain's Blog",
   url: 'https://github.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -76,7 +76,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           // {to: '/CV_EN', label: 'Resume', position: 'left'},
           {
-            href: 'https://github.com/Whiothes',
+            href: 'https://github.com/Zefrain',
             label: 'GitHub',
             position: 'right',
           },
@@ -112,12 +112,12 @@ const config = {
               },
               {
                 label: 'More',
-                href: 'https://github.com/Whiothes/notes',
+                href: 'https://github.com/Zefrain/notes',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Whiothes's Blog. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zefrain's Blog. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
