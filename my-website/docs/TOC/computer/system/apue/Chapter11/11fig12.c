@@ -1,7 +1,7 @@
 /**
  *   @file     11fig12.c
  *   @date     2019-11-08
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Simplified locking
  */

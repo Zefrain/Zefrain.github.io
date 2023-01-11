@@ -1,7 +1,7 @@
 /**
  *   @file     17fig05.c
  *   @date     2020-02-01
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Binding an address to a UNIX domain socket
  */

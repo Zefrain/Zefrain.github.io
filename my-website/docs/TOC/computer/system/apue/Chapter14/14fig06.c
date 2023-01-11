@@ -1,7 +1,7 @@
 /**
  *   @file     14fig06.c
  *   @date     2019-12-16
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Figure 14.6 Function to test for a locking condition
  */

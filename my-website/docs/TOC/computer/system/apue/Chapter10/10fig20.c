@@ -1,7 +1,7 @@
 /**
  *   @file     10fig20.c
  *   @date     2019-10-28
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Figure 10.20 Example of signal masks, sigsetjmp, and siglongjmp
  */

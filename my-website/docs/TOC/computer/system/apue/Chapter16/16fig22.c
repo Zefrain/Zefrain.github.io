@@ -1,7 +1,7 @@
 /**
  *   @file     16fig22.c
  *   @date     2020-01-23
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    initialize a socket endpoint for use by a server
  *              with address reuse

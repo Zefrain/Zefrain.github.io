@@ -1,7 +1,7 @@
 /**
  *   @file     15ex17.c
  *   @date     2020-02-03
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Redo the 15fig33 using advisory record lock
  */

@@ -1,7 +1,7 @@
 /**
  *   @file     12fig04.c
  *   @date     2019-11-15
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    create a thread in the detached state
  */

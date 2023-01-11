@@ -1,7 +1,7 @@
 /**
  *   @file     16fig18.c
  *   @date     2020-01-22
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    server program illustrating command wrting directly to socket
  */

@@ -1,7 +1,7 @@
 /**
  *   @file     15ex03.c
  *   @date     2020-01-15
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    test popen for non-existent command
  */

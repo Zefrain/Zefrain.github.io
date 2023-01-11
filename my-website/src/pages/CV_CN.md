@@ -5,7 +5,7 @@
 | ⼿机   | 18511283747                 |
 | 邮箱   | whiothes81@gmail.com        |
 | 微信   | 18511283747                 |
-| github | https://whiothes.github.io/ |
+| github | https://zefrain.github.io/ |
 
 ## 基本信息
 

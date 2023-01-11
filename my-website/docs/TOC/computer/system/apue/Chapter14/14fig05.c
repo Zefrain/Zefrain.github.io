@@ -1,7 +1,7 @@
 /**
  *   @file     14fig05.c
  *   @date     2019-12-16
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Function to lock or unlock a region of a file
  */

@@ -1,7 +1,7 @@
 /**
  *   @file     10fig15.c
  *   @date     2019-10-27
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Example of signal sets and sigprocmask
  *

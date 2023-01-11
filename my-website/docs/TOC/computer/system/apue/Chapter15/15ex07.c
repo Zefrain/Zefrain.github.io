@@ -1,7 +1,7 @@
 /**
  *   @file     15ex07.c
  *   @date     2020-01-15
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    select/poll a pipe
  */

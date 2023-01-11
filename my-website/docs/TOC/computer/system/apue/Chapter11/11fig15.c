@@ -1,7 +1,7 @@
 /**
  *   @file     11fig15.c
  *   @date     2019-11-10
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    an example of how to use a condition variable and a mutex
  * together to synchronize threads.

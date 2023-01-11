@@ -1,7 +1,7 @@
 /**
  *   @file     10.29.c
  *   @date     2019-10-28
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Implementation of the POSIX.1 sleep function
  *

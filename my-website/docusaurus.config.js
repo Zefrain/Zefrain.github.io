@@ -9,8 +9,8 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 const config = {
-  projectName: 'Whiothes.github.io',
-  organizationName: 'Whiothes',
+  projectName: 'Zefrain.github.io',
+  organizationName: 'Zefrain',
   trailingSlash: false,
   title: "Whiothes's Blog",
   url: 'https://github.com',

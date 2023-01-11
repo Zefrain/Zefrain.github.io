@@ -1,7 +1,7 @@
 /**
  *   @file     09ex02.c
  *   @date     2019-12-14
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Exercises 9.2
  *

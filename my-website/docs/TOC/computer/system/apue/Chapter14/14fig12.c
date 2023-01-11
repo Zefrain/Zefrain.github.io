@@ -1,7 +1,7 @@
 /**
  *   @file     mandatory.c
  *   @date     2019-12-17
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    determine whether our system supports mandatory locking
  */

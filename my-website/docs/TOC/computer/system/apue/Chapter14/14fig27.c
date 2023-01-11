@@ -1,7 +1,7 @@
 /**
  *   @file     14fig27.c
  *   @date     2019-12-28
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Coapy a file using memory-mapped I/O
  */

@@ -1,7 +1,7 @@
 /**
  *   @file     14fig01.c
  *   @date     2019-12-15
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Figure 14.1 Large nonblocking write
  */

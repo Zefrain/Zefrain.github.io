@@ -1,7 +1,7 @@
 /**
  *   @file     13fig01.c
  *   @date     2019-11-28
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    a function that can be called from a program
  *             that wants to initialize itsef as a daemon

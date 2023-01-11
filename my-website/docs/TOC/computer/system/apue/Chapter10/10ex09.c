@@ -1,7 +1,7 @@
 /**
  *   @file     10fig14.c
  *   @date     2019-10-27
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Print the signal mask for the process
  *

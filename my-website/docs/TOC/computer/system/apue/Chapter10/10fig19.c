@@ -1,7 +1,7 @@
 /**
  *   @file     10fig19.c
  *   @date     2019-10-27
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    The signal_intr function
  *   tries to prevent any interrupted system calls from being restarted.

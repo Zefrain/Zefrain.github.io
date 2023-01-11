@@ -1,7 +1,7 @@
 /**
  *   @file     15fig33.c
  *   @date     2020-01-10
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    IPC between parent and child using memory mapped I/O of /dev/zero
  */

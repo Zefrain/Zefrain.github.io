@@ -1,7 +1,7 @@
 /**
  *   @file     16ex04s.c
  *   @date     2020-01-30
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    server program for returning processes number
  */

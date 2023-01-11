@@ -1,7 +1,7 @@
 /**
  *   @file     11fig16.c
  *   @date     2019-11-10
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    show how a barrier can be used to synchronize threads cooperating
  * on a single task

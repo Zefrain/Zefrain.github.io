@@ -1,7 +1,7 @@
 /**
  *   @file     17fig12.c
  *   @date     2020-02-02
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    The send_err function
  */

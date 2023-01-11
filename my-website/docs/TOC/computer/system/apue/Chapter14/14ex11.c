@@ -1,7 +1,7 @@
 /**
  *   @file     14ex11.c
  *   @date     2019-12-29
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    rewrite 14fig27
  *

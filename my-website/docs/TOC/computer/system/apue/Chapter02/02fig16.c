@@ -1,7 +1,7 @@
 /**
  *   @file     02fig16.c
  *   @date     2020-07-29
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Dynamically allocate space for a pathname
  */

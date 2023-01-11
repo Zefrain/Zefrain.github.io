@@ -1,7 +1,7 @@
 /**
  *   @file     11fig10.c
  *   @date     2019-11-06
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    use mutex to protect a data structure
  */

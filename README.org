@@ -1,3 +1,3 @@
-This is whiothes's blog, there are some notes for the books I have read.  
+This is Zefrain's blog, there are some notes for the books I have read.
 
 This website is built using Docusaurus 2, which use auto deploy tool to generate HTML to Master branch, and all souce code are stored on Main branch.

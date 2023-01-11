@@ -1,7 +1,7 @@
 /**
  *   @file     10fig23.c
  *   @date     2019-10-28
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    wait for a signal handler to set a global variable
  *

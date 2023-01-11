@@ -1,7 +1,7 @@
 /**
  *   @file     15fig31.c
  *   @date     2020-01-10
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    print where various type of data are stored
  *

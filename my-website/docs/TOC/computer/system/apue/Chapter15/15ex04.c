@@ -1,7 +1,7 @@
 /**
  *   @file     15ex04.c
  *   @date     2020-01-08
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Program to drive the add2 filter
  */

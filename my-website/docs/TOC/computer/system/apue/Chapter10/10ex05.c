@@ -1,7 +1,7 @@
 /**
  *   @file     10ex05.c
  *   @date     2019-10-29
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Implementing Software Timers
  * www.kohala.com/start/libes.timers.txt

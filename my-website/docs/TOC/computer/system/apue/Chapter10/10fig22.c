@@ -1,7 +1,7 @@
 /**
  *   @file     10fig22.c
  *   @date     2019-10-28
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Protecting a critical region from a signal
  *   the correct way to protect a critical region of code from a speciﬁc signal.

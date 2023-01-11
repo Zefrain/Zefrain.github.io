@@ -1,7 +1,7 @@
 /**
  *   @file     16fig19.c
  *   @date     2020-01-22
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    client command using datagram service
  */

@@ -1,7 +1,7 @@
 /**
  *   @file     17fig13.c
  *   @date     2020-02-03
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    Sending a file descriptor over a UNIX domain socket
  */

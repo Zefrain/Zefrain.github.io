@@ -1,7 +1,7 @@
 /**
  *   @file     11fig05.c
  *   @date     2019-11-05
- *   @author   whiothes <whiothes81@gmail.com>
+ *   @author   zefrain <whiothes81@gmail.com>
  *   @version  1.0
  *   @brief    use thread cleanup handlers
  */
