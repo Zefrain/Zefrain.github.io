@@ -9,7 +9,7 @@ tags: [ntp]
 sudo yum install -y ntp
 
 # Ubuntu
-sudo apt insetall -y ntp
+sudo apt install -y ntp
 ```
 
 2. Edit `ntp.conf`
