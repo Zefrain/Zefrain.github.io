@@ -6,12 +6,11 @@ tags: [centos,yum,packages,version,obsoleted]
 ## How to block yum from upgrading obsoleted package? ##
 
 ```sh
-sudo yum --setopt=obsoletes=0 install obsoleted-package
+$ sudo yum --setopt=obsoletes=0 install obsoleted-package
 ```
 
 or edit `/etc/yum.conf` 
 ```conf
-
 obsoletes=0
 ```
 

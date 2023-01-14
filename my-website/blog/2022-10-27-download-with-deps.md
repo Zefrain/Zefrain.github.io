@@ -8,19 +8,19 @@ tags: [ubuntu, apt, debian, depends]
 
 ### Method 1 ###
 ```sh
-sudo apt-get install --download-only <package_name>
+$ sudo apt-get install --download-only <package_name>
 ```
 
 All downloaded files will be saved in `/var/cache/apt/archives` directory.
 
 ```sh
-sudo dpkg -i *
+$ sudo dpkg -i *
 ```
 
 ### Method 2 ###
 if we have installed packages already, use the `apt-rdepends`
 ```sh
-sudo apt install apt-rdepends
+$ sudo apt install apt-rdepends
 
 apt download $(apt-rdepends vim | grep -v "^ ")
 
@@ -33,10 +33,10 @@ E: Can't select candidate version from package debconf-2.0 as it has no candidat
 
 delete version specified in name like this 
 ```sh
-apt-get download $(apt-rdepends vim | grep -v "^ " | sed 's/debconf-2.0/debconf/g')
+$ apt-get download $(apt-rdepends vim | grep -v "^ " | sed 's/debconf-2.0/debconf/g')
 ```
 
 Then
 ```sh
-sudo dpkg -i *
+$ sudo dpkg -i *
 ```

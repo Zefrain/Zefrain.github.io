@@ -33,6 +33,6 @@ stylesheets: [
 ```
 
   - install modules
-```shell
-npm install --save remark-math@3 rehype-katex@5 hast-util-is-element@1.1.0
+```sh
+$ npm install --save remark-math@3 rehype-katex@5 hast-util-is-element@1.1.0
 ```

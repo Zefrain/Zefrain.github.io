@@ -20,7 +20,7 @@ tags: [meld,git,difftool,meldtool]
 ### Commands for Windows and Linux ###
 
 - for Windows
-```bash
+```sh
 $ git config --global diff.tool meld
 $ git config --global difftool.meld.path "C:\Program Files (x86)\Meld\Meld.exe"
 $ git config --global difftool.prompt false
@@ -31,7 +31,7 @@ $ git config --global mergetool.prompt false
 ```
 
 - For Linux
-```bash
+```sh
 $ git config --global diff.tool meld
 $ git config --global difftool.meld.path "C:\Program Files (x86)\Meld\Meld.exe"
 $ git config --global difftool.prompt false

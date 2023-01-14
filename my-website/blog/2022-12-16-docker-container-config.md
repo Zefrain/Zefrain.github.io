@@ -9,29 +9,29 @@ tags: [docker, container, config, mount]
 
 1. stop docker
 
-```bash
-systemctl stop docker
+```sh
+$ systemctl stop docker
 ```
 
 2. modify container's config
 
-```bash
-cd /var/lib/docker/container/$containerID/
+```sh
+$ cd /var/lib/docker/container/$containerID/
 
-vim config.v2.json
+$ vim config.v2.json
 
 # modify MountPoints
 ```
 
 3. start docker
 
-```bash
-systemctl start docker
+```sh
+$ systemctl start docker
 ```
 
 4. start container
 
-```bash
-docker start $containerID
+```sh
+$ docker start $containerID
 ```
 

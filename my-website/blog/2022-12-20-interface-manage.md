@@ -13,8 +13,8 @@ connection ‘ens33‘ is not available on device ens33 because device is strict
 
 - 查看托管状态
 
-```
-➜   nmcli      
+```sh
+$ nmcli
 docker0: disconnected
         "docker0"
         bridge, 02:42:74:81:0C:62, sw, mtu 1500
@@ -32,17 +32,15 @@ Use "nmcli device show" to get complete information about known devices and
 
 Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.
 ```
-
-
 
 - 开启托管
 
-```bash
-nmcli n on
+```sh
+$ nmcli n on
 ```
 
-```
-➜   nmcli      
+```sh
+$  nmcli
 docker0: disconnected
         "docker0"
         bridge, 02:42:74:81:0C:62, sw, mtu 1500
@@ -60,9 +58,6 @@ Use "nmcli device show" to get complete information about known devices and
 
 Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.
 ```
-
-
-
 
 
 - reference

@@ -7,19 +7,18 @@ tags: [sssd,AD,domain,ubuntu,kylin]
 
 1. install packages:
 ```sh
-
-sudo apt install sssd-ad sssd-tools realmd adcli sssd-tools sssd libnss-sss libpam-sss adcli packagekit
+$ sudo apt install sssd-ad sssd-tools realmd adcli sssd-tools sssd libnss-sss libpam-sss adcli packagekit
 ```
 
 2. join domain
 ```sh
-
-sudo realm discover -v $DOMAIN
-sudo realm join $DOMAIN
+$ sudo realm discover -v $DOMAIN
+$ sudo realm join $DOMAIN
 ```
 
-3. edit `/etc/sssd/sssd.conf` 
+3. edit `/etc/sssd/sssd.conf`
 ```conf
+$ vim /etc/sssd/sssd.conf
 
 [sssd]
 domains = ad1.example.com
@@ -31,7 +30,7 @@ default_shell = /bin/bash
 krb5_store_password_if_offline = True
 cache_credentials = True
 krb5_realm = AD1.EXAMPLE.COM
-realmd_tags = manages-system joined-with-adcli 
+realmd_tags = manages-system joined-with-adcli
 id_provider = ad
 fallback_homedir = /home/%u@%d
 ad_domain = ad1.example.com
@@ -48,19 +47,18 @@ ad_gpo_access_control = permissive
 4. automatically create home directory
 ```sh
 
-sudo pam-auth-update --enable mkhomedir
+$ sudo pam-auth-update --enable mkhomedir
 ```
 
 5. check 
 ```sh
-
-getent passwd $USERNAME@$DOMAIN
+$ getent passwd $USERNAME@$DOMAIN
 ```
 
 6. login
 ```sh
-
 $ sudo login
+
 ad-client login: $USERNAME@$DOMAIN
 Password: 
 Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-24-generic x86_64)

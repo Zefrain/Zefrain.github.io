@@ -4,5 +4,5 @@ tags: [rpm,centos]
 ---
 
 ```sh
-yum --nogpgcheck --localinstall xxx.rpm
+$ yum --nogpgcheck --localinstall xxx.rpm
 ```

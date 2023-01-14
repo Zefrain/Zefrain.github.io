@@ -8,19 +8,19 @@ tags: [linux,memory,buff,cache]
 1. Clear PageCache only.
 
 ```
-sync; echo 1 > /proc/sys/vm/drop_caches
+$ sync; echo 1 > /proc/sys/vm/drop_caches
 ```
 
 2. Clear dentries and inodes.
 
 ```
-sync; echo 2 > /proc/sys/vm/drop_caches
+$ sync; echo 2 > /proc/sys/vm/drop_caches
 ```
 
 3. Clear pagecache, dentries, and inodes.
 
 ```sh
-sync; echo 3 > /proc/sys/vm/drop_caches 
+$ sync; echo 3 > /proc/sys/vm/drop_caches 
 ```
 
 - references:

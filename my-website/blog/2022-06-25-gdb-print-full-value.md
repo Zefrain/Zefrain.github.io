@@ -5,7 +5,7 @@ tags: [gdb]
 ---
 
 ## gdb print full value ##
-```bash   
+```gdb   
 set print elements 0
 ```
 
