@@ -41,7 +41,7 @@ int shmq_enqueue_unique(struct shmqueue *q,
 			int (*compar)(const void *, const void *, size_t n));
 
 const char *shmq_strerror();
-#
+#endif
 ```
 
 ## Implementations ##
