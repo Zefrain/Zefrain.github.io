@@ -1,20 +1,69 @@
 # Circular Queue && Shared Memory #
 
+## Definitions ##
+
+- `shmqueue.h`:
+
+```c
+#ifndef SHMQUEUE_H
+#define SHMQUEUE_H
+
+#include <stdbool.h>
+#include <stddef.h>
+
+struct shmqueue;
+
+bool shmq_check_memory(const struct shmqueue *q);
+void shmq_free_memory(struct shmqueue **q);
+struct shmqueue *
+shmq_get_memory(const char *filename, const int size, const int width);
+
+int shmq_data_total_memory(const struct shmqueue *q);
+
+int shmq_size(const struct shmqueue *q);
+int shmq_front(const struct shmqueue *q);
+int shmq_rear(const struct shmqueue *q);
+int shmq_width(const struct shmqueue *q);
+void *shmq_data_at(const struct shmqueue *q, const int idx);
+
+bool shmq_isfull(const struct shmqueue *q);
+bool shmq_isempty(const struct shmqueue *q);
+
+void *shmq_dequeue(struct shmqueue *q);
+int shmq_enqueue(struct shmqueue *q, const void *data);
+
+bool shmq_has_data(const struct shmqueue *q,
+		   const void *data,
+		   int (*compar)(const void *, const void *, size_t n));
+
+int shmq_enqueue_unique(struct shmqueue *q,
+			const void *data,
+			int (*compar)(const void *, const void *, size_t n));
+
+const char *shmq_strerror();
+#
+```
+
+## Implementations ##
+
+- `shmqueue.c`
+
 ```c
 #include "shmqueue.h"
 #include <stdbool.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <stddef.h>
 #include <string.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <errno.h>
 
-#define SHMQ_ERR_OPEN	   -1
-#define SHMQ_ERR_TRUNC	   -2
-#define SHMQ_ERR_MMAP	   -3
-#define SHMQ_ERR_MEM_CHECK -4
+#define SHMQ_ERR_OPEN		-1
+#define SHMQ_ERR_TRUNC		-2
+#define SHMQ_ERR_MMAP		-3
+#define SHMQ_ERR_MEM_CHECK_FAIL -4
+#define SHMQ_ERR_DATA_DUP	-5
 
 #ifndef NAME_MAX
 #define NAME_MAX 255
@@ -33,7 +82,7 @@ __thread int shmq_errnum;
 /**
  * init queue struct settings
  */
-int shmq_init_settings(struct shmqueue *q, int size, int width)
+static int __shmq_set_settings(struct shmqueue *q,const int size, const int width)
 {
 	if (!q) {
 		return -1;
@@ -45,9 +94,9 @@ int shmq_init_settings(struct shmqueue *q, int size, int width)
 	q->width = width;
 }
 
-static bool __shmq_mmap_check(void *ptr)
+static bool __shmq_mmap_check(const void *ptr)
 {
-	return ptr && ptr != MMAP_FAILED;
+	return ptr && ptr != MAP_FAILED;
 }
 
 /**
@@ -55,7 +104,12 @@ static bool __shmq_mmap_check(void *ptr)
  */
 bool shmq_check_memory(const struct shmqueue *q)
 {
-	return __shmq_mmap_check(q) && __shmq_mmap_check(q->data);
+	bool ok = __shmq_mmap_check(q) && __shmq_mmap_check(q->data);
+	if (ok == false) {
+		shmq_errnum = SHMQ_ERR_MEM_CHECK_FAIL;
+	}
+
+	return ok;
 }
 
 /**
@@ -76,7 +130,8 @@ void shmq_free_memory(struct shmqueue **q)
 /**
  * apply memory for queue
  */
-struct shmqueue *shmq_get_memory(const char *filename, int size, int width)
+struct shmqueue *
+shmq_get_memory(const char *filename, const int size, const int width)
 {
 	char *ptr = NULL;
 	int shmid1, shmid2;
@@ -117,7 +172,7 @@ struct shmqueue *shmq_get_memory(const char *filename, int size, int width)
 	}
 
 	if (q->size != size || q->width != width) {
-		shmq_init_settings(q, size, width);
+		__shmq_set_settings(q, size, width);
 	}
 
 	shmid2 = shm_open(shmqdataname, O_CREAT | O_RDWR, S_IRUSR | S_IWUSR);
@@ -151,7 +206,7 @@ null_return:
 /**
  * return elements number
  */
-int shmq_size(struct shmqueue *q)
+int shmq_size(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
 		return q->size;
@@ -162,7 +217,7 @@ int shmq_size(struct shmqueue *q)
 /**
  * return front pointer
  */
-int shmq_front(struct shmqueue *q)
+int shmq_front(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
 		return q->front;
@@ -173,7 +228,7 @@ int shmq_front(struct shmqueue *q)
 /**
  * return rear pointer
  */
-int shmq_rear(struct shmqueue *q)
+int shmq_rear(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
 		return q->rear;
@@ -184,7 +239,7 @@ int shmq_rear(struct shmqueue *q)
 /**
  * return each element size
  */
-int shmq_width(struct shmqueue *q)
+int shmq_width(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
 		return q->width;
@@ -195,16 +250,16 @@ int shmq_width(struct shmqueue *q)
 /**
  * check whether queue is full
  */
-bool shmq_isfull(struct shmqueue *q)
+bool shmq_isfull(const struct shmqueue *q)
 {
-	return (shmq_check_memory(q) && (q->rear + 1) % q->size == q->front);
+	return (shmq_check_memory(q) && q->front != -1 && (q->rear + 1) % q->size == q->front);
 }
 
 /**
  * check whether queue is empty
  * FIXME: condition is not enough
  */
-bool shmq_isempty(struct shmqueue *q)
+bool shmq_isempty(const struct shmqueue *q)
 {
 	return shmq_check_memory(q) && (q->front == -1);
 }
@@ -212,7 +267,7 @@ bool shmq_isempty(struct shmqueue *q)
 /**
  * caculate data memory
  */
-int shmq_data_memory(struct shmqueue *q)
+int shmq_data_total_memory(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
 		return shmq_size(q) * shmq_width(q);
@@ -243,9 +298,9 @@ void *shmq_dequeue(struct shmqueue *q)
 /**
  * enqueue to queue
  */
-int shmq_enqueue(struct shmqueue *q, void *data)
+int shmq_enqueue(struct shmqueue *q, const void *data)
 {
-	if (shmq_check_memory(q)) {
+	if (!shmq_check_memory(q)) {
 		return -1;
 	}
 
@@ -257,40 +312,109 @@ int shmq_enqueue(struct shmqueue *q, void *data)
 
 	q->rear = (q->rear + 1) % q->size;
 	memcpy(q->data+(q->rear * q->width), data, q->width);
+	return q->rear;
 }
 
-/**
- * get error message
- */
-char *shmq_strerror()
+int shmq_enqueue_unique(struct shmqueue *q,
+			const void *data,
+			int (*compar)(const void *, const void *, size_t n))
 {
-	switch (shmq_errnum) {
-	case SHMQ_ERR_OPEN:
-		return "shm_open failed";
-
-	case SHMQ_ERR_TRUNC:
-		return "ftruncate failed";
-
-	case SHMQ_ERR_MMAP:
-		return "mmap failed";
-
-	case SHMQ_ERR_MEM_CHECK_FAIL:
-		return "shmq_check_memory failed";
-
-	default:
-		return "success";
+	if (!shmq_check_memory(q)) {
+		return -1;
 	}
+
+	if (shmq_has_data(q, data, compar)) {
+		return q->rear;
+	}
+
+	return shmq_enqueue(q, data);
 }
 
 /**
  * get data at specified index
  */
-void *shmq_data_at(const struct shmqueue *q, int idx)
+void *shmq_data_at(const struct shmqueue *q, const int idx)
 {
-	if (shmq_check_memory(q) || q->front == -1) {
+	if (shmq_check_memory(q) == false || q->front == -1) {
 		return NULL;
 	}
 
 	return q->data + idx*(q->width);
+}
+
+bool shmq_has_data(const struct shmqueue *q,
+		   const void *data,
+		   int (*compar)(const void *, const void *, size_t n))
+{
+	if (!shmq_check_memory(q) || shmq_isempty(q)) {
+		return false;
+	}
+
+	int i = q->rear;
+	if (compar(shmq_data_at(q, i), data, q->width) == 0) {
+		shmq_errnum = SHMQ_ERR_DATA_DUP;
+		return true;
+	}
+
+	for (i = q->front; i != q->rear; i = (i + 1) % q->size) {
+		if (compar(shmq_data_at(q, i), data, q->width) == 0) {
+			shmq_errnum = SHMQ_ERR_DATA_DUP;
+			return true;
+		}
+	}
+
+	return false;
+}
+
+/**
+ * get error message
+ */
+const char *shmq_strerror()
+{
+	static char errmsg[256] = {0};
+	switch (shmq_errnum) {
+	case SHMQ_ERR_OPEN:
+		snprintf(errmsg,
+			 sizeof(errmsg),
+			 "%s: %s",
+			 "shm_open failed",
+			 strerror(errno));
+		break;
+
+	case SHMQ_ERR_TRUNC:
+		snprintf(errmsg,
+			 sizeof(errmsg),
+			 "%s: %s",
+			 "ftruncate failed",
+			 strerror(errno));
+		break;
+
+	case SHMQ_ERR_MMAP:
+		snprintf(errmsg,
+			 sizeof(errmsg),
+			 "%s: %s",
+			 "mmap failed",
+			 strerror(errno));
+		break;
+
+	case SHMQ_ERR_MEM_CHECK_FAIL:
+		snprintf(errmsg,
+			 sizeof(errmsg),
+			 "%s: %s",
+			 "shmq_check_memory failed",
+			 strerror(errno));
+		break;
+
+	case SHMQ_ERR_DATA_DUP:
+		snprintf(
+		    errmsg, sizeof(errmsg), "shmqueue has the same data\n");
+		break;
+
+	default:
+		snprintf(errmsg, sizeof(errmsg), "%s", "success");
+		break;
+	}
+
+	return errmsg;
 }
 ```
