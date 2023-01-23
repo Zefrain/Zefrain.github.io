@@ -64,6 +64,7 @@ const char *shmq_strerror();
 #define SHMQ_ERR_MMAP		-3
 #define SHMQ_ERR_MEM_CHECK_FAIL -4
 #define SHMQ_ERR_DATA_DUP	-5
+#define SHMQ_ERR_INDEX_OUTRANGE -6
 
 #ifndef NAME_MAX
 #define NAME_MAX 255
@@ -79,10 +80,8 @@ struct shmqueue {
 
 __thread int shmq_errnum;
 
-/**
- * init queue struct settings
- */
-static int __shmq_set_settings(struct shmqueue *q,const int size, const int width)
+static int
+__shmq_set_settings(struct shmqueue *q, const int size, const int width)
 {
 	if (!q) {
 		return -1;
@@ -99,27 +98,39 @@ static bool __shmq_mmap_check(const void *ptr)
 	return ptr && ptr != MAP_FAILED;
 }
 
-/**
- * check whether queue memory is valid
- */
+static bool __shmq_index_check(const struct shmqueue *q)
+{
+	bool ok = false;
+
+	if (!shmq_check_memory(q)) {
+		return false;
+	}
+
+	ok = (q->front >= -1 && q->front < q->size) &&
+	     (q->rear >= -1 && q->rear < q->size);
+
+	if (!ok) {
+		shmq_errnum = SHMQ_ERR_INDEX_OUTRANGE;
+	}
+
+	return ok;
+}
+
 bool shmq_check_memory(const struct shmqueue *q)
 {
 	bool ok = __shmq_mmap_check(q) && __shmq_mmap_check(q->data);
-	if (ok == false) {
+	if (!ok) {
 		shmq_errnum = SHMQ_ERR_MEM_CHECK_FAIL;
 	}
 
 	return ok;
 }
 
-/**
- * free queue memory
- */
 void shmq_free_memory(struct shmqueue **q)
 {
 	if (__shmq_mmap_check(*q)) {
 		if (__shmq_mmap_check((*q)->data)) {
-			munmap((*q)->data, (*q)->size * (*q)->width);
+			munmap((*q)->data, ((*q)->size+1) * (*q)->width);
 			(*q)->data = NULL;
 		}
 		munmap(*q, sizeof(**q));
@@ -127,9 +138,6 @@ void shmq_free_memory(struct shmqueue **q)
 	}
 }
 
-/**
- * apply memory for queue
- */
 struct shmqueue *
 shmq_get_memory(const char *filename, const int size, const int width)
 {
@@ -164,8 +172,12 @@ shmq_get_memory(const char *filename, const int size, const int width)
 		goto null_return;
 	}
 
-	q = mmap(
-	    NULL, sizeof(*q), PROT_READ | PROT_WRITE, MAP_SHARED, shmid1, 0);
+	q = mmap(NULL,
+		 sizeof(*q),
+		 PROT_READ | PROT_WRITE,
+		 MAP_SHARED | MAP_FILE,
+		 shmid1,
+		 0);
 	if (!q) {
 		shmq_errnum = SHMQ_ERR_MMAP;
 		goto null_return;
@@ -181,14 +193,18 @@ shmq_get_memory(const char *filename, const int size, const int width)
 		goto null_return;
 	}
 
-	ret = ftruncate(shmid2, size * width);
+	ret = ftruncate(shmid2, (size+1) * width);
 	if (ret == -1) {
 		shmq_errnum = SHMQ_ERR_TRUNC;
 		goto null_return;
 	}
 
-	q->data = mmap(
-	    NULL, size * width, PROT_READ | PROT_WRITE, MAP_SHARED, shmid2, 0);
+	q->data = mmap(NULL,
+		       (size + 1) * width,
+		       PROT_READ | PROT_WRITE,
+		       MAP_SHARED | MAP_FILE,
+		       shmid2,
+		       0);
 	if (!q) {
 		shmq_errnum = SHMQ_ERR_MMAP;
 		goto null_return;
@@ -203,9 +219,6 @@ null_return:
 	return NULL;
 }
 
-/**
- * return elements number
- */
 int shmq_size(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
@@ -214,9 +227,6 @@ int shmq_size(const struct shmqueue *q)
 	return -1;
 }
 
-/**
- * return front pointer
- */
 int shmq_front(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
@@ -225,9 +235,6 @@ int shmq_front(const struct shmqueue *q)
 	return -1;
 }
 
-/**
- * return rear pointer
- */
 int shmq_rear(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
@@ -236,9 +243,6 @@ int shmq_rear(const struct shmqueue *q)
 	return -1;
 }
 
-/**
- * return each element size
- */
 int shmq_width(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
@@ -247,26 +251,16 @@ int shmq_width(const struct shmqueue *q)
 	return -1;
 }
 
-/**
- * check whether queue is full
- */
 bool shmq_isfull(const struct shmqueue *q)
 {
 	return (shmq_check_memory(q) && q->front != -1 && (q->rear + 1) % q->size == q->front);
 }
 
-/**
- * check whether queue is empty
- * FIXME: condition is not enough
- */
 bool shmq_isempty(const struct shmqueue *q)
 {
 	return shmq_check_memory(q) && (q->front == -1);
 }
 
-/**
- * caculate data memory
- */
 int shmq_data_total_memory(const struct shmqueue *q)
 {
 	if (shmq_check_memory(q)) {
@@ -275,34 +269,39 @@ int shmq_data_total_memory(const struct shmqueue *q)
 	return -1;
 }
 
-/**
- * dequeue from queue
- */
 void *shmq_dequeue(struct shmqueue *q)
 {
 	void *ptr = NULL;
+
 	if (shmq_check_memory(q) && q->front != -1) {
+		mlock(q, sizeof(*q));
+		mlock(q->data, (q->size + 1) * q->width);
+
 		ptr = q->data + (q->front * q->width);
 
 		if (q->front == q->rear) {
 			q->front = q->rear = -1;
-		}  else {
+		} else {
 			q->front = (q->front + 1) % q->size;
 		}
+
+		munlock(q, sizeof(*q));
+		munlock(q->data, (q->size + 1) * q->width);
+
 		return ptr;
 	}
 
 	return NULL;
 }
 
-/**
- * enqueue to queue
- */
 int shmq_enqueue(struct shmqueue *q, const void *data)
 {
 	if (!shmq_check_memory(q)) {
 		return -1;
 	}
+
+	mlock(q, sizeof(*q));
+	mlock(q->data, (q->size + 1) * q->width);
 
 	if (shmq_isfull(q)) {
 		shmq_dequeue(q);
@@ -311,7 +310,17 @@ int shmq_enqueue(struct shmqueue *q, const void *data)
 	}
 
 	q->rear = (q->rear + 1) % q->size;
-	memcpy(q->data+(q->rear * q->width), data, q->width);
+
+	if (!__shmq_index_check(q)) {
+		return -1;
+	}
+
+	memcpy((char*)q->data + (q->rear * q->width), data, q->width);
+	msync(q->data, (q->size + 1) * q->width, MS_SYNC);
+
+	munlock(q->data, (q->size + 1) * q->width);
+	munlock(q, sizeof(*q));
+
 	return q->rear;
 }
 
@@ -324,51 +333,53 @@ int shmq_enqueue_unique(struct shmqueue *q,
 	}
 
 	if (shmq_has_data(q, data, compar)) {
-		return q->rear;
+		shmq_errnum = SHMQ_ERR_DATA_DUP;
+		return -1;
 	}
 
 	return shmq_enqueue(q, data);
 }
 
-/**
- * get data at specified index
- */
 void *shmq_data_at(const struct shmqueue *q, const int idx)
 {
 	if (shmq_check_memory(q) == false || q->front == -1) {
 		return NULL;
 	}
 
-	return q->data + idx*(q->width);
+	return (char *)q->data + idx * (q->width);
 }
 
 bool shmq_has_data(const struct shmqueue *q,
-		   const void *data,
+		   const void	      *data,
 		   int (*compar)(const void *, const void *, size_t n))
 {
+	bool ok;
 	if (!shmq_check_memory(q) || shmq_isempty(q)) {
 		return false;
 	}
 
+	mlock(q->data, (q->size + 1) * q->width);
+	mlock(q, sizeof(*q));
+
 	int i = q->rear;
-	if (compar(shmq_data_at(q, i), data, q->width) == 0) {
-		shmq_errnum = SHMQ_ERR_DATA_DUP;
-		return true;
+	if ((ok = (compar(shmq_data_at(q, i), data, q->width) == 0))) {
+		goto finish;
 	}
 
 	for (i = q->front; i != q->rear; i = (i + 1) % q->size) {
-		if (compar(shmq_data_at(q, i), data, q->width) == 0) {
-			shmq_errnum = SHMQ_ERR_DATA_DUP;
-			return true;
+		if ((ok = (compar(shmq_data_at(q, i), data, q->width) == 0))) {
+			goto finish;
 		}
 	}
 
-	return false;
+finish:
+
+	munlock(q->data, (q->size + 1) * q->width);
+	munlock(q, sizeof(*q));
+
+	return ok;
 }
 
-/**
- * get error message
- */
 const char *shmq_strerror()
 {
 	static char errmsg[256] = {0};
@@ -408,6 +419,11 @@ const char *shmq_strerror()
 	case SHMQ_ERR_DATA_DUP:
 		snprintf(
 		    errmsg, sizeof(errmsg), "shmqueue has the same data\n");
+		break;
+
+	case SHMQ_ERR_INDEX_OUTRANGE:
+		snprintf(
+		    errmsg, sizeof(errmsg), "check shmqueue index failed\n");
 		break;
 
 	default:
