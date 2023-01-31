@@ -125,7 +125,7 @@
           <rect x="-35.5" y="714.5" width="100" height="25" fill="#e6e6e6"/>
           <rect x="-35.5" y="714.5" width="100" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           <text transform="translate(-30.5 717.776)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="20.536" y="15">0 0 0 1</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="13.864" y="15">0 0 0 0 1</tspan>
           </text>
         </g>
         <g id="Graphic_24">
