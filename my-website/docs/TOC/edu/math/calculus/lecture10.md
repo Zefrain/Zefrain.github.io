@@ -1,2 +1,0 @@
-# Limits and Continuous Funcitons #
-
