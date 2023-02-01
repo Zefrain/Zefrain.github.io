@@ -1,3 +1,17 @@
 # Dependencies
 /my-website/node_modules
 /node_modules
+
+
+# make generated
+*.o
+*~
+core
+.depend
+.*.cmd
+*.ko
+*.mod.c
+.tmp_versions
+*.mod
+*.order
+*.symvers
