@@ -43,7 +43,7 @@ tags: [openldap, sync]
 
 ## Solutions
 
-uncomment `overlay syncprov` on master 
+uncomment `overlay syncprov` on **master** 
 
 ```conf
 #开启同步
