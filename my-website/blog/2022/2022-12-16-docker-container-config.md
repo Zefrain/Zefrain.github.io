@@ -21,6 +21,10 @@ $ cd /var/lib/docker/container/$containerID/
 $ vim config.v2.json
 
 # modify MountPoints
+
+$ vim hsotconfig.json
+
+# modify Binds
 ```
 
 3. start docker
