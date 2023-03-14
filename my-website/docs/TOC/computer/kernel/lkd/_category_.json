@@ -1,7 +1,7 @@
 {
   "label": "Linux 内核设计与实现",
   "position": 2,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index"
   }
