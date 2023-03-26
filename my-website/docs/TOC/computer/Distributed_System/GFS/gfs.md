@@ -4,7 +4,7 @@
 
 ### 2.3 Architecture
 
-### ![image-20230313223721219](./ch02.assets/image-20230313223721219.png)
+![image-20230313223721219](./ch02.assets/image-20230313223721219.png)
 
 ###  2.6 Metadata
 
@@ -69,8 +69,6 @@ the file is deleted is just renamed to a hidden name that includes the deletion 
 the master maintains a *chunk version number* to distinguish between up-to-date and stale replicas.
 
 The master removes stale replicas in its regular garbage collection.
-
-
 
 ## 5. FAULT TOLERANCE AND DIAGNOSIS
 
