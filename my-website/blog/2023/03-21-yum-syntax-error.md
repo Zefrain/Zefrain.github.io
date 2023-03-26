@@ -1,5 +1,5 @@
 ---
-title: yum error with "SyntaxError: invalid syntax"
+title: "yum error with SyntaxError: invalid syntax"
 tags: [yum, python3]
 ---
 
