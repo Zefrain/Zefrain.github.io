@@ -4,15 +4,18 @@
 
 ### 2.3 Architecture
 
-![image-20230313223721219](./ch02.assets/image-20230313223721219.png)
+![image-20230313223721219](./gfs.assets/image-20230313223721219.png)
 
 ###  2.6 Metadata
 
 - the file and chunk namespaces
-- the mapping from files to chunks 
-- the locations of each chunk's replicas# 3. SYSTEM INTERACTIONS
 
-![image-20230313224446860](./ch03.assets/image-20230313224446860.png)
+- the mapping from files to chunks 
+
+- the locations of each chunk's replicas
+
+
+![image-20230313224446860](./gfs.assets/image-20230313224446860.png)
 
 ## 3. SYSTEM INTERACTIONS
 
@@ -88,3 +91,12 @@ Its operation log and checkpoints are replicated on multiple machines.
 
 ### 5.2 Data Integrity
 
+can recover from corruption using other chunk replicas, but impractical to detect corruption by comparing replicas across chunkservers. do not guarantee identical replicas.
+
+before a write overwrites an existing range of the chunk, must read and verify the first and last blocks of the range being overwritten.
+
+chunkservers can scan and verify the contents of inactive chunks during idle periods.
+
+### 5.3 Diagnostic Tools
+
+The RPC logs include the exact requests and responses sent on the wire, except for the file data being read or written.
