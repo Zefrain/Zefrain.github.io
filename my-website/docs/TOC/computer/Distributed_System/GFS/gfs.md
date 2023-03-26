@@ -34,7 +34,7 @@ GFS appends it to the file at least once atomically (i.e., as one continuous seq
 
 The snapshot operation makes a copy of a file or a directory tree almost instantaneously, while minimizing any interruptions of ongoing mutations.
 
-# 4. MASTER OPERATION
+## 4. MASTER OPERATION
 
 ### 4.1 Namespace Management and Locking
 
