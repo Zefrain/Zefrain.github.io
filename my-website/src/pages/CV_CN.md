@@ -1,4 +1,4 @@
-# 周尚/[Zhoushang(DOING)](/CV_EN)
+# 周尚/[Zefrain(DOING)](/CV_EN)
 
 | 姓名   | 周尚                        |
 |:-------|:----------------------------|
@@ -9,7 +9,7 @@
 
 ## 基本信息
 
-* 7 年 Linux C 研发经验
+* 8 年 Linux C 研发经验
 * 熟练掌握Linux环境下的开发及调试 (socket, IPC, I/O, signals, threads, e.g.)
 * 熟悉TCP/IP 协议, 熟练使用抓包工具进行数据包分析
 * 熟练使用gdb, addr2line, objdump 等工具结合反汇编进行分析
