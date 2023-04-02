@@ -26,7 +26,7 @@ BambooCloud Technology Co., Ltd. is a company primarily provides IAM (Identity a
 
 ### [AnweiTech](http://www.anweitech.com) (2020.09 - 2021.07)
 
-Beijing Anwei Techonology Co., Ltd. is a focused on cyber security, and the my major work was responsed for the video transmission by GB28181 and GB35114 protocol on both Linux PC and embeded platform. During this time, I also have finished a stream filter based on Netfilter frame, which was a simple linux kernel module, which makes me in linux kernel.
+Beijing Anwei Techonology Co., Ltd. is a company focused on cyber security, and the my major work was responsed for the video transmission by GB28181 and GB35114 protocol on both Linux PC and embeded platform. During this time, I also have finished a stream filter based on Netfilter frame, which was a simple linux kernel module, and makes me interested in linux kernel.
 
 ### Xingdata (2017.04 - 2019.12)
 
