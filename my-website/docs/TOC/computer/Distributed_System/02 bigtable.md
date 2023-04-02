@@ -4,7 +4,7 @@
 
 A Bigtable is spare, distributed, persistent multiple-dimentional sorted map. (like `DNS` structure)
 
-![](./ch02.assets/image-20230318215854882.png)
+![](./bigtable.assets/image-20230318215854882.png)
 
 - **Rows**
 
@@ -96,7 +96,7 @@ Big table cluster stores a number of tables consists a set of tablets contains a
 
 ### 5.1 Tablet Location
 
-![image-20230319232818057](./ch05.assets/image-20230319232818057.png)
+![image-20230319232818057](./bigtable.assets/image-20230319232818057.png)
 
  
 
@@ -119,7 +119,7 @@ The client library caches tablet locations. recursively moves up the tablet loca
 
 ### 5.3 Tablet Serving
 
-![image-20230323222340563](./ch05.assets/image-20230323222340563.png)
+![image-20230323222340563](./bigtable.assets/image-20230323222340563.png)
 
 ### 5.4 Compactions
 
