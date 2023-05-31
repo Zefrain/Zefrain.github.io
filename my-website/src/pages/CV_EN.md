@@ -2,9 +2,8 @@
 
 | cn       | Zhoushang                   |
 |----------|-----------------------------|
-| mobile   | 18511283747                 |
 | email    | whiothes81@gmail.com        |
-| wechat   | 18511283747                 |
+| wechat   | whiothes                 |
 | HomePage | https://zefrain.github.io/ |
 
 
