@@ -19,7 +19,7 @@
 
 按熟练度从高到低: 
 
-* 语言: C, Shell, Python,lua, lisp, asm (多用作反汇编后debug),  C++
+* 语言: C, Go, Shell, Python,lua, lisp, asm (多用作反汇编后debug),  C++
 * 工具链: gcc, gdb, valgrind, readelf, objdump, addr2line, Makefile, CMake, wireshark, docker, git 
 * 数据库: MySQL, SQLite, Oracle, Redis, Solid
 

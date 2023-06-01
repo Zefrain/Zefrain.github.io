@@ -11,7 +11,7 @@
 
 - 8 years of software development in the Linux environment
 - Proficient in using linux tool chains （such as gcc,gdb,objdump,tcpdump, git) for developing and debugging, 
-- Competent with asm, python, shell languages.
+- Competent with C, Go, asm, python, shell languages.
 - Proficient in different databases such as MySQL, SQLite, Redis, and so on.
 - English read/write capability
 - Want to gain a deeper understanding of linux kernel and network architecture
