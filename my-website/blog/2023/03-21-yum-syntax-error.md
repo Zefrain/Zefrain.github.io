@@ -19,3 +19,5 @@ yum error message:
 alternatives --install /usr/bin/python python /usr/bin/python2 0
 ```
 
+
+
