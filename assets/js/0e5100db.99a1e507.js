@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7742],{57265:e=>{e.exports=JSON.parse('{"label":"secure boot","permalink":"/blog/tags/secure-boot","allTagsPath":"/blog/tags","count":1}')}}]);

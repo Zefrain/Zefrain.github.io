@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="569 459 616 344" width="616" height="344">
+  <defs/>
+  <g id="Canvas_2" stroke="none" fill-opacity="1" stroke-opacity="1" fill="none" stroke-dasharray="none">
+    <title>fig7.13</title>
+    <rect fill="white" x="569" y="459" width="616" height="344"/>
+    <g id="Canvas_2_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_7">
+        <g id="Graphic_21">
+          <rect x="747.928" y="532" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="532" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 535.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="82.256" y="15">.init</tspan>
+          </text>
+        </g>
+        <g id="Graphic_20">
+          <rect x="747.928" y="507" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="507" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 510.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="16.016" y="15">Segment header table</tspan>
+          </text>
+        </g>
+        <g id="Graphic_19">
+          <rect x="747.928" y="757" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="757" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 760.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="21.064" y="15">Section header table</tspan>
+          </text>
+        </g>
+        <g id="Graphic_18">
+          <rect x="747.928" y="732" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="732" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 735.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="72.032" y="15">.strtab</tspan>
+          </text>
+        </g>
+        <g id="Graphic_17">
+          <rect x="747.928" y="707" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="707" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 710.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="80.48" y="15">.line</tspan>
+          </text>
+        </g>
+        <g id="Graphic_16">
+          <rect x="747.928" y="682" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="682" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 685.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="69.952" y="15">.debug</tspan>
+          </text>
+        </g>
+        <g id="Graphic_14">
+          <rect x="747.928" y="607" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="607" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 610.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="76.92" y="15">.data</tspan>
+          </text>
+        </g>
+        <g id="Graphic_13">
+          <rect x="747.928" y="582" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="582" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 585.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="69.808" y="15">.rodata</tspan>
+          </text>
+        </g>
+        <g id="Graphic_12">
+          <rect x="747.928" y="557" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="557" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 560.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="79.296" y="15">.text</tspan>
+          </text>
+        </g>
+        <g id="Graphic_10">
+          <rect x="747.928" y="657" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="657" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 660.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="66.392" y="15">.symtab</tspan>
+          </text>
+        </g>
+        <g id="Graphic_9">
+          <rect x="747.928" y="632" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="632" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 635.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="80.032" y="15">.bss</tspan>
+          </text>
+        </g>
+        <g id="Graphic_8">
+          <rect x="747.928" y="482" width="200" height="25" fill="white"/>
+          <rect x="747.928" y="482" width="200" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(752.928 485.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.104" y="15">ELF header</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_6">
+        <text transform="translate(957.928 464)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="31974423e-20" y="15">0</tspan>
+        </text>
+      </g>
+      <g id="Line_4">
+        <path d="M 742.928 757 L 739.6572 757 C 736.493 757 733.928 759.565 733.928 762.7292 L 733.928 763.9283 C 733.928 766.5103 731.99285 768.6823 729.428 768.9792 L 729.428 768.9792 C 729.14035 769.0125 728.93416 769.2726 728.96745 769.5603 C 728.9954 769.8021 729.1862 769.9928 729.428 770.0208 L 729.428 770.0208 C 731.99285 770.3177 733.928 772.4897 733.928 775.0717 L 733.928 776.2708 C 733.928 779.435 736.493 782 739.6572 782 L 742.928 782" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(574.576 493.828)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="1.992" y="15">Maps contiguous file</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="19895197e-20" y="33.448">sections to run-=time</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.976" y="51.895996">memory segments</tspan>
+        </text>
+      </g>
+      <g id="Graphic_2">
+        <text transform="translate(658 741.828)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Describe</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6679102e-19" y="33.448">object file</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="4.736" y="51.895996">sections</tspan>
+        </text>
+      </g>
+      <g id="Line_22">
+        <path d="M 947.928 482 L 947.928 482 C 952.8986 482 956.928 486.02944 956.928 491 L 956.928 534.09247 C 956.928 537.31025 958.643 540.2841 961.428 541.89583 L 961.428 541.89583 C 962.8662 542.72815 963.3574 544.5688 962.5251 546.00704 C 962.2616 546.4624 961.8833 546.84066 961.428 547.10417 L 961.428 547.10417 C 958.643 548.7159 956.928 551.68975 956.928 554.90753 L 956.928 598 C 956.928 602.97056 952.8986 607 947.928 607 L 947.928 607" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_23">
+        <path d="M 742.928 509 L 739.6572 509 C 736.493 509 733.928 511.56504 733.928 514.72917 L 733.928 515.9283 C 733.928 518.51027 731.99285 520.6823 729.428 520.97917 L 729.428 520.97917 C 729.14035 521.01246 728.93416 521.27263 728.96745 521.5603 C 728.9954 521.8021 729.1862 521.99285 729.428 522.02083 L 729.428 522.02083 C 731.99285 522.3177 733.928 524.48973 733.928 527.0717 L 733.928 528.27083 C 733.928 531.43496 736.493 534 739.6572 534 L 742.928 534" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_24">
+        <path d="M 952.928 607 L 952.928 607 C 957.8986 607 961.928 611.02944 961.928 616 L 961.928 625.2977 C 961.928 628.0018 963.7935 630.3485 966.428 630.9583 L 966.428 630.9583 C 967.0033 631.0915 967.3617 631.6658 967.2285 632.2411 C 967.1365 632.63895 966.8258 632.9496 966.428 633.0417 L 966.428 633.0417 C 963.7935 633.6515 961.928 635.9982 961.928 638.7023 L 961.928 648 C 961.928 652.9706 957.8986 657 952.928 657 L 952.928 657" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_25">
+        <path d="M 952.928 657 L 952.928 657 C 957.8986 657 961.928 661.0294 961.928 666 L 961.928 709.0925 C 961.928 712.31025 963.643 715.2841 966.428 716.8958 L 966.428 716.8958 C 967.8662 717.72815 968.3574 719.5688 967.5251 721.007 C 967.2616 721.4624 966.8833 721.8407 966.428 722.1042 L 966.428 722.1042 C 963.643 723.7159 961.928 726.68975 961.928 729.9075 L 961.928 773 C 961.928 777.9706 957.8986 782 952.928 782 L 952.928 782" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(975 526.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="39790393e-20" y="15">Read-only memory segment</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">(code segment)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <text transform="translate(972.2563 612)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="8952838e-19" y="15">Read/write memory segment</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">(data segment)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(972.2563 691.828)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Symbol table and </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="33.448">debugging info are not</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="51.895996">loaded into memory</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3921],{49835:e=>{e.exports=JSON.parse('{"label":"vim","permalink":"/blog/tags/vim","allTagsPath":"/blog/tags","count":2}')}}]);

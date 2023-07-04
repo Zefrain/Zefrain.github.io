@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7092],{16435:s=>{s.exports=JSON.parse('{"label":"insmod","permalink":"/blog/tags/insmod","allTagsPath":"/blog/tags","count":1}')}}]);

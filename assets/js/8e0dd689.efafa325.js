@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7056],{73688:e=>{e.exports=JSON.parse('{"label":"apt","permalink":"/blog/tags/apt","allTagsPath":"/blog/tags","count":1}')}}]);

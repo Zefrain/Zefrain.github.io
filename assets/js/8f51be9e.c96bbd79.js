@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8525],{5480:e=>{e.exports=JSON.parse('{"label":"modprobe","permalink":"/blog/tags/modprobe","allTagsPath":"/blog/tags","count":1}')}}]);

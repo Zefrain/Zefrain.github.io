@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7328],{98012:e=>{e.exports=JSON.parse('{"label":"iptables","permalink":"/blog/tags/iptables","allTagsPath":"/blog/tags","count":1}')}}]);

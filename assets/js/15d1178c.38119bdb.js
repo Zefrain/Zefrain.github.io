@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7225],{35617:e=>{e.exports=JSON.parse('{"label":"port map","permalink":"/blog/tags/port-map","allTagsPath":"/blog/tags","count":1}')}}]);

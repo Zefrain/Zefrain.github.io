@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="309 511 381 496" width="381" height="496">
+  <defs/>
+  <g id="fig6_32" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none">
+    <title>fig6.32</title>
+    <rect fill="white" x="309" y="511" width="381" height="496"/>
+    <g id="fig6_32_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_23">
+        <text transform="translate(539.5 812.41)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15987212e-20" y="15">.</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15987212e-20" y="33.448">.</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="15987212e-20" y="51.895996">.</tspan>
+        </text>
+      </g>
+      <g id="Group_45">
+        <g id="Group_24">
+          <g id="Graphic_29">
+            <rect x="389" y="511.5" width="300" height="100" fill="#c0ffff"/>
+            <rect x="389" y="511.5" width="300" height="100" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_28">
+            <rect x="396.5" y="524" width="50" height="25" fill="white"/>
+            <rect x="396.5" y="524" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(401.5 527.276)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Valid</tspan>
+            </text>
+          </g>
+          <g id="Graphic_27">
+            <rect x="479.5" y="524.75" width="50" height="25" fill="white"/>
+            <rect x="479.5" y="524.75" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(484.5 528.026)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.408" y="15">Tag</tspan>
+            </text>
+          </g>
+          <g id="Graphic_26">
+            <rect x="562.5" y="524" width="120" height="25" fill="white"/>
+            <rect x="562.5" y="524" width="120" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(567.5 527.276)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.368" y="15">Cache Block</tspan>
+            </text>
+          </g>
+          <g id="Graphic_25">
+            <text transform="translate(323 552.276)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6394885e-19" y="15">Set 0:</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_37">
+          <rect x="396.224" y="570" width="50" height="25" fill="white"/>
+          <rect x="396.224" y="570" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(401.224 573.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Valid</tspan>
+          </text>
+        </g>
+        <g id="Graphic_36">
+          <rect x="479.224" y="570.75" width="50" height="25" fill="white"/>
+          <rect x="479.224" y="570.75" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(484.224 574.026)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.408" y="15">Tag</tspan>
+          </text>
+        </g>
+        <g id="Graphic_35">
+          <rect x="562.224" y="570" width="120" height="25" fill="white"/>
+          <rect x="562.224" y="570" width="120" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(567.224 573.276)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.368" y="15">Cache Block</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_46">
+        <g id="Group_50">
+          <g id="Graphic_55">
+            <rect x="389" y="674.164" width="300" height="100" fill="#c0ffff"/>
+            <rect x="389" y="674.164" width="300" height="100" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_54">
+            <rect x="396.5" y="686.664" width="50" height="25" fill="white"/>
+            <rect x="396.5" y="686.664" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(401.5 689.94)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Valid</tspan>
+            </text>
+          </g>
+          <g id="Graphic_53">
+            <rect x="479.5" y="687.414" width="50" height="25" fill="white"/>
+            <rect x="479.5" y="687.414" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(484.5 690.69)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.408" y="15">Tag</tspan>
+            </text>
+          </g>
+          <g id="Graphic_52">
+            <rect x="562.5" y="686.664" width="120" height="25" fill="white"/>
+            <rect x="562.5" y="686.664" width="120" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(567.5 689.94)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.368" y="15">Cache Block</tspan>
+            </text>
+          </g>
+          <g id="Graphic_51">
+            <text transform="translate(323 714.94)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="6394885e-19" y="15">Set 1:</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_49">
+          <rect x="396.224" y="732.664" width="50" height="25" fill="white"/>
+          <rect x="396.224" y="732.664" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(401.224 735.94)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Valid</tspan>
+          </text>
+        </g>
+        <g id="Graphic_48">
+          <rect x="479.224" y="733.414" width="50" height="25" fill="white"/>
+          <rect x="479.224" y="733.414" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(484.224 736.69)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.408" y="15">Tag</tspan>
+          </text>
+        </g>
+        <g id="Graphic_47">
+          <rect x="562.224" y="732.664" width="120" height="25" fill="white"/>
+          <rect x="562.224" y="732.664" width="120" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(567.224 735.94)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.368" y="15">Cache Block</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_56">
+        <g id="Group_60">
+          <g id="Graphic_65">
+            <rect x="389" y="906" width="300" height="100" fill="#c0ffff"/>
+            <rect x="389" y="906" width="300" height="100" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+          <g id="Graphic_64">
+            <rect x="396.5" y="918.5" width="50" height="25" fill="white"/>
+            <rect x="396.5" y="918.5" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(401.5 921.776)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Valid</tspan>
+            </text>
+          </g>
+          <g id="Graphic_63">
+            <rect x="479.5" y="919.25" width="50" height="25" fill="white"/>
+            <rect x="479.5" y="919.25" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(484.5 922.526)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.408" y="15">Tag</tspan>
+            </text>
+          </g>
+          <g id="Graphic_62">
+            <rect x="562.5" y="918.5" width="120" height="25" fill="white"/>
+            <rect x="562.5" y="918.5" width="120" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <text transform="translate(567.5 921.776)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.368" y="15">Cache Block</tspan>
+            </text>
+          </g>
+          <g id="Graphic_61">
+            <text transform="translate(314.704 946.776)" fill="black">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Set </tspan>
+              <tspan font-family="Helvetica Neue" font-style="italic" font-size="16" fill="black" y="15">S</tspan>
+              <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="15">-1:</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_59">
+          <rect x="396.224" y="964.5" width="50" height="25" fill="white"/>
+          <rect x="396.224" y="964.5" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(401.224 967.776)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="2.96" y="15">Valid</tspan>
+          </text>
+        </g>
+        <g id="Graphic_58">
+          <rect x="479.224" y="965.25" width="50" height="25" fill="white"/>
+          <rect x="479.224" y="965.25" width="50" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(484.224 968.526)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.408" y="15">Tag</tspan>
+          </text>
+        </g>
+        <g id="Graphic_57">
+          <rect x="562.224" y="964.5" width="120" height="25" fill="white"/>
+          <rect x="562.224" y="964.5" width="120" height="25" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(567.224 967.776)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="9.368" y="15">Cache Block</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
