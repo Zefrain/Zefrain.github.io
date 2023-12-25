@@ -1,148 +1,39 @@
-# Zhoushang (DOING)/[周尚](/CV_CN)
+# Zefrain(DOING)/[周尚](/CV_CN)
 
 | cn       | Zhoushang                   |
 |----------|-----------------------------|
-| mobile   | 18511283747                 |
 | email    | whiothes81@gmail.com        |
-| wechat   | 18511283747                 |
+| wechat   | whiothes                 |
 | HomePage | https://zefrain.github.io/ |
 
 
 ## Profile
 
-- 7+ years of software development in the Linux environment
-- be proficient in dealing with application protocols
-- want to gain a deeper understanding of linux kernel and network architecture
+- 8 years of software development in the Linux environment
+- Proficient in using linux tool chains （such as gcc,gdb,objdump,tcpdump, git) for developing and debugging, 
+- Competent with C, Go, asm, python, shell languages.
+- Proficient in different databases such as MySQL, SQLite, Redis, and so on.
+- English read/write capability
+- Want to gain a deeper understanding of linux kernel and network architecture
 - self-driven learning altitude 
-
-
-## Skills
-
-- Proficient: C and tool chains such as gcc, gdb, objdump, tcpdump, git, docker etc.
-- Competent: asm, Python, shell 
-- Developing Proficiency: lua, lisp, SQL Database.
 
 ## Work Experience
 
-### [BambooCloud.com](https://www.bamboocloud.com/)(2021.08 - NOW)
+### [BambooCloud](https://www.bamboocloud.com/) (2021.08 - NOW)
 
-#### BambooCloud Directory
+BambooCloud Technology Co., Ltd. is a company primarily provides IAM (Identity and Access Management) solutions for enterprise users, and has partnered with leading companies such as Sinopec and China Merchants Bank. During my job period, I worked as a Linux programmer and be the core developer in pushing for the launch of the Sinopec identity authentication system, which has 2 million users. Also, I provided support to colleagues in network protocol packet analysis and helped the project avoid a rollback risk. My work achievements were recognized by my leaders, and then I received an A in annualy performance evaluation.
 
-- Brief: like AD but cross-platform
-- Platform: Linux/Windows
+### [AnweiTech](http://www.anweitech.com) (2020.09 - 2021.07)
 
-My major work is based on ldap protocol, the followings are the mainly work I have done.
-- gramma support for ';binary'. 
+Beijing Anwei Techonology Co., Ltd. is a company focused on cyber security, and the my major work was responsed for the video transmission by GB28181 and GB35114 protocol on both Linux PC and embeded platform. During this time, I also have finished a stream filter based on Netfilter frame, which was a simple linux kernel module, and makes me interested in linux kernel.
 
-Out project is based on the lastest rfc so that we do not have a support for ";binary", 
-which defined in rfc 2252, but our client needs it for data compatibility, 
-I have to support it again.
-
-the Binary Attribute defined in rfc 2252,
-
-        All servers MUST implement this form for both generating attribute
-      values in search responses, and parsing attribute values in add,
-      compare and modify requests, if the attribute type is recognized and
-      the attribute syntax name is that of Binary.  Clients which request
-      that all attributes be returned from entries MUST be prepared to
-      receive values in binary (e.g. userCertificate;binary), and SHOULD
-      NOT simply display binary or unrecognized values to users.
-
-but in rfc4517, it has been removed,
-
-      12. The Binary syntax has been removed because it was not adequately
-          specified, implementations with different incompatible
-          interpretations exist, and it was confused with the ;binary
-          transfer encoding.
-
-      13. All discussion of transfer options, including the ";binary"
-          option, has been removed.  All imperatives regarding binary
-          transfer of values have been removed.
-
-- GmSSL suport.
-
-Because of domestic securitary policy, we need encryption algorithms that are different from the internaltional suits(OpenSSL, GnuTLS). So we choose GmSSL project maintained by Zhi Guan.
-
-- custom settings 
-
-Additional preferences with additional custom features
-
-- password hook
-
-For compatibility , I record the encrypted password into a file when it is changed, so that we can use a tool to read and change again on another DC platform such as AD.
-
-- data migration from OUD
+### Xingdata (2017.04 - 2019.12)
 
 
-### [www.anweitech.com](http://www.anweitech.com) (2020.09 - 2021.07)
 
-#### White list for specified IP,MAC,Port
+### [Capitek](https://aiqicha.baidu.com/detail/compinfo?pid=29213317138127&rq=ef&pd=ee&from=ps) (2015.10 - 2017.02)
 
-- Brief: MAC/IP validation, based on Netfilter
-- Platform：arm-linux-4.9
-- 功能实现: 基于 Netfilter 框架对 INPUT 链进行关键字拦截
-  1. 读取白名单文件
-  2. 劫持LOCAL_IN数据包, 获取接入设备MAC和IP, 本机端口号
-      1. 本机端口号不在列表则放行
-      2. MAC和IP地址全部匹配则放行
-      3. 否则DROP
 
-#### 28181/35114 转换器
-  - Brief：GB28181 协议
-  - Platform：linux/arm-linux
-  - 功能实现:
-    - 基于 GB28181/GB35114 协议, 为支持不同版本协议的设备间(摄像头, 管理Platform, 存储等)通信提供支持
-      - 模块化设计, 模块间基于 tcp 通信
-    - 对外支持基于 sip 协议通信
-
-#### 密码机接口封装
-  - Brief: 为不同的密码卡封装统一接口提供网络服务
-  - Platform: Linux
-  - 角色: 开发/维护
-  - 说明:
-    基于 密码卡/密码机 SDK封装上层通用接口以应对不同厂家需求
-  - 国密硬件密码设备, 已提供SDF_的接口函数
-      - 使用select 模型, 约定Json格式打包数据, 提供TCP服务
-
-#### 数据库接口
-  - Brief: 数据库通用接口封装
-  - Platform: linux
-  - 功能实现: 基于数据库 stmt- 的API封装通用接口, 以应对 MySQL/SQLite/Oscar数据库切换的需求
-
-### 北京浙星信息技术有限公司 (2017.04 - 2019.12)
-
-#### 百富QR65
-  - Brief: 扫码小白盒
-  - Platform: Linux
-  - 角色: 开发
-  - 功能实现: 使用C语言调用驱动层API, 完成登录认证及扫码操作
-
-#### 惠尔丰Z300
-  - Brief: POS应用层开发
-  - Platform: Linux
-  - 角色: 负责收银机的开发工作
-  - 功能实现: 使用C语言调用驱动层API, 实现传统POS功能: 显示, 认证, 交易等
-
-#### 唐库7.0 && 太平洋咖啡
-
-- Brief: 收银机系统的SAAS服务 
-- Platform: Linux 
-- ⻆⾊: 参与需求分析, 数据库设计, 接⼝设计; 负责每⽇数据分析的开发⼯作 
-- ⽬的: 销售信息汇总 
-- 功能实现: 基于Openresty框架, 使用Lua实现业务需求, 以 syslog-ng 实现日志服务器功能, 
-
-### 北京首信信息技术有限公司 (2015.10 - 2017.02)
-
-#### IPTV机顶盒
-  - Brief: 电信机顶盒IP地址分发
-  - Platform: Linux C
-  - Aim: 负责服务器端的IP分发工作
-  - 功能实现: 数据解析, Oracle/solid数据库操作, Mac绑定, 3DES加解密, bash脚本, DHCP协议分配IP
-
-#### 其它
-  - Brief: 日常小工具的开发
-  - Platform: Linux C
-  - Aim: 数据解析, gsoap 项Aim维护等
 
 
 ## Graduated

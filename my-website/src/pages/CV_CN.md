@@ -1,15 +1,14 @@
-# 周尚/[Zhoushang(DOING)](/CV_EN)
+# 周尚/[Zefrain(DOING)](/CV_EN)
 
 | 姓名   | 周尚                        |
 |:-------|:----------------------------|
-| ⼿机   | 18511283747                 |
 | 邮箱   | whiothes81@gmail.com        |
-| 微信   | 18511283747                 |
+| 微信   | whiothes        |
 | 主页 | https://zefrain.github.io/ |
 
 ## 基本信息
 
-* 7 年 Linux C 研发经验
+* 8 年 Linux C 研发经验
 * 熟练掌握Linux环境下的开发及调试 (socket, IPC, I/O, signals, threads, e.g.)
 * 熟悉TCP/IP 协议, 熟练使用抓包工具进行数据包分析
 * 熟练使用gdb, addr2line, objdump 等工具结合反汇编进行分析
@@ -20,7 +19,7 @@
 
 按熟练度从高到低: 
 
-* 语言: C, Shell, Python,lua, lisp, asm (多用作反汇编后debug),  C++
+* 语言: C, Go, Shell, Python,lua, lisp, asm (多用作反汇编后debug),  C++
 * 工具链: gcc, gdb, valgrind, readelf, objdump, addr2line, Makefile, CMake, wireshark, docker, git 
 * 数据库: MySQL, SQLite, Oracle, Redis, Solid
 
@@ -31,14 +30,12 @@
 #### BambooCloud Directory (Active Directory)
 
 - 简述: 类似微软活动目录
-
 - 平台: Linux/Windows
+- 工作内容: 
+  - 协议功能定制开发
+  - 方案可行性研究及落地
+  - 专利文档编写
 
-- 功能实现: 基于于 ldap 协议的开发工作, 包括
-  - binary 语义支持
-  -  GmSSL 支持等功能定制
-  - Schema 从OUD的迁移
-  - 密码钩子(加密), 以支持与AD等其它平台的数据同步
 
 
 ### 北京安为科技有限公司 (2020.09 - 2021.07)
@@ -46,7 +43,7 @@
 #### IP/Mac 白名单
   * 简述: MAC/IP 一致性校验
   * 平台：arm-linux-4.9
-  * 功能实现: 基于 Netfilter 框架对 INPUT 链进行关键字拦截
+  * 功能实现: 基于 Netfilter 框架的module，对 INPUT 链进行关键字拦截
     1. 读取白名单文件
     2. 劫持LOCAL_IN数据包, 获取接入设备MAC和IP, 本机端口号
        1. 本机端口号不在列表则放行
@@ -60,21 +57,6 @@
     * 基于 GB28181/GB35114 协议, 为支持不同版本协议的设备间(摄像头, 管理平台, 存储等)通信提供支持
       * 模块化设计, 模块间基于 tcp 通信
     * 对外支持基于 sip 协议通信
-
-#### 密码机接口封装
-  * 简述: 为不同的密码卡封装统一接口提供网络服务
-  * 平台: Linux
-  * 角色: 开发/维护
-  * 说明:
-    基于 密码卡/密码机 SDK封装上层通用接口以应对不同厂家需求
-  * 国密硬件密码设备, 已提供SDF_的接口函数
-      * 使用select 模型, 约定Json格式打包数据, 提供TCP服务
-
-#### 数据库接口
-
-  * 简述: 数据库通用接口封装
-  * 平台: linux
-  * 功能实现: 基于数据库 stmt* 的API封装通用接口, 以应对 MySQL/SQLite/Oscar数据库切换的需求
 
 ### 北京浙星信息技术有限公司 (2017.04 - 2019.12)
 
