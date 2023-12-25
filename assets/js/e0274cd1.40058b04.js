@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8240],{55436:s=>{s.exports=JSON.parse('{"label":"sysctl","permalink":"/blog/tags/sysctl","allTagsPath":"/blog/tags","count":1}')}}]);
