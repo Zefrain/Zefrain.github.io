@@ -8,47 +8,38 @@
 
 ## 基本信息
 
-* 8 年 Linux C 研发经验
-* 熟练掌握Linux环境下的开发及调试 (socket, IPC, I/O, signals, threads, e.g.)
-* 熟悉TCP/IP 协议, 熟练使用抓包工具进行数据包分析
-* 熟练使用gdb, addr2line, objdump 等工具结合反汇编进行分析
-* Linux Kernel 代码风格
-* 自我驱动能力尚可, 业余自修APUE, CSAPP等多本经典.
+* 8 年 Linux C 研发经验, 对如python/go/lua/shell 等编程语言也有所涉猎
+* 对Linux 应用层开发得心应手:
+  *  熟练掌握Linux环境下的开发及调试 (socket, IPC, I/O, signals, threads, e.g.), 
+  * 熟悉TCP/IP 协议,  并使用工具tcpdump 和wireshark 进行数据包分析
+  * 熟练使用gdb, valgrind, objdump 等工具
+* 对 Linux 内核层开发略知一二
+  * 了解内核数据结构, 文件系统, 进程调度, 内存管理的设计与实现. 
+* 自我驱动能力尚可, 业余自修APUE, CSAPP, 《Linux 内核设计与实现》等多本经典.
 
-## 技能掌握
-
-按熟练度从高到低: 
-
-* 语言: C, Go, Shell, Python,lua, lisp, asm (多用作反汇编后debug),  C++
-* 工具链: gcc, gdb, valgrind, readelf, objdump, addr2line, Makefile, CMake, wireshark, docker, git 
-* 数据库: MySQL, SQLite, Oracle, Redis, Solid
-
-## 项目经验
+## 工作及项目经验
 
 ### 深圳竹云科技有限公司 (2021.08 - NOW)
 
-#### BambooCloud Directory (Active Directory)
-
-- 简述: 类似微软活动目录
 - 平台: Linux/Windows
 - 工作内容: 
   - 协议功能定制开发
   - 方案可行性研究及落地
   - 专利文档编写
-
-
+  - 并推动百万级活跃用户项目上线, 且稳定运行一年多未出现 重大安全事故
 
 ### 北京安为科技有限公司 (2020.09 - 2021.07)
 
 #### IP/Mac 白名单
-  * 简述: MAC/IP 一致性校验
-  * 平台：arm-linux-4.9
-  * 功能实现: 基于 Netfilter 框架的module，对 INPUT 链进行关键字拦截
+* 简述: MAC/IP 一致性校验
+* 平台：arm-linux-4.9
+* 功能实现: 基于 Netfilter 框架的module，对 INPUT 链进行关键字拦截
     1. 读取白名单文件
     2. 劫持LOCAL_IN数据包, 获取接入设备MAC和IP, 本机端口号
        1. 本机端口号不在列表则放行
        2. MAC和IP地址全部匹配则放行
        3. 否则DROP
+* 项目价值: 过滤甲方现场其它客户方的垃圾流量. 保证了视频流传输的稳定性.
 
 #### 28181/35114 转换器
   * 简述：GB28181 协议
@@ -95,7 +86,6 @@
 
 ## 毕业院校
 
-| 学校                 | 学历         | 起始    | 截⽌    |
-| -------------------- | ------------ | ------- | ------- |
-| 安徽新华学院         | ⼤专         | 2010.09 | 2014.06 |
-| 安徽省六安市⾦寨⼀中 | ⾼中（理科） | 2007.09 | 2010.06 |
+| 学校         | 学历 | 起始    | 截⽌    |
+| ------------ | ---- | ------- | ------- |
+| 安徽新华学院 | ⼤专 | 2010.09 | 2014.06 |
