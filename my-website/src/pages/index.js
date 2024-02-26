@@ -24,7 +24,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className={`button--secondary ${styles.buttonsSecond}`}
-            to="/CV_EN">
+            to="/CV_CN">
             View my resume -&gt;
           </Link>
           </div>
