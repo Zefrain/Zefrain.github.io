@@ -1,4 +1,4 @@
-# 周尚
+# 周尚 / [Zefrian(DOING)](/CV_EN)
 
 ## 基本信息
 
