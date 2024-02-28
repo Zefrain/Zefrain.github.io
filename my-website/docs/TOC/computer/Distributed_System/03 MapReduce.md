@@ -74,3 +74,19 @@ make the master write periodic checkpoints, when it dies, started from the last 
 
 #### Semantics in the Presence of Failures
 
+when *map* and *reduce* operator are **deterministic** functions of input values, distributed  implementation produces the **same** output.
+
+We rely on atomic commits of map and reduce task outputs to achieve non-faulting sequential execution of the entire program.
+
+Each in-process task writes its output to private temporary files.
+
+The reduce worker atomically renames its temporary output file to the final output file when a reduce task completes.
+
+### 3.4 Locality
+
+## 4. Refinements
+
+### 4.3 Combiner Function
+
+> The only difference between a reduce function and a combiner function is how the MapReduce library handles the output of the function.
+
