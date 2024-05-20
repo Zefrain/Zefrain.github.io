@@ -16,7 +16,7 @@ network:
     $inter:
       dhc4: true
   version: 2
-  rendered: networkd
+  renderer: networkd
 EOF
 ip link set dev $inter up 
 fi
@@ -50,6 +50,7 @@ network:
     $inter:
       dhcp4: true
   version: 2
+  renderer: networkd
 EOF
 ip link set dev $inter up
 fi¡™™¡
