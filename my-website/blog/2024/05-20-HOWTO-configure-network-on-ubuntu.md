@@ -52,7 +52,7 @@ network:
   version: 2
 EOF
 ip link set dev $inter up
-fi
+fi¡™™¡
 done
 netplan apply
 ```
@@ -65,7 +65,7 @@ Description=Generate DHCP networking DHCP demo for netplan
 Before=network-online.target
 
 [Service]
-ExecStart=/net/netplan/gen_netplan_config.sh
+ExecStart=/etc/netplan/gen_netplan_config.sh
 
 [Install]
 WantedBy=multi-user.target
