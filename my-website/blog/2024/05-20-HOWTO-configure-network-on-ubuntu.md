@@ -42,6 +42,8 @@ ip a
 ```sh
 #!/bin/env bash
 
+umask 377
+
 for inter in $(ls /sys/class/net); do
 if [[ $inter != 'lo' ]] && [[ ! -e /etc/netplan/99-$inter.yaml ]]; then
 cat << EOF > /etc/netplan/99-$inter.yaml
