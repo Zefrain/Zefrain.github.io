@@ -19,13 +19,13 @@ findmnt -nosource /
 growpart /dev/sda 3
 ```
 
-## resize2fs
+## resize2fs	
 
 ```sh
 resize2fs /dev/sda3
 ```
 
-# Automatically 
+# Automatically expand partiton mounted `/`
 
 ## 1. write go code
 
@@ -77,6 +77,7 @@ func main() {
 			return r >= '0' && r <= '9'
 		})
 		partNum = strings.TrimPrefix(device, baseDevice)
+    
 	}
 
 	// Grow the partition
