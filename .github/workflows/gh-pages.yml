@@ -31,6 +31,6 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.2
       - name: Install packages
-        run: cd my-website && npm i .
+        run: cd my-website && npm i . && npm run build
       - name: deploy 
         run: GIT_UESR=zefrain npm run deploy 
