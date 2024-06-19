@@ -30,7 +30,18 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.2
-      - name: Install packages
-        run: cd my-website && npm i . && npm run build
-      - name: deploy 
-        run: GIT_UESR=zefrain npm run deploy 
+      - name: GH Pages deploy
+        # You may pin to the exact commit or the version.
+        # uses: Cecilapp/GitHub-Pages-deploy@18b21493b3b92508912541cad41d189a050fd4cd
+        uses: Cecilapp/GitHub-Pages-deploy@3.2.2
+        with:
+          # A verified email.
+          email: whiothes81@gmail.com
+          # Where static files are.
+          build_dir: my-website
+          # Which branch to push files.
+          branch: build
+          # The custom domain name.
+          cname: zefrain.github.com
+          # `yes` in case of a Jekyll site.
+          jekyll: no
