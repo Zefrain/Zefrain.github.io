@@ -81,4 +81,3 @@ for more detail, see __Linux Programming Interface__
 
 1. large number of fd arrays copied between user mode and kernel address space
 2. *like select*, after poll returns, poll fd needs to be obtain the ready descriptor
-
