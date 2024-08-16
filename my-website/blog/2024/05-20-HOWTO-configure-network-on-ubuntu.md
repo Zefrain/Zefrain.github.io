@@ -14,7 +14,7 @@ cat << EOF > /etc/netplan/99-$inter.yaml
 network:
   ethernets:
     $inter:
-      dhc4: true
+      dhcp4: true
   version: 2
   renderer: networkd
 EOF
@@ -55,7 +55,7 @@ network:
   renderer: networkd
 EOF
 ip link set dev $inter up
-fi¡™™¡
+fi
 done
 netplan apply
 ```

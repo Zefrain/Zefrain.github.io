@@ -2,7 +2,7 @@
 
 ## 基本信息
 
-- 联系方式：18511283747 ｜ whiothes81@gmail.com
+- 联系方式：whiothes81@gmail.com
 - 个人主页：https://zefrain.github.io
 - 性别：男
 - 出生年月：1992-08
