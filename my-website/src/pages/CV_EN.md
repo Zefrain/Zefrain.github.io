@@ -16,7 +16,7 @@
         - Proficient in network packet capture and analysis
     - Experience in Linux kernel development and system trimming
         - Developed traffic interception modules using the `netfilter` framework
-        - Customized system image creation based on `ubuntu server`
+        - Customized system image creation based on `ubuntu base` and compiled kernel
 - Quick to learn and adapt to new technologies and projects, passionate about continuous technical learning, currently studying `kvm`
 - Strong theoretical foundation: self-studied books like APUE, CSAPP, Linux Kernel Development to understand the technical intricacies of systems
 - Fluent in English for reading professional technical materials and books
