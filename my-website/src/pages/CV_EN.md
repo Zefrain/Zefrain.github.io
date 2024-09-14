@@ -1,42 +1,25 @@
-# Zefrain(DOING)/[周尚](/CV_CN)
+# Zefrain/[周尚](/CV_CN)
 
-| cn       | Zhoushang                   |
-|----------|-----------------------------|
-| email    | whiothes81@gmail.com        |
-| wechat   | whiothes                 |
-| HomePage | https://zefrain.github.io/ |
+## Basic Information
 
+- Contact: whiothes81@gmail.com
+- Personal Website: https://zefrain.github.io
+- Gender: Male
+- Date of Birth: 1992-08
+- Job Intention: Employed, seeking job opportunity | Nationwide | Linux Development
 
-## Profile
+## Personal Summary
 
-- 8 years of software development in the Linux environment
-- Proficient in using linux tool chains （such as gcc,gdb,objdump,tcpdump, git) for developing and debugging, 
-- Competent with C, Go, asm, python, shell languages.
-- Proficient in different databases such as MySQL, SQLite, Redis, and so on.
-- English read/write capability
-- Want to gain a deeper understanding of linux kernel and network architecture
-- self-driven learning altitude 
+- 8 years of Linux C development experience (mainly in application layer protocol development), with some knowledge in programming languages like `python`/`go`/`lua`/`shell`/`asm`
+    - Proficient in Linux application layer development:
+        - Proficient in development environment and debugging tools under Linux
+        - Proficient in network packet capture and analysis
+    - Experience in Linux kernel development and system trimming
+        - Developed traffic interception modules using the `netfilter` framework
+        - Customized system image creation based on `ubuntu server`
+- Quick to learn and adapt to new technologies and projects, passionate about continuous technical learning, currently studying `kvm`
+- Strong theoretical foundation: self-studied books like APUE, CSAPP, Linux Kernel Development to understand the technical intricacies of systems
+- Fluent in English for reading professional technical materials and books
 
 ## Work Experience
-
-### [BambooCloud](https://www.bamboocloud.com/) (2021.08 - NOW)
-
-BambooCloud Technology Co., Ltd. is a company primarily provides IAM (Identity and Access Management) solutions for enterprise users, and has partnered with leading companies such as Sinopec and China Merchants Bank. During my job period, I worked as a Linux programmer and be the core developer in pushing for the launch of the Sinopec identity authentication system, which has 2 million users. Also, I provided support to colleagues in network protocol packet analysis and helped the project avoid a rollback risk. My work achievements were recognized by my leaders, and then I received an A in annualy performance evaluation.
-
-### [AnweiTech](http://www.anweitech.com) (2020.09 - 2021.07)
-
-Beijing Anwei Techonology Co., Ltd. is a company focused on cyber security, and the my major work was responsed for the video transmission by GB28181 and GB35114 protocol on both Linux PC and embeded platform. During this time, I also have finished a stream filter based on Netfilter frame, which was a simple linux kernel module, and makes me interested in linux kernel.
-
-### Xingdata (2017.04 - 2019.12)
-
-
-
-### [Capitek](https://aiqicha.baidu.com/detail/compinfo?pid=29213317138127&rq=ef&pd=ee&from=ps) (2015.10 - 2017.02)
-
-
-
-
-## Graduated
-| School                  | Degree       | Begin   | End     |
-|-------------------------|--------------|---------|---------|
-| ANHUI XINHUA UNIVERSITY | college      | 2010.09 | 2014.06 |
+To be updated
