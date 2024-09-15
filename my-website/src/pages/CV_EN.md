@@ -3,7 +3,7 @@
 ## Basic Information
 
 - Contact: whiothes81@gmail.com
-- Personal Website: https://zefrain.github.io
+- Homepage: https://zefrain.github.io
 - Gender: Male
 - Date of Birth: 1992-08
 - Job Intention: Employed, seeking job opportunity | Nationwide | Linux Development
