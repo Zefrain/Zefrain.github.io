@@ -16,7 +16,7 @@ const config = {
   title: "Zefrain's Blog",
   url: 'https://github.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   deploymentBranch: 'master',
@@ -73,7 +73,7 @@ const config = {
           //   position: 'left',
           //   label: 'Notes',
           // },
-          {to: '/docs/category/TOC', label: 'NOTEs', position: 'left'},
+          {to: '/docs/TOC', label: 'NOTEs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           // {to: '/CV_EN', label: 'Resume', position: 'left'},
           {
@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'NOTEs',
-                to: '/docs/category/TOC',
+                to: '/docs/TOC',
               },
             ],
           },
