@@ -16,7 +16,7 @@ const config = {
   title: "Zefrain's Blog",
   url: 'https://github.com',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   deploymentBranch: 'master',
