@@ -14,7 +14,7 @@ const config = {
   organizationName: 'Zefrain',
   trailingSlash: false,
   title: "Zefrain's Blog",
-  url: 'https://github.com',
+  url: "https://zefrain.github.io",
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -53,6 +53,7 @@ const config = {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
 	  blogSidebarCount: 'ALL',
+	  onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
