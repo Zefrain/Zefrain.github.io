@@ -73,7 +73,7 @@ const config = {
           //   position: 'left',
           //   label: 'Notes',
           // },
-          {to: '/docs/TOC', label: 'NOTEs', position: 'left'},
+          {to: '/docs/category/TOC', label: 'NOTEs', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           // {to: '/CV_EN', label: 'Resume', position: 'left'},
           {
@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'NOTEs',
-                to: '/docs/TOC',
+                to: '/docs/category/TOC',
               },
             ],
           },

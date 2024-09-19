@@ -9,7 +9,7 @@ Substitute file I/O
 
 ## What 
 
-![img](/Users/zhou/Documents/Zefrain.github.io/my-website/docs/TOC/computer/network/UNIX Network Programming/part2/appendix.assets/uring_0-20240704173550340.png)
+![img](/Users/zhou/Documents/Zefrain.github.io/my-website/docs/category/TOC/computer/network/UNIX Network Programming/part2/appendix.assets/uring_0-20240704173550340.png)
 
 Figure 1: A visual representation of the io_uring submission and completion queues.
 
