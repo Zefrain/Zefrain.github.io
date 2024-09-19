@@ -1,6 +1,0 @@
-[submodule "my-website/docs/TOC/computer/kernel/lkd/ldd3"]
-	path = my-website/docs/TOC/computer/kernel/lkd/ldd3
-	url = https://github.com/Zefrain/ldd3
-[submodule "my-website/docs/TOC/computer/kernel/ldd/ldd3"]
-	path = my-website/docs/TOC/computer/kernel/ldd/ldd3
-	url = https://github.com/Zefrain/ldd3
