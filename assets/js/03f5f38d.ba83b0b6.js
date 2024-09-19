@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1586],{47325:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"TOC","slug":"/category/toc","permalink":"/docs/category/toc","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Computer Science","permalink":"/docs/category/computer-science"}}}}')}}]);
