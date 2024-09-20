@@ -23,7 +23,7 @@ After installation, you can remove packages that are not necessary for your serv
 dpkg-query -W --showformat='${Installed-Size}\t${Package}\n' | awk '{print $1/1024 " MB\t" $2}' | sort -n -r
 ```
 
-
+<!--truncate--> 
 
 - Remove unnecessary packages: `sudo apt-get remove --purge package-name`
 

@@ -35,6 +35,8 @@ netplan apply
 ip a
 ```
 
+<!--truncate--> 
+
 # Set network config on boot
 
 1. combine script as a shell `/etc/netplan/gen_netplan_config.sh`

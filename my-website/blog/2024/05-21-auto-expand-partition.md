@@ -25,6 +25,8 @@ growpart /dev/sda 3
 resize2fs /dev/sda3
 ```
 
+<!--truncate--> 
+
 # Automatically expand partiton mounted `/`
 
 ## 1. write go code
