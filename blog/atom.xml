@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/blog</id>
     <title>Zefrain's Blog Blog</title>
-    <updated>2024-07-25T00:00:00.000Z</updated>
+    <updated>2024-09-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/blog"/>
     <subtitle>Zefrain's Blog Blog</subtitle>
     <icon>https://github.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Disadvantages of strlen() in Embedded Domain]]></title>
+        <id>https://github.com/blog/2024/09/20/strlen</id>
+        <link href="https://github.com/blog/2024/09/20/strlen"/>
+        <updated>2024-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To read from a "TCP Communication" you are probably using read. The prototype for read is]]></summary>
+        <content type="html"><![CDATA[<p>To read from a "TCP Communication" you are probably using <code>read</code>. The prototype for <code>read</code> is</p>
+<div class="language-c codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-c codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token class-name" style="color:rgb(255, 203, 107)">ssize_t</span><span class="token plain"> </span><span class="token function" style="color:rgb(130, 170, 255)">read</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token keyword" style="font-style:italic">int</span><span class="token plain"> fildes</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">void</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">*</span><span class="token plain">buf</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> </span><span class="token class-name" style="color:rgb(255, 203, 107)">size_t</span><span class="token plain"> nbyte</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>and the return value is the number of bytes read (even if they are <code>0</code>).
+So, let's say you're about to read 10 bytes, all of which are 0. You have an array with more than enough to hold all the data</p>
+<div class="language-c codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-c codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">int</span><span class="token plain"> fildes</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">char</span><span class="token plain"> data</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token number" style="color:rgb(247, 140, 108)">1000</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// fildes = TCPConnection</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">nbytes </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token function" style="color:rgb(130, 170, 255)">read</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">fildes</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> data</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1000</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Now, by inspecting <code>nbytes</code> you know you have read 10 bytes. If you check <code>data[0]</code> through <code>data[9]</code> you will find they have <code>0</code>;</p>
+<h1>Reference:</h1>
+<ul>
+<li><a href="https://stackoverflow.com/questions/9173017/disadvantages-of-strlen-in-embedded-domain" target="_blank" rel="noopener noreferrer">Disadvantages of strlen() in Embedded Domain</a></li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[KVM 运行并编辑iso镜像文件]]></title>
         <id>https://github.com/blog/2024/07/25/kvm</id>
@@ -19,7 +36,7 @@
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">kvm-ok</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="运行-ubuntu-用例">运行 Ubuntu 用例<a href="https://github.com/blog/2024/07/25/kvm#%E8%BF%90%E8%A1%8C-ubuntu-%E7%94%A8%E4%BE%8B" class="hash-link" aria-label="Direct link to 运行 Ubuntu 用例" title="Direct link to 运行 Ubuntu 用例">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="准备工作">准备工作<a href="https://github.com/blog/2024/07/25/kvm#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C" class="hash-link" aria-label="Direct link to 准备工作" title="Direct link to 准备工作">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="创建镜像文件">创建镜像文件<a href="https://github.com/blog/2024/07/25/kvm#%E5%88%9B%E5%BB%BA%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6" class="hash-link" aria-label="Direct link to 创建镜像文件" title="Direct link to 创建镜像文件">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="创建镜像文件">创建镜像文件<a href="https://github.com/blog/2024/07/25/kvm#%E5%88%9B%E5%BB%BA%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6" class="hash-link" aria-label="Direct link to 创建镜像文件" title="Direct link to 创建��镜像文件">​</a></h4>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">qemu-img create -f qcow2 ubuntu-guest.img 3G</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="配置默认项">配置默认项<a href="https://github.com/blog/2024/07/25/kvm#%E9%85%8D%E7%BD%AE%E9%BB%98%E8%AE%A4%E9%A1%B9" class="hash-link" aria-label="Direct link to 配置默认项" title="Direct link to 配置默认项">​</a></h4>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id="新增配置文件">新增配置文件<a href="https://github.com/blog/2024/07/25/kvm#%E6%96%B0%E5%A2%9E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6" class="hash-link" aria-label="Direct link to 新增配置文件" title="Direct link to 新增配置文件">​</a></h5>
@@ -89,11 +106,11 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="10-use-system-snapshots">10. <strong>Use System Snapshots</strong><a href="https://github.com/blog/2024/06/25/reduce-ubuntu-server#10-use-system-snapshots" class="hash-link" aria-label="Direct link to 10-use-system-snapshots" title="Direct link to 10-use-system-snapshots">​</a></h3>
 <p>Before making significant changes, consider using tools like <code>timeshift</code> to take system snapshots. This allows you to revert back if the changes do not produce the desired effect.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="11-security-and-updates">11. <strong>Security and Updates</strong><a href="https://github.com/blog/2024/06/25/reduce-ubuntu-server#11-security-and-updates" class="hash-link" aria-label="Direct link to 11-security-and-updates" title="Direct link to 11-security-and-updates">​</a></h3>
-<p>Ensure your minimal server setup is secure and receives necessary security updates. Minimal installations can still be vulnerable to security risks.ƒqn</p>]]></content>
+<p>Ensure your minimal server setup is secure and receives necessary security updates. Minimal installations can still be vulnerable to security risks.fqn</p>]]></content>
         <category label="ubuntu" term="ubuntu"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[安装 Windows 如何跳过账号登录[^1]]]></title>
+        <title type="html"><![CDATA[安装 Windows 如何跳过账号登录]]></title>
         <id>https://github.com/blog/2024/06/19/win-skip-netlogin</id>
         <link href="https://github.com/blog/2024/06/19/win-skip-netlogin"/>
         <updated>2024-06-19T00:00:00.000Z</updated>
@@ -105,7 +122,11 @@
 <li>命令行输入 <code>oobe\bypassnro.cmd</code></li>
 <li>选择 <strong>我没有Internet连接</strong></li>
 <li>选择<strong>继续执行受限设置</strong></li>
-</ol>]]></content>
+</ol>
+<h1>Reference</h1>
+<ul>
+<li><a href="https://www.aqwu.net/wp/?p=1523" target="_blank" rel="noopener noreferrer">安装win11系统如何跳过微软账号登录的四种方法 – 杰力皓博</a></li>
+</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[在硬盘上运行虚拟机系统]]></title>
@@ -202,7 +223,11 @@
         <updated>2024-05-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Runsudo systemctl edit getty@tty1.service]]></summary>
         <content type="html"><![CDATA[<p>Run<code>sudo systemctl edit getty@tty1.service</code></p>
-<div class="language-conf codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-conf codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">[Service]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">ExecStart=</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">ExecStart=-/sbin/agetty --noissue --autologin myusername %I $TERM</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Type=idle</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+<div class="language-conf codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-conf codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">[Service]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">ExecStart=</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">ExecStart=-/sbin/agetty --noissue --autologin myusername %I $TERM</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Type=idle</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h1>Reference</h1>
+<ul>
+<li><a href="https://askubuntu.com/questions/819117/how-can-i-get-autologin-at-startup-working-on-ubuntu-server-16-04-1" target="_blank" rel="noopener noreferrer">command line - How can I get autologin at startup working on Ubuntu Server 16.04.1? - Ask Ubuntu</a></li>
+</ul>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Remove snapd on ubuntu]]></title>
@@ -407,24 +432,5 @@ Feb 17 10:12:20 host-10-213-115-95 bdl[pid=3007515,tid=0xeef7da40]: do_syncrepl:
         <category label="coredump" term="coredump"/>
         <category label="crash" term="crash"/>
         <category label="core" term="core"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to associate assembly code to exact line in C program?]]></title>
-        <id>https://github.com/blog/2023/01/15/objdump-C-line</id>
-        <link href="https://github.com/blog/2023/01/15/objdump-C-line"/>
-        <updated>2023-01-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1. gcc arguments]]></summary>
-        <content type="html"><![CDATA[<ol>
-<li><code>gcc</code> arguments</li>
-</ol>
-<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">gcc -fverbose-asm</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<ol start="2">
-<li><code>objdump</code> arguments</li>
-</ol>
-<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">objdump -lSd</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
-        <category label="debug" term="debug"/>
-        <category label="objdump" term="objdump"/>
-        <category label="C" term="C"/>
-        <category label="asm" term="asm"/>
     </entry>
 </feed>
