@@ -80,4 +80,4 @@ Before making significant changes, consider using tools like `timeshift` to take
 
 ### 11. **Security and Updates**
 
-Ensure your minimal server setup is secure and receives necessary security updates. Minimal installations can still be vulnerable to security risks.ƒqn 
+Ensure your minimal server setup is secure and receives necessary security updates. Minimal installations can still be vulnerable to security risks.fqn 
