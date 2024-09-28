@@ -8,6 +8,7 @@
 
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+const simplePlantUML = require("@akebifiky/remark-simple-plantuml");
 
 const config = {
   projectName: 'Zefrain.github.io',
@@ -46,13 +47,14 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [remarkMath],
+          remarkPlugins: [remarkMath, simplePlantUML],
           rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
 	  blogSidebarCount: 'ALL',
+	  remarkPlugins: [simplePlantUML]
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
