@@ -3,9 +3,9 @@ Title: HOWTO configure network on ubuntu server
 Tags: [ubuntu, network]
 ---
 
-# Set Dynamic IP address[^1][^2]
+# Set netplan configuration
 
-1. set netplan configuration
+## Set Dynamic IP address[^1][^2]
 
 ```sh
 for inter in $(ls /sys/class/net); do
@@ -23,19 +23,39 @@ fi
 done
 ```
 
-2. apply configurations
+<!--truncate-->
+
+## Set Static IP address
+
+```conf
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eth0:                      # Replace with your interface name
+      dhcp4: false             # Disable DHCP for IPv4
+      addresses:
+        - 192.168.1.100/24     # Static IP address with subnet mask
+      routes:
+        - to: 0.0.0.0/0        # Default route (default gateway)
+          via: 192.168.1.1     # Replace with your gateway IP
+      nameservers:
+        addresses:
+          - 8.8.8.8            # Primary DNS server (Google DNS)
+          - 8.8.4.4            # Secondary DNS server
+```
+
+## Apply configurations
 
 ```sh
 netplan apply
 ```
 
-3. check IP status
+## Check IP status
 
 ```sh
 ip a
 ```
-
-<!--truncate--> 
 
 # Set network config on boot
 
