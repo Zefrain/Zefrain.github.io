@@ -16,9 +16,9 @@
   "dependencies": {
     "@akebifiky/remark-simple-plantuml": "^1.0.2",
     "@daugherty/docusaurus-plantuml": "github:TeamDaugherty/docusaurus-plantuml",
-    "@docusaurus/core": "^3.5.2",
-    "@docusaurus/preset-classic": "^3.5.2",
-    "@docusaurus/theme-mermaid": "^3.5.2",
+    "@docusaurus/core": "^3.6.3",
+    "@docusaurus/preset-classic": "^3.6.3",
+    "@docusaurus/theme-mermaid": "^3.6.3",
     "@mdx-js/react": "latest",
     "clsx": "latest",
     "hast-util-is-element": "latest",
@@ -30,7 +30,7 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.5.2"
+    "@docusaurus/module-type-aliases": "^3.6.3"
   },
   "browserslist": {
     "production": [
