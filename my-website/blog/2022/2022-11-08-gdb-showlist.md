@@ -3,8 +3,7 @@ title: gdb show list
 tags: [gdb, list]
 ---
 
-## print list in GDB ##
-
+## print list in GDB
 
 ```gdb
 define phead

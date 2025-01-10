@@ -1,5 +1,5 @@
 ---
-title:      Connection ‘ens33‘ is not available on device ens33 because device is strictly unmanaged
+title: Connection ‘ens33‘ is not available on device ens33 because device is strictly unmanaged
 tags: [net, nmcli, interface, network]
 ---
 
@@ -36,7 +36,7 @@ Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.
 - 开启托管
 
 ```sh
-$ nmcli n on
+nmcli n on
 ```
 
 ```sh
@@ -59,7 +59,6 @@ Use "nmcli device show" to get complete information about known devices and
 Consult nmcli(1) and nmcli-examples(7) manual pages for complete usage details.
 ```
 
-
 - reference
 
-[Connection ‘ens33‘ is not available on device ens33 because device is strictly unmanaged_victoruu的博客-CSDN博客_device is strictly](https://blog.csdn.net/vic_qxz/article/details/118863137)
+[Connection ‘ens33‘ is not available on device ens33 because device is strictly unmanaged_victoruu的博客-CSDN博客\_device is strictly](https://blog.csdn.net/vic_qxz/article/details/118863137)

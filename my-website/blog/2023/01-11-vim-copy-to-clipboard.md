@@ -3,7 +3,7 @@ title: How to copy to clipboard in Vim?
 tags: [vim, clipboard]
 ---
 
-## Requirements ##
+## Requirements
 
 ```bash
 $ vim --version | grep clipboard
@@ -15,22 +15,23 @@ $ vim --version | grep clipboard
 if clipboard is `-`, then we need install `vim-gtk`.
 
 for example, on ubuntu:
+
 ```bash
-$ sudo apt install -y vim-gtk
+sudo apt install -y vim-gtk
 ```
 
-## Settings ##
+## Settings
 
 vim `~/.vimrc`
 
 On macOS and Windows set:
 
 ```vimrc
-$ set clipboard=unnamed
+set clipboard=unnamed
 ```
 
 On Linux set (vim 7.3.74+):
 
 ```vimrc
-$ set clipboard=unnamedplus
+set clipboard=unnamedplus
 ```

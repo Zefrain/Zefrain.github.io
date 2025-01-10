@@ -3,8 +3,6 @@ title: "No module named 'charset_normalizer.md__mypyc'"
 tags: [pyinstaller, requests]
 ---
 
-
-
 # pyinstaller missing file for requests module[^1]
 
 - report message
@@ -40,9 +38,7 @@ ModuleNotFoundError: No module named 'charset_normalizer.md__mypyc'
 - resolution
 
 ```python
-pyinstaller --hiddenimport charset_normalizer.md__mypyc 
+pyinstaller --hiddenimport charset_normalizer.md__mypyc
 ```
-
-
 
 [^1]: [Missing file for charset-normalizer==3.0.1 · Issue #534 · pyinstaller/pyinstaller-hooks-contrib (github.com)](https://github.com/pyinstaller/pyinstaller-hooks-contrib/issues/534)

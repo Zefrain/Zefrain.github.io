@@ -28,6 +28,3 @@ newgrp docker
 ```sh
 groups
 ```
-
-
-

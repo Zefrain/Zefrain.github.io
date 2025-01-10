@@ -14,4 +14,3 @@ gcc -fverbose-asm
 ```sh
 objdump -lSd
 ```
-

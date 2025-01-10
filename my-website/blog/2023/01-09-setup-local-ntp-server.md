@@ -4,6 +4,7 @@ tags: [ntp]
 ---
 
 1. install NTP package
+
 ```bash
 # CentOS
 $ sudo yum install -y ntp
@@ -13,8 +14,9 @@ $ sudo apt install -y ntp
 ```
 
 2. Edit `ntp.conf`
+
 ```bash
-$ vim /etc/ntp.conf
+vim /etc/ntp.conf
 ```
 
 ```conf
@@ -29,11 +31,13 @@ logfile /var/log/ntpservice.log
 ```
 
 3. Start NTP server
+
 ```bash
-$ ntpd
+ntpd
 ```
 
 4. Verify NTP Server
+
 ```bash
-$ ntpq -p
+ntpq -p
 ```

@@ -1,16 +1,15 @@
 ---
 title: latex (math) support for markdown
-tags: [latex,markdown,math]
+tags: [latex, markdown, math]
 ---
 
-## [Math Equations](https://docusaurus.io/docs/markdown-features/math-equations) ##
+## [Math Equations](https://docusaurus.io/docs/markdown-features/math-equations)
 
-  - import tha plugins in `docusaurus.config.js`
-
+- import tha plugins in `docusaurus.config.js`
 
 ```js
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require("remark-math");
+const katex = require("rehype-katex");
 ```
 
 ```js
@@ -18,8 +17,8 @@ remarkPlugins: [math],
 rehypePlugins: [katex],
 ```
 
-
 under `stylesheets`
+
 ```js
 stylesheets: [
   {
@@ -32,7 +31,8 @@ stylesheets: [
 ],
 ```
 
-  - install modules
+- install modules
+
 ```sh
-$ npm install --save remark-math@3 rehype-katex@5 hast-util-is-element@1.1.0
+npm install --save remark-math@3 rehype-katex@5 hast-util-is-element@1.1.0
 ```

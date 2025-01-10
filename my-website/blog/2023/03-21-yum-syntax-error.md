@@ -8,9 +8,9 @@ tags: [yum, python3]
 yum error message:
 
 > [root@31f24739f206 /]# yum
->   File "/usr/bin/yum", line 30
->     except KeyboardInterrupt, e:
->                             ^
+> File "/usr/bin/yum", line 30
+> except KeyboardInterrupt, e:
+> ^
 > SyntaxError: invalid syntax
 
 - change default **python** from `python3` to `python2`
@@ -18,6 +18,3 @@ yum error message:
 ```sh
 alternatives --install /usr/bin/python python /usr/bin/python2 0
 ```
-
-
-

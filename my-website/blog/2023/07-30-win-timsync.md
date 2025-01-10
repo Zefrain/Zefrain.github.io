@@ -10,4 +10,3 @@ w32tm /config /syncfromflags:manual /reliable:yes /update /manualpeerlist:"192.1
 
 w32tm /resync
 ```
-

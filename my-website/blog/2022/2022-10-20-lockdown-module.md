@@ -1,9 +1,18 @@
 ---
 title: "Lockdown: unsigned module loading is restricted"
-tags: [bios, secure boot, module, lockdown, operation not permitted, modprobe, insmod]
+tags:
+  [
+    bios,
+    secure boot,
+    module,
+    lockdown,
+    operation not permitted,
+    modprobe,
+    insmod,
+  ]
 ---
 
-## Lockdown: unsigned module loading is restricted ##
+## Lockdown: unsigned module loading is restricted
 
 1. restart
 2. press `F2`

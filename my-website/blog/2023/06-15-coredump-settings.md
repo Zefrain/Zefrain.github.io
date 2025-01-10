@@ -7,13 +7,13 @@ tags: [coredump, coredumplist, sysctl]
 
 ## 1. coredump limits
 
-- for this login time 
+- for this login time
 
 ```
 ulimits -c unlimited
 ```
 
-- for the permanent time 
+- for the permanent time
 
 ```
 vim /etc/security/limits.conf
@@ -35,4 +35,3 @@ sudo sysctl -w kernel.core_pattern="|/tmp/core_dump_example.py %e"
 ```
 kill -SIGSEGV ${PID}
 ```
-

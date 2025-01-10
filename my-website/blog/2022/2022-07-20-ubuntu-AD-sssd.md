@@ -1,22 +1,25 @@
 ---
 title: SSSD and Active Directory
-tags: [sssd,AD,domain,ubuntu,kylin]
+tags: [sssd, AD, domain, ubuntu, kylin]
 ---
 
-## SSSD and Active Directory ##
+## SSSD and Active Directory
 
 1. install packages:
+
 ```sh
-$ sudo apt install sssd-ad sssd-tools realmd adcli sssd-tools sssd libnss-sss libpam-sss adcli packagekit
+sudo apt install sssd-ad sssd-tools realmd adcli sssd-tools sssd libnss-sss libpam-sss adcli packagekit
 ```
 
 2. join domain
+
 ```sh
-$ sudo realm discover -v $DOMAIN
-$ sudo realm join $DOMAIN
+sudo realm discover -v $DOMAIN
+sudo realm join $DOMAIN
 ```
 
 3. edit `/etc/sssd/sssd.conf`
+
 ```conf
 $ vim /etc/sssd/sssd.conf
 
@@ -45,27 +48,30 @@ ad_gpo_access_control = permissive
 ```
 
 4. automatically create home directory
+
 ```sh
 
-$ sudo pam-auth-update --enable mkhomedir
+sudo pam-auth-update --enable mkhomedir
 ```
 
-5. check 
+5. check
+
 ```sh
-$ getent passwd $USERNAME@$DOMAIN
+getent passwd $USERNAME@$DOMAIN
 ```
 
 6. login
+
 ```sh
 $ sudo login
 
 ad-client login: $USERNAME@$DOMAIN
-Password: 
+Password:
 Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-24-generic x86_64)
 ...
 Creating directory '/home/john@ad1.example.com'.
-john@ad1.example.com@ad-client:~ 
+john@ad1.example.com@ad-client:~
 ```
 
-* references
+- references
   - [SSSD and Active Directory](https://ubuntu.com/server/docs/service-sssd-ad)

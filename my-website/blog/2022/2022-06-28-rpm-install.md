@@ -1,8 +1,8 @@
 ---
 title: rpm install rpm package with dependencies
-tags: [rpm,centos]
+tags: [rpm, centos]
 ---
 
 ```sh
-$ yum --nogpgcheck --localinstall xxx.rpm
+yum --nogpgcheck --localinstall xxx.rpm
 ```
