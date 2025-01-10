@@ -3,33 +3,32 @@ title: Switch Back From NVIDIA to Nouveau
 tags: [nvidia, nouveau, linux]
 ---
 
-# Switch back from nvidia to nouveau
 
 ## disable nvidia driver
 
 1. open terminal
 2. check the current driver
 
-```sh
-lspci -k | grep -A 2 -E "(VGA|3D)"
-```
+    ```sh
+    lspci -k | grep -A 2 -E "(VGA|3D)"
+    ```
 
-see the output like this:
+    see the output like this:
 
-> Kernel driver in use: nvidia
+    > Kernel driver in use: nvidia
 
 3. switch to text mode
 
-```sh
-sudo systemctl set-default multi-user.target
-sudo reboot
-```
+    ```sh
+    sudo systemctl set-default multi-user.target
+    sudo reboot
+    ```
 
 4. remove nvidia driver one by one
 
-```sh
-sudo modprobe -r nvidia*
-```
+    ```sh
+    sudo modprobe -r nvidia*
+    ```
 
 <!-- truncate -->
 
@@ -41,11 +40,11 @@ sudo apt autoremove
 sudo apt clean
 ```
 
-or if you installed nvidia driver from the official website, you can uninstall it by running the installer again and select uninstall.
+Or if you installed nvidia driver from the official website, you can uninstall it by running the installer again and select uninstall.
 
-```sh
-sudo ./NVIDIA-Linux-x86_64-xxx.xx.run --uninstall
-```
+  ```sh
+  sudo ./NVIDIA-Linux-x86_64-xxx.xx.run --uninstall
+  ```
 
 ## reinstall the nouveau driver
 

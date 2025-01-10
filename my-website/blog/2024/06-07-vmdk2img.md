@@ -9,7 +9,7 @@ Tags: [vmdk, vmware, qemu]
 
 ## 1. 安装 qemu-img
 
-- Qemu for windows: https://cloudbase.it/qemu-img-windows/
+- [cloudbase.it/qemu-img-windows/](https://cloudbase.it/qemu-img-windows/)
 
 ## 2. 虚拟机安装操作系统
 

@@ -1,9 +1,9 @@
 ---
 title: Aria2 OSSL_PROVIDER_load 'legacy' failed
-Tags: [openwrt, openssl, aria2] 
+Tags: [openwrt, openssl, aria2]
 ---
 
-# Openwrt Legacy OpenSsl error #2152
+## Openwrt Legacy OpenSsl error #2152
 
 > /etc/init.d/aria2 add BOLD line.
 > procd_add_jail "$NAME.$section" log
@@ -14,12 +14,10 @@ Tags: [openwrt, openssl, aria2]
 
 - Solution:
 
-```bash
-opkg update && opkg install openssl-legacy
-```
+  ```bash
+  opkg update && opkg install openssl-legacy
+  ```
 
-
-
-# Reference:
+# Reference
 
 - [Openwrt Legacy OpenSsl error · Issue #2152 · aria2/aria2](https://github.com/aria2/aria2/issues/2152)

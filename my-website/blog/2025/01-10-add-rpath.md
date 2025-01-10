@@ -3,9 +3,7 @@ title: Modify rpath of a binary program
 tags: [linux, rpath, elf, binary]
 ---
 
-# Modify rpath of a binary program
-
-## install patchelf
+## Install patchelf
 
 ```sh
 sudo apt install -y patchelf # Ubuntu/Debian

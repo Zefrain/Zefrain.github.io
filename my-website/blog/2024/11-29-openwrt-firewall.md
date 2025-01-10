@@ -3,16 +3,6 @@ title: Set Firewall for ZeroTier Interface
 tags: [openwrt, uci, firewall]
 ---
 
-# Set Firewall for Zerotier Interface
-
-<!--toc:start-->
-
-- [Set Firewall for Zerotier Interface](#set-firewall-for-zerotier-interface)
-  - [0. Check interface name of zerotier](#0-check-interface-name-of-zerotier)
-  - [1. Add zone](#1-add-zone)
-  - [2. Add rule](#2-add-rule)
-  <!--toc:end-->
-
 ## 0. Check interface name of zerotier
 
 ```bash

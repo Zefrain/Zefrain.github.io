@@ -8,7 +8,7 @@ tags: [ubuntu]
 - **/boot Partition**: You could reduce the `/boot` partition size to around **200 MB**. This should still be sufficient to hold the kernel and initramfs image. Be cautious, as going too small could lead to issues during unexpected updates or changes that might require space, such as security patches for the kernel.
 - **/boot/efi Partition**: The EFI System Partition (`/boot/efi`) typically doesn't require much space if you're only using a few boot loaders. A size of **100 MB** is often recommended as a minimum by many Linux distributions and should be more than adequate for most single-boot configurations.
 
-### 1. Install pre-installed ubuntu server 
+### 1. Install pre-installed ubuntu server
 
 - Download pre-installed ubuntu server: [Ubuntu Server 24.04 (Noble Numbat) Daily Build](https://cdimage.ubuntu.com/ubuntu-server/noble/daily-preinstalled/current/)
 - use [mkusb - Community Help Wiki](https://help.ubuntu.com/community/mkusb) to flash: `dus xxx.tar.xz`
@@ -17,13 +17,13 @@ tags: [ubuntu]
 
 After installation, you can remove packages that are not necessary for your server's purpose:
 
-- List installed packages: 
+- List installed packages:
 
 ```sh
 dpkg-query -W --showformat='${Installed-Size}\t${Package}\n' | awk '{print $1/1024 " MB\t" $2}' | sort -n -r
 ```
 
-<!--truncate--> 
+<!--truncate-->
 
 - Remove unnecessary packages: `sudo apt-get remove --purge package-name`
 
@@ -80,4 +80,5 @@ Before making significant changes, consider using tools like `timeshift` to take
 
 ### 11. **Security and Updates**
 
-Ensure your minimal server setup is secure and receives necessary security updates. Minimal installations can still be vulnerable to security risks.fqn 
+Ensure your minimal server setup is secure and receives necessary security updates. Minimal installations can still be vulnerable to security risks.fqn
+
