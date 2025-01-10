@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
-<title data-rh="true">Chapter 4. Fiiles and Directories | Zefrain&#x27;s Blog</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://github.com/docs/TOC/computer/system/apue/ch04"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Chapter 4. Fiiles and Directories | Zefrain&#x27;s Blog"><meta data-rh="true" name="description" content="4.14 File Systems ##"><meta data-rh="true" property="og:description" content="4.14 File Systems ##"><link data-rh="true" rel="icon" href="/img/favicon.png"><link data-rh="true" rel="canonical" href="https://github.com/docs/TOC/computer/system/apue/ch04"><link data-rh="true" rel="alternate" href="https://github.com/docs/TOC/computer/system/apue/ch04" hreflang="en"><link data-rh="true" rel="alternate" href="https://github.com/docs/TOC/computer/system/apue/ch04" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Zefrain&#39;s Blog RSS Feed">
+<title data-rh="true">Chapter 4. Fiiles and Directories | Zefrain&#x27;s Blog</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://github.com/docs/TOC/computer/system/apue/ch04"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Chapter 4. Fiiles and Directories | Zefrain&#x27;s Blog"><meta data-rh="true" name="description" content="4.14 File Systems"><meta data-rh="true" property="og:description" content="4.14 File Systems"><link data-rh="true" rel="icon" href="/img/favicon.png"><link data-rh="true" rel="canonical" href="https://github.com/docs/TOC/computer/system/apue/ch04"><link data-rh="true" rel="alternate" href="https://github.com/docs/TOC/computer/system/apue/ch04" hreflang="en"><link data-rh="true" rel="alternate" href="https://github.com/docs/TOC/computer/system/apue/ch04" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Zefrain&#39;s Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Zefrain&#39;s Blog Atom Feed">
 
 
@@ -11,7 +11,7 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.62a5df5e.css">
-<script src="/assets/js/runtime~main.808daf4d.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.7210b0b3.js" defer="defer"></script>
 <script src="/assets/js/main.a38b1a25.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -31,9 +31,10 @@
 <ul>
 <li>Two directory entries point to the same entry. Every i-node has a <em>link count</em> that contains the number of directory entries that point to it. Only when the link count goes to <strong>0</strong> can the file be deleted</li>
 <li>The other type of link is called a <em>symbolic link</em>. the actual contents of the file--the data blocks--store the name of the file that the symbolic link points to.</li>
-<li>The i-node contains all the information about the file.</li>
-</ul>
+<li>The i-node contains all the information about the file.<!-- -->
 <br>
+</li>
+</ul>
 <br>
 <br>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ mkdir testdir</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
