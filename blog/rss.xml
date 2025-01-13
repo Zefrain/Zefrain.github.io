@@ -4,10 +4,28 @@
         <title>Zefrain's Blog Blog</title>
         <link>https://github.com/blog</link>
         <description>Zefrain's Blog Blog</description>
-        <lastBuildDate>Fri, 10 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Exclude files from git diff]]></title>
+            <link>https://github.com/blog/2025/01/13/git-diff-exclude-files</link>
+            <guid>https://github.com/blog/2025/01/13/git-diff-exclude-files</guid>
+            <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Exclude specific files from git diff]]></description>
+            <content:encoded><![CDATA[<p>Exclude specific files from git diff</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">git diff -wu ${hash} -- . ':(exclude)a' ':(exclude)dir/b'</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="explanation">Explanation<a href="https://github.com/blog/2025/01/13/git-diff-exclude-files#explanation" class="hash-link" aria-label="Direct link to Explanation" title="Direct link to Explanation">​</a></h2>
+<ul>
+<li><code>git diff -wu</code> : Show the changes between two commits, ignoring whitespace</li>
+<li><code>${hash}</code> : Commit hash</li>
+<li><code>--</code> : Separate the commit hash from the file paths</li>
+<li><code>.</code> : Include all files in the current directory</li>
+<li><code>':(exclude)a'</code> : Exclude file <code>a</code></li>
+</ul>]]></content:encoded>
+            <category>git</category>
+        </item>
         <item>
             <title><![CDATA[Modify rpath of a binary program]]></title>
             <link>https://github.com/blog/2025/01/10/add-rpath</link>
@@ -468,30 +486,6 @@ So, let's say you're about to read 10 bytes, all of which are 0. You have an arr
 <div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">pyinstaller </span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token plain">hiddenimport charset_normalizer</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">md__mypyc</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
             <category>pyinstaller</category>
             <category>requests</category>
-        </item>
-        <item>
-            <title><![CDATA[coredump related settings]]></title>
-            <link>https://github.com/blog/2023/06/15/coredump-settings</link>
-            <guid>https://github.com/blog/2023/06/15/coredump-settings</guid>
-            <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[1. coredump limits]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-coredump-limits">1. coredump limits<a href="https://github.com/blog/2023/06/15/coredump-settings#1-coredump-limits" class="hash-link" aria-label="Direct link to 1. coredump limits" title="Direct link to 1. coredump limits">​</a></h2>
-<ul>
-<li>for this login time</li>
-</ul>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">ulimits -c unlimited</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<ul>
-<li>for the permanent time</li>
-</ul>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">vim /etc/security/limits.conf</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">*               soft    core            unlimited</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">*               hard    core            unlimited</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-coredump-file-path">2. coredump file path<a href="https://github.com/blog/2023/06/15/coredump-settings#2-coredump-file-path" class="hash-link" aria-label="Direct link to 2. coredump file path" title="Direct link to 2. coredump file path">​</a></h2>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">sudo sysctl -w kernel.core_pattern="|/tmp/core_dump_example.py %e"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><code>man core</code> for the details about <code>%</code> part like <code>%e</code> in coredump file name</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-generating-coredump">3. generating coredump<a href="https://github.com/blog/2023/06/15/coredump-settings#3-generating-coredump" class="hash-link" aria-label="Direct link to 3. generating coredump" title="Direct link to 3. generating coredump">​</a></h2>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">kill -SIGSEGV ${PID}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
-            <category>coredump</category>
-            <category>coredumplist</category>
-            <category>sysctl</category>
         </item>
     </channel>
 </rss>
